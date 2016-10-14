@@ -425,6 +425,14 @@ public class LanguageInfo implements MemUsage.Instrumented {
     public static boolean isNN(String pos) {
       return pos.startsWith("NN") && !pos.startsWith("NNP");
     }
+    
+    //wei add:
+    public static boolean isVerb(String pos) {
+        return pos.startsWith("VB") && !pos.startsWith("VBD")
+        		 && !pos.startsWith("VBG") && !pos.startsWith("VBN")
+        		 && !pos.startsWith("VBP") && !pos.startsWith("VBZ");
+      }
+       
 
     public static boolean isContentWord(String pos) {
       return (pos.startsWith("N") || pos.startsWith("V") || pos.startsWith("J"));

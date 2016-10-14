@@ -86,18 +86,24 @@ public class FeatureVector {
   // Return the dot product between this feature vector and the weight vector (parameters).
   public double dotProduct(Params params) {
     double sum = 0;
+    //wei: add count for length of features
+    int count=0;
     if (indicatorFeatures != null) {
-      for (String f : indicatorFeatures)
+      for (String f : indicatorFeatures) {
         sum += params.getWeight(f);
+        count=count+1;}
     }
     if (generalFeatures != null) {
-      for (Pair<String, Double> pair : generalFeatures)
+      for (Pair<String, Double> pair : generalFeatures) {
         sum += params.getWeight(pair.getFirst()) * pair.getSecond();
+        count=count+1;}
     }
     if(denseFeatures != null) {
-      for(int i = 0; i < denseFeatures.length; ++i)
+      for(int i = 0; i < denseFeatures.length; ++i) {
         sum += params.getWeight(DENSE_NAME+"_"+i) * denseFeatures[i];
+        count=count+1;}
     }
+    System.out.print("length of the feature vectors:" + count);
     return sum;
   }
 

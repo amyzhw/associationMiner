@@ -1,14 +1,22 @@
 package nlp.associationMiner.paraphrase;
 
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.UnsupportedEncodingException;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+import edu.stanford.nlp.util.Pair;
 import nlp.associationMiner.BooleanValue;
 import nlp.associationMiner.FeatureVector;
+import nlp.associationMiner.Formula;
 import nlp.associationMiner.LanguageInfo;
 import nlp.associationMiner.LanguageInfo.WordInfo;
 import nlp.associationMiner.Params;
@@ -33,8 +41,8 @@ public class Aligner {
   public static class Options {
     @Option(gloss="Path to file with derivations") public String derivationPath="lib/derivation.txt";
     @Option(gloss="Maximum distortion") public double distortionParam=1;
-    @Option(gloss="Whether to use syntax rules") public boolean useSyntax=false;
-    @Option(gloss="Whether to use wordnet synsets") public boolean useWordnet=false;
+    @Option(gloss="Whether to use syntax rules") public boolean useSyntax=false; // wei: pops errors when changing to true
+    @Option(gloss="Whether to use wordnet synsets") public boolean useWordnet=true;
     @Option public int verbose=0;
   }
   public static Options opts = new Options();
@@ -43,13 +51,13 @@ public class Aligner {
 
  // private final PhraseTable phraseTable; 
   private Rulebase ruleBase;
-//  private WnExpander wnExpander;
+  private WnExpander wnExpander;
   private final Map<String,Set<String>> derivations;
 
  private Aligner() throws IOException {
 	  derivations = ParaphraseUtils.loadDerivations(opts.derivationPath);
   //   phraseTable = PhraseTable.getSingleton();  
-   // wnExpander = new WnExpander();
+    wnExpander = new WnExpander();
     if(opts.useSyntax)
       ruleBase = new Rulebase();
   }
@@ -63,6 +71,7 @@ public class Aligner {
   //wei: the focus
   public Alignment align(ParaphraseExample example, Params params) {
     example.ensureAnnotated(); // wei:  inside, build language info
+    example.log(); //wei
     Alignment alignment = new Alignment(example);
     alignment.buildAlignment(example, params); 
     example.setAlignment(alignment);
@@ -84,28 +93,39 @@ public class Aligner {
     }
 
     public void buildAlignment(ParaphraseExample example, Params params) {
-      computeIdentityAlignments(example);
+
+      computeIdentityAlignments(example);         // wei: for lemma(token_src)=lemma(token_tgt)
      // computePhraseTableAlignments(example); // wei: I think I don't need this coz I don't have phrase table. instead, i want to build one.
-      computeSubstitutionsAlignment(example);
-      computeDerivationsAlignment(example);
+      computeSubstitutionsAlignment(example);  // wei: considers spans, not just tokens. include cannocial, wordnet...
+      computeDerivationsAlignment(example); // wei: wordnet derivations
       //this needs to be done last
-    //  markDeletions(example);
+       markDeletions(example);
       if(opts.useSyntax)
         computeSyntacticAlignment(example);
       if(opts.verbose>=1) {
         printFeaturesAndWeights(params);
       }
       score = featureVector.dotProduct(params);
+      LogInfo.logs("score=%s",score);//wei
     }
 
-    private void printFeaturesAndWeights(Params params) {  
+    private void printFeaturesAndWeights(Params params) {  //wei: params contains the learned weights
       for(String key: featureVector.toMap().keySet()) {
         double value = featureVector.toMap().get(key);
-        LogInfo.logs("Printing features: feautre=%s, value=%s, weight=%s,product=\t%s",key,value,
+        LogInfo.logs("Printing features: feautre=%s\n, value=%s, weight=%s,product=\t%s",key,value,
             params.getWeight(key),value * params.getWeight(key));
       }   
     }
-
+    
+    // wei add
+    private void recordFeatures(boolean bPrint) { 
+        for(String key: featureVector.toMap().keySet()) {
+          double value = featureVector.toMap().get(key);
+          if (bPrint)
+            LogInfo.logs("Printing features: feautre=%s\n, value=%s",key,value);
+        }   
+      }
+  
     private void computeSyntacticAlignment(ParaphraseExample example) {
       for(RuleApplier rule: ruleBase.getRules()) {
         for(RuleApplication application: rule.apply(example.sourceInfo, example.targetInfo)) {
@@ -141,11 +161,11 @@ public class Aligner {
     }
 
     private void markDeletions(ParaphraseExample example) {
-    //  markDeletion(example.sourceInfo,true);
-    //  markDeletion(example.targetInfo,false);
+     markDeletion(example.sourceInfo,true);
+     markDeletion(example.targetInfo,false);
     }
 
-  /*  private void markDeletion(LanguageInfo lInfo, boolean isSource) {
+   private void markDeletion(LanguageInfo lInfo, boolean isSource) {
 
       for(int i = 0; i < lInfo.numTokens(); ++i) {
         boolean aligned=false;
@@ -166,22 +186,28 @@ public class Aligner {
           }
         }
       }  
-    }   */
+    }  
 
+    // for lemma(token_src)=lemma(token_tgt)
     private void computeIdentityAlignments(ParaphraseExample example) {
+    	
       for(int i = 0 ; i < example.sourceInfo.numTokens(); ++i) {
         for(int j = 0; j < example.targetInfo.numTokens(); ++j) {
+        	
           if(example.sourceInfo.lemmaTokens.get(i).equals(example.targetInfo.lemmaTokens.get(j))) {
 
             AlignmentInterval sourceInterval = 
                 new AlignmentInterval(example.sourceInfo.lemmaTokens.get(i), new Interval(i, i+1));
             AlignmentInterval targetInterval = 
                 new AlignmentInterval(example.targetInfo.lemmaTokens.get(j), new Interval(j, j+1));
-            substitutions.add(new AlignmentIntervalPair(sourceInterval, targetInterval));
-            featureVector.add("Subst", "Identity", 1);           
-          }
-        }
-      }
+            
+            substitutions.add(new AlignmentIntervalPair(sourceInterval, targetInterval));            
+            featureVector.add("Subst", "Identity", 1);
+          } // end if
+          
+        } // for j
+      } // for i
+      
     }
 
     /**
@@ -213,14 +239,16 @@ public class Aligner {
               else
                 featureVector.add("Subst", "pos_identity");
               featureVector.add("Subst", "l="+sourcePhrase+",r="+targetPhrase);
-//              if(opts.useWordnet) {
-//                if(wnExpander.getSynonyms(sourcePhrase).contains(targetPhrase))
-//                  featureVector.add("Subst", "synonym");
-//              }
-            }
-          }
+              if(opts.useWordnet) {
+                if(wnExpander.getSynonyms(sourcePhrase).contains(targetPhrase))
+                 featureVector.add("Subst", "synonym");
+             }
+            } // end if validDistortion
+          } // end if
+          
         }
       }
+      
     }
 
     private boolean validDistortion(AlignmentInterval sourceAlignmentInterval,
@@ -234,15 +262,25 @@ public class Aligner {
 
     }
 
+    //wei: originally only considers the phrase with two nouns
+    //        I add phrase with verb+noun( NN+VB)  and noun+verb (VB+NN)
+    //       or particle   RP
     private List<Interval> getLanguageInfoCandidates(LanguageInfo lInfo) {
       List<Interval> res = new ArrayList<Interval>();
       for(int i = 0; i < lInfo.numTokens(); ++i) {
         res.add(new Interval(i, i+1));
         if(i < lInfo.numTokens()-1 &&
-            LanguageUtils.isNN(lInfo.posTags.get(i)) &&
-            LanguageUtils.isNN(lInfo.posTags.get(i+1))) {
+            (( LanguageUtils.isNN(lInfo.posTags.get(i)) &&
+            LanguageUtils.isNN(lInfo.posTags.get(i+1))) 
+           || (LanguageUtils.isNN(lInfo.posTags.get(i)) &&
+            LanguageUtils.isVerb(lInfo.posTags.get(i+1)))
+           || (LanguageUtils.isVerb(lInfo.posTags.get(i)) &&
+            LanguageUtils.isNN(lInfo.posTags.get(i+1)))            
+            ) )
+        {
           res.add(new Interval(i,i+2));
         }
+         
       }
       return res;
     }
@@ -374,13 +412,57 @@ public class Aligner {
   }
 
   public static void main(String[] args) throws IOException {
+	// examples.
     ParaphraseExample paraExample =new ParaphraseExample("what type of music did richard wagner play ?",
         "what is the musical genres of richard wagner ?",new BooleanValue(true));
     Aligner aligner = new Aligner();
     Params params = new Params();
-    //params.read("/Users/jonathanberant/Research/temp/params");
-    Alignment alignment = aligner.align(paraExample, params); // wei: focus here
-    alignment.printFeaturesAndWeights(params);  // wei: params contains the weight for each feature.
-  } 
+    //params.read("/Users/jonathanberant/Research/temp/params"); // wei: we skip all params which contains the learned weights of each features.
+    Alignment alignment = aligner.align(paraExample, params); 
+    alignment.printFeaturesAndWeights(params); 
+
+   //********************1. read pairs and create paraExample for each pair
+    public ArrayList<Pair<String, String>> dupPairs = new ArrayList<Pair<String, String>>();
+        
+   try {
+			File fileDir = new File("C:\\wamp64\\tmp\\allDupPairs");	
+			BufferedReader in = new BufferedReader(new InputStreamReader( new FileInputStream(fileDir), "UTF8"));
+	
+			String line;
+			while ((line = in.readLine()) != null) {
+			    System.out.println(line);
+			   // Pair<String, String> pair = new Pair<>(line, in.readLine());		
+			   // dupPairs.add(pair);
+			    
+			  //********************2. get features for each pair
+			    Alignment alignment = aligner.align(paraExample, params); 
+			    alignment.printFeatures();
+			    
+			}
+	       in.close();
+	    }
+	   catch (UnsupportedEncodingException e)
+	   {
+			System.out.println(e.getMessage());
+       }
+	    catch (IOException e)
+	    {
+			System.out.println(e.getMessage());
+	    }
+	    catch (Exception e)
+	    {
+			System.out.println(e.getMessage());
+	    }
+  
+   
+  //********************
+  
+  
+  //********************
+   
+  
+  }  // end of main
+  
+  
   
 }
