@@ -6,36 +6,45 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import  nlp.associationMiner.*;
+import nlp.associationMiner.fig.Fmt;
+import nlp.associationMiner.fig.LogInfo;
+import nlp.associationMiner.fig.MemUsage;
+
+import nlp.associationMiner.paraphrase.Aligner.Alignment;
+import nlp.associationMiner.paraphrase.rules.ParaphraseAlignment;
+import nlp.associationMiner.paraphrase.rules.LemmaPosRule;
+import nlp.associationMiner.paraphrase.rules.LemmaPosSequence;
+import nlp.associationMiner.paraphrase.rules.LemmaPosSequence.LemmaAndPos;
 
 public class ParaphraseExample {
 
   public String id=null;
-//  @JsonProperty public final String source;
-//  @JsonProperty public final String target;
-//  @JsonProperty private Formula formula; //formula from which the paraphrase was generated
-//  @JsonProperty Value goldValue; 
+  @JsonProperty public final String source;
+  @JsonProperty public final String target;
+  @JsonProperty private Formula formula; //formula from which the paraphrase was generated
+  @JsonProperty Value goldValue; 
 
-//  public LanguageInfo sourceInfo;
-//  public LanguageInfo targetInfo;
+   public LanguageInfo sourceInfo;
+   public LanguageInfo targetInfo;
 //
-//  FeatureSimilarity featureSimilarity;
-//  Alignment alignment;
+  FeatureSimilarity featureSimilarity;
+ Alignment alignment;
 //
-//  Evaluation eval = new Evaluation();
+ Evaluation eval = new Evaluation();
 
-//  private static Map<String,LanguageInfo> annotationCache = new HashMap<>();
+ private static Map<String,LanguageInfo> annotationCache = new HashMap<String, LanguageInfo>();
 
   public ParaphraseExample(String source, String target, BooleanValue value) {
-//    this.source = source;
-//    this.target = target;
-//    this.goldValue = value;
-//    synchronized(annotationCache) {
-//      this.sourceInfo=annotationCache.get(source); //null if not there
-//      this.targetInfo=annotationCache.get(target); //null if not there
-//    }
+    this.source = source;
+    this.target = target;
+    this.goldValue = value;
+    synchronized(annotationCache) {
+      this.sourceInfo=annotationCache.get(source); //null if not there
+      this.targetInfo=annotationCache.get(target); //null if not there
+     }
   }
 
-/*  @JsonCreator
+ @JsonCreator
   public ParaphraseExample(@JsonProperty("source") String source, @JsonProperty("target") String target, 
       @JsonProperty("formula") Formula f, @JsonProperty("value") BooleanValue value) {
     this.source = source;
@@ -58,9 +67,9 @@ public class ParaphraseExample {
   }
 
 
-  *//**
+  /**
    * Aligns from left to right without any crossing alignments
-   *//*
+   */
   public ParaphraseAlignment align() {   
 
     ensureAnnotated();
@@ -99,10 +108,10 @@ public class ParaphraseExample {
     }
   }
 
+  /*
   public String toJson() {
     return Json.writeValueAsStringHard(this);
-  }
-
+  }  */
   public LemmaPosRule getRule(Interval sourceInterval, Interval targetInterval) {   
     return new LemmaPosRule(computeTemplate(sourceInfo, sourceInterval),
         computeTemplate(targetInfo, targetInterval));
@@ -110,7 +119,7 @@ public class ParaphraseExample {
 
   public LemmaPosSequence computeTemplate(LanguageInfo info, Interval interval) {
 
-    List<LemmaAndPos> res = new ArrayList<>();
+    List<LemmaAndPos> res = new ArrayList<LemmaAndPos>();
     for(int i = interval.start; i < interval.end; ++i) {
       res.add(new LemmaAndPos(info.lemmaTokens.get(i),info.posTags.get(i)));
     }
@@ -121,6 +130,8 @@ public class ParaphraseExample {
   public void setVectorSpaceSimilarity(FeatureSimilarity vsSimilarity) {
     this.featureSimilarity=vsSimilarity;
   }
+  
+
   
   public void setAlignment(Alignment alignment) {
     this.alignment=alignment;
@@ -153,5 +164,5 @@ public class ParaphraseExample {
 
   public static long cacheSize() {
     return MemUsage.getBytes(annotationCache);
-  }*/
+  }
 }

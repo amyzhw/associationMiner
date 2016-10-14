@@ -1,36 +1,35 @@
 package nlp.associationMiner.paraphrase;
 
-/*
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import edu.stanford.nlp.sempre.BooleanValue;
-import edu.stanford.nlp.sempre.FeatureVector;
-import edu.stanford.nlp.sempre.LanguageInfo;
-import edu.stanford.nlp.sempre.LanguageInfo.WordInfo;
-import edu.stanford.nlp.sempre.Params;
-import edu.stanford.nlp.sempre.LanguageInfo.LanguageUtils;
-import edu.stanford.nlp.sempre.fbalignment.utils.WnExpander;
-import edu.stanford.nlp.sempre.paraphrase.paralex.PhraseTable;
-import edu.stanford.nlp.sempre.paraphrase.rules.RuleApplication;
-import edu.stanford.nlp.sempre.paraphrase.rules.RuleApplier;
-import edu.stanford.nlp.sempre.paraphrase.rules.Rulebase;
-import fig.basic.IntPair;
-import fig.basic.LispTree;
-import fig.basic.LogInfo;
-import fig.basic.Option;
+import nlp.associationMiner.BooleanValue;
+import nlp.associationMiner.FeatureVector;
+import nlp.associationMiner.LanguageInfo;
+import nlp.associationMiner.LanguageInfo.WordInfo;
+import nlp.associationMiner.Params;
+import nlp.associationMiner.LanguageInfo.LanguageUtils;
+import nlp.associationMiner.fbalignment.utils.WnExpander;
+import nlp.associationMiner.paraphrase.paralex.PhraseTable;
+import nlp.associationMiner.paraphrase.rules.RuleApplication;
+import nlp.associationMiner.paraphrase.rules.RuleApplier;
+import nlp.associationMiner.paraphrase.rules.Rulebase;
+import nlp.associationMiner.fig.IntPair;
+import nlp.associationMiner.fig.LispTree;
+import nlp.associationMiner.fig.LogInfo;
+import nlp.associationMiner.fig.Option;
 
 
-*/
 /**
  * Exhaustive alignment between two paraphrases
  */
 public class Aligner {
 
-/*
+
   public static class Options {
     @Option(gloss="Path to file with derivations") public String derivationPath="lib/derivation.txt";
     @Option(gloss="Maximum distortion") public double distortionParam=1;
@@ -39,18 +38,18 @@ public class Aligner {
     @Option public int verbose=0;
   }
   public static Options opts = new Options();
-  private static Aligner aligner;
+  private static Aligner aligner;//
+  
 
-  private final PhraseTable phraseTable;
-  private final Map<String,Set<String>> derivations;
+ // private final PhraseTable phraseTable; 
   private Rulebase ruleBase;
-  private WnExpander wnExpander;
+//  private WnExpander wnExpander;
+  private final Map<String,Set<String>> derivations;
 
-
-  private Aligner() throws IOException {
-    phraseTable = PhraseTable.getSingleton();
-    derivations = ParaphraseUtils.loadDerivations(opts.derivationPath);
-    wnExpander = new WnExpander();
+ private Aligner() throws IOException {
+	  derivations = ParaphraseUtils.loadDerivations(opts.derivationPath);
+  //   phraseTable = PhraseTable.getSingleton();  
+   // wnExpander = new WnExpander();
     if(opts.useSyntax)
       ruleBase = new Rulebase();
   }
@@ -61,10 +60,11 @@ public class Aligner {
     return aligner;
   }
 
+  //wei: the focus
   public Alignment align(ParaphraseExample example, Params params) {
-    example.ensureAnnotated(); // inside, build language info
+    example.ensureAnnotated(); // wei:  inside, build language info
     Alignment alignment = new Alignment(example);
-    alignment.buildAlignment(example, params);
+    alignment.buildAlignment(example, params); 
     example.setAlignment(alignment);
     return alignment;
   }
@@ -80,16 +80,16 @@ public class Aligner {
 
     public Alignment(ParaphraseExample example) {
       source = example.source;
-      target = example.target; // wei: is target the target sentence to be aligned with?
+      target = example.target; 
     }
 
     public void buildAlignment(ParaphraseExample example, Params params) {
       computeIdentityAlignments(example);
-      computePhraseTableAlignments(example); // wei: I think I only need to focus here. But other parts can also be used.
+     // computePhraseTableAlignments(example); // wei: I think I don't need this coz I don't have phrase table. instead, i want to build one.
       computeSubstitutionsAlignment(example);
       computeDerivationsAlignment(example);
       //this needs to be done last
-      markDeletions(example);
+    //  markDeletions(example);
       if(opts.useSyntax)
         computeSyntacticAlignment(example);
       if(opts.verbose>=1) {
@@ -141,11 +141,11 @@ public class Aligner {
     }
 
     private void markDeletions(ParaphraseExample example) {
-      markDeletion(example.sourceInfo,true);
-      markDeletion(example.targetInfo,false);
+    //  markDeletion(example.sourceInfo,true);
+    //  markDeletion(example.targetInfo,false);
     }
 
-    private void markDeletion(LanguageInfo lInfo, boolean isSource) {
+  /*  private void markDeletion(LanguageInfo lInfo, boolean isSource) {
 
       for(int i = 0; i < lInfo.numTokens(); ++i) {
         boolean aligned=false;
@@ -166,7 +166,7 @@ public class Aligner {
           }
         }
       }  
-    }
+    }   */
 
     private void computeIdentityAlignments(ParaphraseExample example) {
       for(int i = 0 ; i < example.sourceInfo.numTokens(); ++i) {
@@ -188,7 +188,7 @@ public class Aligner {
      * We consider all tokens and phrases with two nouns and allow substitutions if canonical pos matches.
      * @param example
      */
-   /* private void computeSubstitutionsAlignment(ParaphraseExample example) {
+   private void computeSubstitutionsAlignment(ParaphraseExample example) {
 
       List<Interval> sourceIntervals = getLanguageInfoCandidates(example.sourceInfo);
       List<Interval> targetIntervals = getLanguageInfoCandidates(example.targetInfo);
@@ -213,10 +213,10 @@ public class Aligner {
               else
                 featureVector.add("Subst", "pos_identity");
               featureVector.add("Subst", "l="+sourcePhrase+",r="+targetPhrase);
-              if(opts.useWordnet) {
-                if(wnExpander.getSynonyms(sourcePhrase).contains(targetPhrase))
-                  featureVector.add("Subst", "synonym");
-              }
+//              if(opts.useWordnet) {
+//                if(wnExpander.getSynonyms(sourcePhrase).contains(targetPhrase))
+//                  featureVector.add("Subst", "synonym");
+//              }
             }
           }
         }
@@ -247,7 +247,7 @@ public class Aligner {
       return res;
     }
 
-    private  void computePhraseTableAlignments(ParaphraseExample example) {
+ /*   private  void computePhraseTableAlignments(ParaphraseExample example) {
       //go over all lhs spans
       for(int i = 0; i < example.sourceInfo.numTokens(); ++i) {
         for(int j = i+1; j <= example.sourceInfo.numTokens(); ++j) {
@@ -287,7 +287,7 @@ public class Aligner {
           }
         }
       }
-    }
+    }  */
 
     private String binCount(double count) {
       if(count<=50)
@@ -374,13 +374,13 @@ public class Aligner {
   }
 
   public static void main(String[] args) throws IOException {
-
     ParaphraseExample paraExample =new ParaphraseExample("what type of music did richard wagner play ?",
         "what is the musical genres of richard wagner ?",new BooleanValue(true));
     Aligner aligner = new Aligner();
     Params params = new Params();
-    params.read("/Users/jonathanberant/Research/temp/params");
-    Alignment alignment = aligner.align(paraExample, params);
+    //params.read("/Users/jonathanberant/Research/temp/params");
+    Alignment alignment = aligner.align(paraExample, params); // wei: focus here
     alignment.printFeaturesAndWeights(params);  // wei: params contains the weight for each feature.
-  } */
+  } 
+  
 }

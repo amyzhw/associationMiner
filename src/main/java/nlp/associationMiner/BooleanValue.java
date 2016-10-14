@@ -1,6 +1,7 @@
 package nlp.associationMiner;
 
-import com.fasterxml.jackson.annotation.JsonFormat.Value;
+//import com.fasterxml.jackson.annotation.JsonFormat.Value;
+import nlp.associationMiner.fig.*;
 
 /**
  * Represents a boolean.
