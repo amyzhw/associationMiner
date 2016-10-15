@@ -1,4 +1,4 @@
-This version is compiled and run on ubutun (digital ocean)
+This version is compiled and run on ubuntu (digital ocean)
 
 
 MGIZA++ is for word alignment of parallel corpus.
