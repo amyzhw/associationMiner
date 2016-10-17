@@ -103,7 +103,7 @@ public class FeatureVector {
         sum += params.getWeight(DENSE_NAME+"_"+i) * denseFeatures[i];
         count=count+1;}
     }
-    System.out.print("length of the feature vectors:" + count);
+   // System.out.println("length of the feature vectors:" + count);
     return sum;
   }
 
@@ -115,7 +115,7 @@ public class FeatureVector {
   public void increment(double factor, Map<String, Double> map, FeatureMatcher matcher) {
     if (indicatorFeatures != null) {
       for (String feature : indicatorFeatures)
-        if (matcher.matches(feature))
+        if (matcher.matches(feature)) // wei: always return true
           MapUtils.incr(map, feature, factor);
     }
     if (generalFeatures != null) {

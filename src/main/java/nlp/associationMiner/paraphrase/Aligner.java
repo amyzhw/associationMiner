@@ -6,9 +6,11 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -21,6 +23,7 @@ import nlp.associationMiner.LanguageInfo;
 import nlp.associationMiner.LanguageInfo.WordInfo;
 import nlp.associationMiner.Params;
 import nlp.associationMiner.LanguageInfo.LanguageUtils;
+import nlp.associationMiner.fbalignment.lexicons.LexicalEntry.BinaryLexicalEntry;
 import nlp.associationMiner.fbalignment.utils.WnExpander;
 import nlp.associationMiner.paraphrase.paralex.PhraseTable;
 import nlp.associationMiner.paraphrase.rules.RuleApplication;
@@ -43,23 +46,30 @@ public class Aligner {
     @Option(gloss="Maximum distortion") public double distortionParam=1;
     @Option(gloss="Whether to use syntax rules") public boolean useSyntax=false; // wei: pops errors when changing to true
     @Option(gloss="Whether to use wordnet synsets") public boolean useWordnet=true;
+    @Option(gloss="Whether to write feature and values into files") public boolean feaValTofile=false; // wei add
+    @Option(gloss="Path to file with feature and values") public String feaValPath="lib/phrasePairs/features"; // wei add 
     @Option public int verbose=0;
   }
   public static Options opts = new Options();
   private static Aligner aligner;//
   
 
- // private final PhraseTable phraseTable; 
+ private final PhraseTable phraseTable; 
   private Rulebase ruleBase;
   private WnExpander wnExpander;
   private final Map<String,Set<String>> derivations;
+  public PrintWriter writer;
 
  private Aligner() throws IOException {
 	  derivations = ParaphraseUtils.loadDerivations(opts.derivationPath);
-  //   phraseTable = PhraseTable.getSingleton();  
+     phraseTable = PhraseTable.getSingleton();  
     wnExpander = new WnExpander();
     if(opts.useSyntax)
       ruleBase = new Rulebase();
+    
+    if (opts.feaValTofile)
+    	writer = new PrintWriter(opts.feaValPath, "UTF-8"); 
+    
   }
 
   public static Aligner getSingleton() throws IOException {
@@ -71,18 +81,21 @@ public class Aligner {
   //wei: the focus
   public Alignment align(ParaphraseExample example, Params params) {
     example.ensureAnnotated(); // wei:  inside, build language info
-    example.log(); //wei
+   // example.log(); //wei
     Alignment alignment = new Alignment(example);
     alignment.buildAlignment(example, params); 
     example.setAlignment(alignment);
     return alignment;
   }
+  
+
 
   public class Alignment {
 
     private List<AlignmentIntervalPair> substitutions = new ArrayList<Aligner.AlignmentIntervalPair>();
     private List<AlignmentInterval> deletions = new ArrayList<Aligner.AlignmentInterval>();
     FeatureVector featureVector = new FeatureVector();
+
     double score = Double.NaN;
     private final String source;
     private final String target;
@@ -92,10 +105,33 @@ public class Aligner {
       target = example.target; 
     }
 
+    
+    // wei add
+    public double [] buildFeatureVector(Params params){
+    	 double [] array = new double[params.getFeatureLength()];
+
+    	 Map<String, Double> featureMap = featureVector.toMap();
+         
+         for(String key: featureMap.keySet()) {
+              double value = featureMap.get(key);
+             // check if the feature in params.features
+              int idx = params.checkFeature(key);
+              if (idx!=-1) // found
+            	  array[idx]=value;
+                       
+        //   if (bPrint)
+         //    LogInfo.logs("Printing features: feautre=%s, value=%s\n",key,value);
+              
+         }   // for key
+    	 
+    	 return array;
+    }
+    
+    
     public void buildAlignment(ParaphraseExample example, Params params) {
 
       computeIdentityAlignments(example);         // wei: for lemma(token_src)=lemma(token_tgt)
-     // computePhraseTableAlignments(example); // wei: I think I don't need this coz I don't have phrase table. instead, i want to build one.
+      computePhraseTableAlignments(example); // wei: I think I don't need this coz I don't have phrase table. instead, i want to build one.
       computeSubstitutionsAlignment(example);  // wei: considers spans, not just tokens. include cannocial, wordnet...
       computeDerivationsAlignment(example); // wei: wordnet derivations
       //this needs to be done last
@@ -105,9 +141,14 @@ public class Aligner {
       if(opts.verbose>=1) {
         printFeaturesAndWeights(params);
       }
-      score = featureVector.dotProduct(params);
-      LogInfo.logs("score=%s",score);//wei
+      // score = featureVector.dotProduct(params); //wei del  the score of question pairs.
+     // LogInfo.logs("score=%s",score);//wei
     }
+    
+  //wei add compute score (association feature value)
+    public double computeScore(Params params) {  //wei: params contains the learned weights
+         return  featureVector.dotProduct(params); 	 
+      }
 
     private void printFeaturesAndWeights(Params params) {  //wei: params contains the learned weights
       for(String key: featureVector.toMap().keySet()) {
@@ -117,15 +158,9 @@ public class Aligner {
       }   
     }
     
-    // wei add
-    private void recordFeatures(boolean bPrint) { 
-        for(String key: featureVector.toMap().keySet()) {
-          double value = featureVector.toMap().get(key);
-          if (bPrint)
-            LogInfo.logs("Printing features: feautre=%s\n, value=%s",key,value);
-        }   
-      }
-  
+    
+    
+   
     private void computeSyntacticAlignment(ParaphraseExample example) {
       for(RuleApplier rule: ruleBase.getRules()) {
         for(RuleApplication application: rule.apply(example.sourceInfo, example.targetInfo)) {
@@ -285,7 +320,7 @@ public class Aligner {
       return res;
     }
 
- /*   private  void computePhraseTableAlignments(ParaphraseExample example) {
+  private  void computePhraseTableAlignments(ParaphraseExample example) {
       //go over all lhs spans
       for(int i = 0; i < example.sourceInfo.numTokens(); ++i) {
         for(int j = i+1; j <= example.sourceInfo.numTokens(); ++j) {
@@ -325,7 +360,7 @@ public class Aligner {
           }
         }
       }
-    }  */
+    }  
 
     private String binCount(double count) {
       if(count<=50)
@@ -405,41 +440,86 @@ public class Aligner {
     public final double phrase2Count;
 
     public AlignmentStats(double cooccurrence, double phrase1Freq, double phrase2Freq) {
-      this.cooccurrenceCount=cooccurrence;
+      this.cooccurrenceCount=cooccurrence; //wei: phrase-table.counts column meaning.
       this.phrase1Count=phrase1Freq;
       this.phrase2Count=phrase2Freq;
     }
   }
+  
+  // wei add
+  private void recordFeatures(FeatureVector featureVector,PrintWriter fv_writter,boolean bPrint ) { 
+	    
+	 // HashMap<String, Double> featureValueMap = new HashMap<String, Double>(); 
+	   
+	  Map<String, Double> featureMap = featureVector.toMap();
+      int count=0;
+      
+      for(String key: featureMap.keySet()) {
+        double value = featureMap.get(key);
+        //featureValueMap.put(key, value);         
+        
+        if(opts.feaValTofile){
+      	  fv_writter.println(key + '\t' + value); 
+        }
+        //bPrint=true;
+        if (bPrint)
+          LogInfo.logs("Printing features: feautre=%s, value=%s\n",key,value);
+        
+        count=count+1;
+         
+        if ((count  %  3000)==0)
+             System.out.println(count + " features are recorded" );    
+        
+      }   // for key
+            
+    }
 
-  public static void main(String[] args) throws IOException {
+  
+
+  public static void main(String[] args) throws IOException, InterruptedException {
 	// examples.
-    ParaphraseExample paraExample =new ParaphraseExample("what type of music did richard wagner play ?",
-        "what is the musical genres of richard wagner ?",new BooleanValue(true));
+  //  ParaphraseExample paraExample =new ParaphraseExample("what type of music did richard wagner play ?",
+   //     "what is the musical genres of richard wagner ?",new BooleanValue(true));
     Aligner aligner = new Aligner();
     Params params = new Params();
     //params.read("/Users/jonathanberant/Research/temp/params"); // wei: we skip all params which contains the learned weights of each features.
-    Alignment alignment = aligner.align(paraExample, params); 
-    alignment.printFeaturesAndWeights(params); 
+    //Alignment alignment = aligner.align(paraExample, params); 
+    // alignment.printFeaturesAndWeights(params); 
 
-   //********************1. read pairs and create paraExample for each pair
-    public ArrayList<Pair<String, String>> dupPairs = new ArrayList<Pair<String, String>>();
+  /* //********************1. read pairs and create paraExample for each pair
+    FeatureVector featureVectorAll = new FeatureVector();
         
    try {
-			File fileDir = new File("C:\\wamp64\\tmp\\allDupPairs");	
+			//File fileDir = new File("C:\\wamp64\\tmp\\allDupPairs");
+			File fileDir = new File("C:\\wamp64\\tmp\\java\\5000\\master_dup_titles");
 			BufferedReader in = new BufferedReader(new InputStreamReader( new FileInputStream(fileDir), "UTF8"));
 	
+			int cnt=0;
 			String line;
+			String tgtLine;
 			while ((line = in.readLine()) != null) {
-			    System.out.println(line);
+			  //  System.out.println(line);
 			   // Pair<String, String> pair = new Pair<>(line, in.readLine());		
 			   // dupPairs.add(pair);
 			    
 			  //********************2. get features for each pair
+				tgtLine = in.readLine();
+			    ParaphraseExample paraExample =new ParaphraseExample(line,tgtLine,new BooleanValue(true));
+			    //System.out.println("Source question: "+ line);
+			    //System.out.println("Target question: "+ tgtLine);
 			    Alignment alignment = aligner.align(paraExample, params); 
-			    alignment.printFeatures();
+
+			    featureVectorAll.add(alignment.featureVector);
 			    
+			    cnt=cnt+1;
+			    if ( (cnt % 1000)==0 )
+			    	System.out.println(cnt + " question pairs are processed.");
 			}
+			
+			aligner.recordFeatures(featureVectorAll,aligner.writer,false);
+			
 	       in.close();
+	       aligner.writer.close();
 	    }
 	   catch (UnsupportedEncodingException e)
 	   {
@@ -455,10 +535,120 @@ public class Aligner {
 	    }
   
    
-  //********************
-  
-  
-  //********************
+   //******************** Test 2. generate features for 5000 (4:1 train and test) and  5000 non-dup pairs 
+    // 2.1 load feature file 
+    params.readFeatures(opts.feaValPath);   
+    
+   // File fileDir = new File("C:\\wamp64\\tmp\\java\\5000\\dup_pair_titles");
+    File fileDir = new File("C:\\wamp64\\tmp\\java\\5000\\nondup_pair_titles");
+    
+    // print out to feature file
+    //PrintWriter featwriter = new PrintWriter("C:\\wamp64\\tmp\\java\\5000\\dup_pair_titles.longfeat", "UTF-8"); 
+    PrintWriter featwriter = new PrintWriter("C:\\wamp64\\tmp\\java\\5000\\nondup_pair_titles.longfeat", "UTF-8"); 
+    try {
+		
+			BufferedReader in = new BufferedReader(new InputStreamReader( new FileInputStream(fileDir), "UTF8"));
+	
+			int cnt=0;
+			String line;
+			String tgtLine;
+			while ((line = in.readLine()) != null) {
+			    
+			  //********************2.2 get features for each pair
+				tgtLine = in.readLine();
+			    ParaphraseExample paraExample =new ParaphraseExample(line,tgtLine,new BooleanValue(true));
+			    //System.out.println("Source question: "+ line);
+			    //System.out.println("Target question: "+ tgtLine);
+			    Alignment alignment = aligner.align(paraExample, params); 
+			    
+			    double [] myarray;
+			    //System.out.println(myarray[1000]);			    
+			     myarray=alignment.buildFeatureVector(params); // on alignment.featureVector
+			     
+			     for (int i=0; i< myarray.length; i++){
+			    	 featwriter.print(myarray[i]); 
+			    	 featwriter.print(" "); 
+			     }
+			     featwriter.print("\n"); 
+
+			    // Thread.sleep(50000);			    
+			    cnt=cnt+1;
+			    if ( (cnt % 1000)==0 )
+			    	System.out.println(cnt + " question pairs are processed.");
+			}
+			
+	       in.close();
+	       featwriter.close();
+	    }
+	   catch (UnsupportedEncodingException e)
+	   {
+			System.out.println(e.getMessage());
+       }
+	    catch (IOException e)
+	    {
+			System.out.println(e.getMessage());
+	    }
+	    catch (Exception e)
+	    {
+			System.out.println(e.getMessage());
+	    }
+   */
+
+   
+   //******************** Test 3. compute scores (association feature) for 5000 (4:1 train and test) and 5000 non-dup pairs 
+     // 3.1 load feature file 
+     params.read("lib/phrasePairs/feature_weights.percpt"); // contain weights of features
+     params.readFeatures(opts.feaValPath);   
+       
+     //File fileDir = new File("C:\\wamp64\\tmp\\java\\5000\\dup_pair_titles");
+     File fileDir = new File("C:\\wamp64\\tmp\\java\\5000\\nondup_pair_titles");
+     
+     // print out to association feature file
+     //PrintWriter featwriter = new PrintWriter("C:\\wamp64\\tmp\\java\\5000\\dup_pair_titles.assfeat", "UTF-8"); 
+     PrintWriter featwriter = new PrintWriter("C:\\wamp64\\tmp\\java\\5000\\nondup_pair_titles.assfeat", "UTF-8"); 
+     try {
+ 		
+ 			BufferedReader in = new BufferedReader(new InputStreamReader( new FileInputStream(fileDir), "UTF8"));
+ 	
+ 			int cnt=0;
+ 			String line;
+ 			String tgtLine;
+ 			while ((line = in.readLine()) != null) {
+ 			    
+ 			  //********************2.2 get features for each pair
+ 				tgtLine = in.readLine();
+ 			    ParaphraseExample paraExample =new ParaphraseExample(line,tgtLine,new BooleanValue(true));
+ 			    //System.out.println("Source question: "+ line);
+ 			    //System.out.println("Target question: "+ tgtLine);
+ 			    Alignment alignment = aligner.align(paraExample, params); 
+ 			    double score=    alignment.computeScore(params); 
+ 			   // System.out.println("score from computeScore:  "+score);
+ 			    
+ 			  // Thread.sleep(50000);	
+ 			   featwriter.println(score); 
+ 			   
+ 			    cnt=cnt+1;
+ 			    if ( (cnt % 1000)==0 )
+ 			    	System.out.println(cnt + " question pairs are processed.");
+ 			}
+ 			
+ 	       in.close();
+ 	       featwriter.close();
+ 	    }
+ 	   catch (UnsupportedEncodingException e)
+ 	   {
+ 			System.out.println(e.getMessage());
+        }
+ 	    catch (IOException e)
+ 	    {
+ 			System.out.println(e.getMessage());
+ 	    }
+ 	    catch (Exception e)
+ 	    {
+ 			System.out.println(e.getMessage());
+ 	    }
+   
+    System.out.println("Done!" );   
    
   
   }  // end of main

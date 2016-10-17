@@ -50,7 +50,11 @@ public class Params {
 
   // Discriminative weights
   private HashMap<String, Double> weights = new HashMap<String, Double>();
-
+  
+  // wei add
+  //private ArrayList<Pair<String,Double>> features = new ArrayList<Pair<String,Double>>();
+  private ArrayList<String> features = new ArrayList<String>();
+  
   // For AdaGrad
   Map<String, Double> sumSquaredGradients = new HashMap<String, Double>();
 
@@ -82,6 +86,31 @@ public class Params {
     LogInfo.logs("Read %s weights", weights.size());
     LogInfo.end_track();
   }
+  
+  //  wei add Read features  from |path|. modify from read(String path)
+  public void readFeatures(String path) {
+    LogInfo.begin_track("Reading features from %s", path);
+    try {
+      BufferedReader in = IOUtils.openIn(path);
+      String line;
+      while ((line = in.readLine()) != null) {
+        String[] pair = Lists.newArrayList(Splitter.on('\t').split(line)).toArray(new String[2]);
+       // Pair<String,Double> fea_val = new Pair(pair[0], Double.parseDouble(pair[1]));     
+        features.add(pair[0]); 
+      }
+      in.close();
+    } catch (IOException e) {
+      throw new RuntimeException(e);
+    }
+    LogInfo.logs("Read %s features", features.size());
+    LogInfo.end_track();
+  }
+  
+  public int getFeatureLength()
+  {
+	  return features.size();
+  }
+  
 
   // Update weights by adding |gradient| (modified appropriately with step size).
   public synchronized void update(Map<String, Double> gradient) {
@@ -216,4 +245,16 @@ public class Params {
         lazyL1Update(f);
     }
   }
+
+  // wei add 
+public int checkFeature(String key) {
+	
+	 for (int index = 0; index <features.size(); index++)
+     {
+          if ( key.compareTo(features.get(index)) ==0)
+                return index;  
+     }
+		
+	return -1;
+}
 }

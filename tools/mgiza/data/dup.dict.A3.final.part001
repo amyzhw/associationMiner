@@ -1,0 +1,2574 @@
+# Sentence pair (1) source length 3 target length 3 alignment score : 0.0041234
+detect/track postback javascript 
+NULL ({ }) check ({ }) ispostback ({ 1 2 }) javascript ({ 3 }) 
+# Sentence pair (2) source length 5 target length 3 alignment score : 0.000697992
+java rss library 
+NULL ({ }) feed ({ 1 2 3 }) reader ({ }) libraries ({ }) java ({ }) best ({ }) 
+# Sentence pair (4) source length 6 target length 6 alignment score : 6.36125e-08
+css rule disable text selection highlighting 
+NULL ({ }) way ({ }) make ({ }) text ({ }) unselectable ({ 1 2 3 4 5 6 }) html ({ }) page ({ }) 
+# Sentence pair (7) source length 7 target length 4 alignment score : 1.86768e-06
+find java c converter 
+NULL ({ }) effective ({ }) tool ({ 1 3 4 }) convert ({ }) c ({ }) code ({ }) java ({ 2 }) code ({ }) 
+# Sentence pair (12) source length 13 target length 6 alignment score : 3.22338e-07
+var functionname function vs function functionname 
+NULL ({ }) difference ({ }) two ({ }) functions ({ 1 2 3 4 5 6 }) `` ({ }) function ({ }) x ({ }) '' ({ }) vs ({ }) `` ({ }) var ({ }) x ({ }) function ({ }) '' ({ }) 
+# Sentence pair (19) source length 6 target length 5 alignment score : 4.85044e-09
+check array includes object javascript 
+NULL ({ }) best ({ }) way ({ }) find ({ 1 3 4 }) item ({ }) javascript ({ 5 }) array ({ 2 }) 
+# Sentence pair (23) source length 7 target length 5 alignment score : 2.47484e-07
+pass variables data php javascript 
+NULL ({ }) pass ({ }) php ({ 1 2 3 4 }) string ({ }) javascript ({ 5 }) variable ({ }) escape ({ }) newlines ({ }) 
+# Sentence pair (27) source length 6 target length 5 alignment score : 1.12858e-07
+deep copy 2d array java 
+NULL ({ }) deep ({ }) cloning ({ 1 2 3 }) multidimensional ({ 4 }) arrays ({ }) java ({ 5 }) ... ({ }) 
+# Sentence pair (31) source length 3 target length 5 alignment score : 5.12464e-07
+best online javascript language documentation 
+NULL ({ }) great ({ 1 2 4 5 }) javascript ({ 3 }) sites ({ }) 
+# Sentence pair (33) source length 5 target length 4 alignment score : 9.61411e-05
+get insert id jdbc 
+NULL ({ }) get ({ }) value ({ }) last ({ 1 2 }) inserted ({ 3 4 }) row ({ }) 
+# Sentence pair (38) source length 5 target length 4 alignment score : 2.69068e-05
+pad integers zeros left 
+NULL ({ }) add ({ }) leading ({ }) zeroes ({ 1 2 3 4 }) number ({ }) java ({ }) 
+# Sentence pair (41) source length 4 target length 5 alignment score : 2.1183e-08
+java web development skills need 
+NULL ({ }) getting ({ }) started ({ }) java ({ 1 }) ee ({ 2 3 4 5 }) 
+# Sentence pair (44) source length 4 target length 9 alignment score : 3.83105e-12
+auto load database jar groovy without using -cp switch 
+NULL ({ }) include ({ }) jars ({ 1 2 3 4 }) groovy ({ 5 6 7 8 9 }) script ({ }) 
+# Sentence pair (48) source length 5 target length 4 alignment score : 4.37493e-05
+floating point math broken 
+NULL ({ }) strange ({ }) floating-point ({ 1 2 3 4 }) behaviour ({ }) java ({ }) program ({ }) 
+# Sentence pair (51) source length 4 target length 7 alignment score : 1.41769e-12
+differences generics c java ... templates c++ 
+NULL ({ }) c ({ 3 }) vs ({ }) java ({ 4 }) generics ({ 1 2 5 6 7 }) 
+# Sentence pair (55) source length 6 target length 4 alignment score : 5.69854e-06
+disabling back button browser 
+NULL ({ }) disable ({ }) backbutton ({ 1 2 3 }) browser ({ 4 }) window ({ }) using ({ }) javascript ({ }) 
+# Sentence pair (58) source length 4 target length 6 alignment score : 2.9159e-09
+interface inherited base-class implemented explicitly subclass 
+NULL ({ }) java ({ }) interface ({ 1 }) inheritance ({ }) implementation ({ 2 3 4 5 6 }) 
+# Sentence pair (62) source length 4 target length 3 alignment score : 0.00144765
+continuous integration servers 
+NULL ({ }) pro/con ({ }) continuous ({ 1 }) integration ({ }) systems ({ 2 3 }) 
+# Sentence pair (65) source length 5 target length 2 alignment score : 0.00229834
+javascript debugger 
+NULL ({ }) use ({ }) debug ({ }) javascript ({ 1 }) besides ({ 2 }) firebug ({ }) 
+# Sentence pair (67) source length 6 target length 7 alignment score : 1.22599e-14
+use javascript client side detect page encrypted 
+NULL ({ }) determine ({ }) whether ({ }) page ({ 6 }) secure ({ 1 3 4 5 7 }) via ({ }) javascript ({ 2 }) 
+# Sentence pair (74) source length 9 target length 7 alignment score : 4.95607e-11
+bad practice return generated html instead json 
+NULL ({ }) dangerous ({ }) send ({ }) html ({ 5 }) ajax ({ }) opposed ({ 6 }) sending ({ }) json ({ 7 }) building ({ 1 2 3 4 }) html ({ }) 
+# Sentence pair (81) source length 8 target length 6 alignment score : 2.14489e-08
+latest jquery version google 's cdn 
+NULL ({ }) link ({ }) `` ({ }) latest ({ 1 2 3 4 5 6 }) '' ({ }) jquery ({ }) library ({ }) google ({ }) apis ({ }) 
+# Sentence pair (86) source length 6 target length 4 alignment score : 1.02328e-06
+embedding javascript engine .net 
+NULL ({ }) google ({ }) 's ({ }) v8 ({ 1 3 4 }) javascript ({ 2 }) engine ({ }) .net ({ }) 
+# Sentence pair (91) source length 6 target length 5 alignment score : 9.74752e-07
+read os environment variables java 
+NULL ({ }) java ({ }) code ({ }) read ({ }) os ({ 1 2 }) environment ({ 3 4 5 }) variables ({ }) 
+# Sentence pair (95) source length 3 target length 3 alignment score : 0.000252644
+restart thread java 
+NULL ({ }) doubt ({ 1 2 3 }) thread ({ }) concept ({ }) 
+# Sentence pair (98) source length 5 target length 7 alignment score : 1.03384e-09
+java `` pass-by-reference '' `` pass-by-value '' 
+NULL ({ }) changing ({ 2 3 4 5 6 7 }) values ({ }) variables ({ }) methods ({ }) java ({ 1 }) 
+# Sentence pair (102) source length 3 target length 11 alignment score : 2.41594e-16
+deal `` java.lang.outofmemoryerror java heap space '' error 64mb heap size 
+NULL ({ }) handle ({ 1 2 }) outofmemoryerror ({ 3 5 6 7 8 9 10 11 }) java ({ 4 }) 
+# Sentence pair (106) source length 4 target length 5 alignment score : 2.90361e-07
+convert java program .exe file 
+NULL ({ }) create ({ }) .exe ({ 1 3 4 5 }) java ({ 2 }) program ({ }) 
+# Sentence pair (110) source length 6 target length 5 alignment score : 2.88353e-08
+create windows service java app 
+NULL ({ }) run ({ }) jar ({ }) application ({ }) window ({ }) service ({ 1 2 3 5 }) registry ({ 4 }) 
+# Sentence pair (116) source length 8 target length 4 alignment score : 8.53549e-06
+best online javascript/css/html/xhtml/dom reference 
+NULL ({ }) good ({ }) javascript ({ }) api ({ }) reference ({ }) documentation ({ }) related ({ 1 2 3 4 }) browsers ({ }) dom ({ }) 
+# Sentence pair (119) source length 3 target length 5 alignment score : 5.73298e-06
+performance difference i++ ++i c 
+NULL ({ }) efficient ({ 1 }) i++ ({ 2 3 }) ++i ({ 4 5 }) 
+# Sentence pair (123) source length 7 target length 3 alignment score : 6.94253e-05
+use getters setters 
+NULL ({ }) getters ({ }) setters ({ }) poor ({ 1 }) design ({ }) contradictory ({ }) advice ({ }) seen ({ 2 3 }) 
+# Sentence pair (128) source length 11 target length 7 alignment score : 2.01768e-12
+using wild card java import statement bad 
+NULL ({ }) would ({ }) make ({ }) class ({ }) file ({ }) bigger ({ 1 2 3 5 6 7 }) import ({ }) java.awt ({ 4 }) bunch ({ }) single ({ }) import ({ }) statements ({ }) 
+# Sentence pair (140) source length 3 target length 4 alignment score : 1.05131e-07
+invoking php method java 
+NULL ({ }) calling ({ 1 3 }) php ({ 2 }) java ({ 4 }) 
+# Sentence pair (143) source length 4 target length 9 alignment score : 7.96203e-15
+official way ask jquery wait images load executing something 
+NULL ({ }) jquery ({ }) width ({ }) returns ({ 1 2 3 4 5 6 7 8 9 }) 0 ({ }) 
+# Sentence pair (148) source length 6 target length 8 alignment score : 5.82879e-10
+javascript closure inside loops – simple practical example 
+NULL ({ }) n't ({ }) javascript ({ 1 }) support ({ }) closures ({ 2 3 4 5 6 7 8 }) local ({ }) variables ({ }) 
+# Sentence pair (155) source length 4 target length 5 alignment score : 1.47691e-07
+private helper methods static static 
+NULL ({ }) using ({ }) private ({ 1 2 3 }) static ({ 4 5 }) methods ({ }) 
+# Sentence pair (157) source length 6 target length 5 alignment score : 1.56465e-10
+`` execute around '' idiom 
+NULL ({ }) c++ ({ }) like ({ 1 4 }) resource ({ }) management ({ 2 3 5 }) possible ({ }) java ({ }) 
+# Sentence pair (161) source length 5 target length 5 alignment score : 2.08987e-07
+convert java code c code 
+NULL ({ }) find ({ }) tool ({ 3 4 5 }) convert ({ 1 }) java ({ 2 }) c ({ }) 
+# Sentence pair (166) source length 5 target length 7 alignment score : 1.2719e-13
+change default homepage root path servlet doget 
+NULL ({ }) set ({ }) servlet ({ 6 7 }) run ({ }) homepage ({ 1 2 3 4 5 }) java ({ }) 
+# Sentence pair (172) source length 11 target length 7 alignment score : 8.16188e-10
+deep cloning vs setting innerhtml 's faster 
+NULL ({ }) javascript ({ }) better ({ }) use ({ }) innerhtml ({ }) lots ({ }) createelement ({ 1 2 3 }) calls ({ }) add ({ }) complex ({ 4 5 6 7 }) div ({ }) structure ({ }) 
+# Sentence pair (177) source length 8 target length 9 alignment score : 1.20602e-11
+java nio watcher detect end long lasting copy operation 
+NULL ({ }) know ({ }) whether ({ }) file ({ 1 }) copying ({ }) 'in ({ 2 3 4 5 }) progress'/complete ({ 6 7 8 9 }) java ({ }) 1.6 ({ }) 
+# Sentence pair (185) source length 4 target length 4 alignment score : 8.2068e-05
+exception driven programming java 
+NULL ({ }) anything ({ }) like ({ }) elmah ({ 1 2 3 }) java ({ 4 }) 
+# Sentence pair (188) source length 4 target length 3 alignment score : 4.46442e-05
+check object array 
+NULL ({ }) check ({ 1 2 }) variable ({ }) array ({ 3 }) javascript ({ }) 
+# Sentence pair (192) source length 2 target length 4 alignment score : 1.29002e-09
+pros cons using jquery 
+NULL ({ }) javascript ({ }) jquery ({ 1 2 3 4 }) 
+# Sentence pair (193) source length 2 target length 9 alignment score : 7.4492e-23
+avoid using javascript library learning write ajax client code 
+NULL ({ }) javascript ({ }) jquery ({ 1 2 3 4 5 6 7 8 9 }) 
+# Sentence pair (197) source length 5 target length 4 alignment score : 2.36823e-07
+disabling back button browser 
+NULL ({ }) disable ({ }) back ({ 1 2 }) button ({ 3 4 }) ie ({ }) firefox ({ }) 
+# Sentence pair (201) source length 3 target length 6 alignment score : 3.32376e-08
+javascript minification library produces better results 
+NULL ({ }) best ({ }) javascript ({ 1 }) compressor/compiler/obfuscator ({ 2 3 4 5 6 }) 
+# Sentence pair (206) source length 4 target length 7 alignment score : 1.53306e-08
+convert byte size human readable format java 
+NULL ({ }) formatting ({ }) file ({ }) sizes ({ 1 2 3 }) java/jstl ({ 4 5 6 7 }) 
+# Sentence pair (212) source length 5 target length 4 alignment score : 1.31565e-07
+java generics syntax arrays 
+NULL ({ }) creating ({ }) array ({ }) problem ({ }) help ({ }) please ({ 1 2 3 4 }) 
+# Sentence pair (216) source length 4 target length 5 alignment score : 8.60108e-09
+convert js object json string 
+NULL ({ }) js ({ 1 2 }) object ({ 3 }) json ({ 4 }) string ({ 5 }) 
+# Sentence pair (219) source length 11 target length 6 alignment score : 1.28622e-08
+search engine web sites html/js code 
+NULL ({ }) need ({ }) creative ({ }) idea ({ }) search ({ 1 }) web ({ }) sites ({ }) use ({ }) certain ({ }) javascript ({ }) library ({ }) widget ({ 2 3 4 5 6 }) 
+# Sentence pair (223) source length 7 target length 4 alignment score : 4.31771e-06
+decode base64 data java 
+NULL ({ }) convert ({ }) base64 ({ 1 2 3 }) encoded ({ }) string ({ }) java ({ 4 }) byte ({ }) array ({ }) 
+# Sentence pair (225) source length 5 target length 8 alignment score : 2.17363e-10
+regex match open tags except xhtml self-contained tags 
+NULL ({ }) regexp ({ }) pull ({ 1 2 3 4 5 6 7 8 }) input ({ }) tags ({ }) form ({ }) 
+# Sentence pair (229) source length 4 target length 6 alignment score : 7.49945e-10
+javascript minification library produces better results 
+NULL ({ }) ways ({ }) compress/minify ({ 2 3 4 5 6 }) javascript ({ 1 }) files ({ }) 
+# Sentence pair (232) source length 5 target length 2 alignment score : 0.00396244
+reflection useful 
+NULL ({ }) reflection ({ }) effective ({ }) awesome ({ 1 2 }) necessary ({ }) uses ({ }) 
+# Sentence pair (234) source length 7 target length 2 alignment score : 0.000414956
+hibernate pk 
+NULL ({ }) hibernate ({ 1 }) mapping ({ 2 }) table ({ }) view ({ }) without ({ }) primary ({ }) key ({ }) 
+# Sentence pair (237) source length 6 target length 3 alignment score : 0.000222615
+semaphore-like queue javascript 
+NULL ({ }) store ({ }) javascript ({ }) functions ({ }) queue ({ }) executed ({ }) eventually ({ 1 2 3 }) 
+# Sentence pair (241) source length 3 target length 8 alignment score : 4.93536e-14
+determine date one day prior given date java 
+NULL ({ }) get ({ }) previous ({ 5 6 7 8 }) day ({ 1 2 3 4 }) 
+# Sentence pair (245) source length 4 target length 10 alignment score : 2.67699e-13
+get latest jre jdk zip file rather exe msi installer 
+NULL ({ }) installing ({ 1 2 3 4 5 6 }) java ({ }) manually ({ 7 8 9 10 }) windows ({ }) 
+# Sentence pair (250) source length 5 target length 6 alignment score : 2.62294e-08
+using regular expression validate email address 
+NULL ({ }) javascript ({ }) regular ({ 1 2 3 }) expression ({ }) email ({ 4 5 6 }) validation ({ }) 
+# Sentence pair (254) source length 5 target length 5 alignment score : 2.11341e-07
+use double single quotes javascript 
+NULL ({ }) javascript ({ 5 }) formatting ({ }) opinion ({ 1 2 3 4 }) vs ({ }) `` ({ }) 
+# Sentence pair (258) source length 4 target length 5 alignment score : 8.4603e-07
+08 valid integer literal java 
+NULL ({ }) 09 ({ }) recognized ({ }) 9 ({ 1 }) recognized ({ 2 3 4 5 }) 
+# Sentence pair (262) source length 4 target length 4 alignment score : 5.02433e-07
+get insert id jdbc 
+NULL ({ }) obtain ({ 1 }) id ({ 2 3 4 }) insert ({ }) statement ({ }) 
+# Sentence pair (266) source length 7 target length 6 alignment score : 6.82876e-12
+determine original name variable passed function 
+NULL ({ }) javascript ({ }) get ({ }) argument ({ 1 2 5 6 }) value ({ }) name ({ 3 }) passed ({ }) variable ({ 4 }) 
+# Sentence pair (272) source length 7 target length 4 alignment score : 1.79889e-05
+notify panel similar stackoverflow's 
+NULL ({ }) stackoverflow ({ }) `` ({ }) earned ({ }) new ({ }) badge ({ 1 2 3 4 }) '' ({ }) window ({ }) 
+# Sentence pair (277) source length 6 target length 9 alignment score : 4.00576e-13
+matter equals operator == vs === use javascript comparisons 
+NULL ({ }) exactly ({ 1 2 3 4 }) meaning ({ }) `` ({ }) === ({ 5 6 7 9 }) '' ({ }) javascript ({ 8 }) 
+# Sentence pair (283) source length 5 target length 5 alignment score : 2.92129e-09
+java support default parameter values 
+NULL ({ }) set ({ }) default ({ }) method ({ 1 }) argument ({ 2 3 4 }) values ({ 5 }) 
+# Sentence pair (286) source length 4 target length 4 alignment score : 1.25535e-06
+create document objects javascript 
+NULL ({ }) create ({ 1 }) javascript ({ }) document ({ 2 3 }) object ({ 4 }) 
+# Sentence pair (287) source length 4 target length 5 alignment score : 3.22265e-06
+change name java application process 
+NULL ({ }) set ({ }) process ({ }) name ({ }) java-program ({ 1 2 3 4 5 }) 
+# Sentence pair (289) source length 5 target length 5 alignment score : 3.6051e-08
+get protocol domain port url 
+NULL ({ }) obtain ({ 1 }) domain ({ 2 3 4 5 }) name ({ }) via ({ }) javascript ({ }) 
+# Sentence pair (293) source length 3 target length 5 alignment score : 2.67143e-09
+determine equality two javascript objects 
+NULL ({ }) object ({ }) comparison ({ 1 2 3 5 }) javascript ({ 4 }) 
+# Sentence pair (297) source length 4 target length 4 alignment score : 5.50387e-05
+choose checked unchecked exceptions 
+NULL ({ }) java ({ }) checked ({ 1 2 }) unchecked ({ 3 4 }) exceptions ({ }) 
+# Sentence pair (300) source length 3 target length 3 alignment score : 2.66772e-06
+detect variable array 
+NULL ({ }) check ({ 1 2 }) object ({ }) array ({ 3 }) 
+# Sentence pair (303) source length 4 target length 5 alignment score : 4.03716e-07
+find subclasses given class java 
+NULL ({ }) possible ({ }) get ({ }) subclasses ({ 1 2 3 }) class ({ 4 5 }) 
+# Sentence pair (305) source length 3 target length 4 alignment score : 3.43397e-07
+unescape html entities javascript 
+NULL ({ }) unescape ({ 1 3 }) html ({ 2 }) javascript ({ 4 }) 
+# Sentence pair (309) source length 7 target length 6 alignment score : 2.53956e-09
+tool read display java .class versions 
+NULL ({ }) check ({ }) jdk ({ }) version ({ }) used ({ }) compile ({ }) .class ({ 1 2 3 4 5 6 }) file ({ }) 
+# Sentence pair (315) source length 3 target length 3 alignment score : 1.38572e-05
+convert language div 
+NULL ({ }) change ({ 1 }) value ({ }) div ({ 2 3 }) 
+# Sentence pair (318) source length 3 target length 4 alignment score : 2.03472e-05
+want javascript version sleep 
+NULL ({ }) sleep ({ 1 3 4 }) function ({ }) javascript ({ 2 }) 
+# Sentence pair (320) source length 7 target length 5 alignment score : 6.10227e-07
+capitalize first character word string 
+NULL ({ }) upper ({ 1 2 3 4 }) case ({ }) every ({ }) first ({ }) letter ({ }) word ({ }) string ({ 5 }) 
+# Sentence pair (323) source length 6 target length 7 alignment score : 5.15805e-09
+get cookie expiration date creation date javascript 
+NULL ({ }) find ({ }) expiry ({ 1 2 3 4 5 6 }) date ({ }) cookie ({ }) using ({ }) javascript ({ 7 }) 
+# Sentence pair (329) source length 7 target length 5 alignment score : 1.94315e-05
+disable hot code replace eclipse 
+NULL ({ }) disable ({ 1 }) hot ({ 2 3 }) code ({ }) replace ({ 4 }) eclipse ({ 5 }) java ({ }) debugger ({ }) 
+# Sentence pair (333) source length 4 target length 5 alignment score : 4.36788e-07
+jquery .ready dynamically inserted iframe 
+NULL ({ }) document ({ }) .ready ({ 1 2 3 4 }) iframe ({ 5 }) content ({ }) 
+# Sentence pair (335) source length 5 target length 8 alignment score : 8.22685e-13
+organize minification packaging css js files speed website 
+NULL ({ }) make ({ }) javascript ({ }) file ({ }) min ({ 1 2 3 4 5 6 7 8 }) version ({ }) 
+# Sentence pair (338) source length 5 target length 6 alignment score : 1.0316e-10
+iterating collection avoiding concurrentmodificationexception removing loop 
+NULL ({ }) calling ({ }) remove ({ 1 2 }) foreach ({ 3 4 5 6 }) loop ({ }) java ({ }) 
+# Sentence pair (342) source length 7 target length 3 alignment score : 0.000124395
+jodatime equivalent dateutils.truncate 
+NULL ({ }) create ({ }) new ({ }) joda ({ }) datetime ({ }) truncated ({ }) last ({ }) hour ({ 1 2 3 }) 
+# Sentence pair (346) source length 6 target length 6 alignment score : 8.74492e-12
+add extra info copied web text 
+NULL ({ }) automatically ({ }) append ({ }) text ({ }) text ({ 6 }) copied ({ 1 2 3 4 5 }) javascript ({ }) 
+# Sentence pair (353) source length 7 target length 6 alignment score : 1.02773e-07
+stack overflow reddit voting system php 
+NULL ({ }) real ({ }) time ({ }) online ({ 1 }) voting ({ 2 3 4 5 6 }) without ({ }) leaving ({ }) page ({ }) 
+# Sentence pair (361) source length 6 target length 6 alignment score : 1.7123e-08
+access correct `this` context inside callback 
+NULL ({ }) maintain ({ 1 2 3 4 5 6 }) control ({ }) keyword ({ }) extending ({ }) prototypes ({ }) jquery ({ }) 
+# Sentence pair (366) source length 6 target length 4 alignment score : 2.94245e-06
+number lines file java 
+NULL ({ }) get ({ }) count ({ 1 2 }) line ({ }) file ({ 3 4 }) efficient ({ }) way ({ }) 
+# Sentence pair (371) source length 5 target length 7 alignment score : 7.19952e-14
+parse csv string javascript contains comma data 
+NULL ({ }) javascript ({ 4 }) code ({ }) parse ({ }) csv ({ 1 2 3 5 6 }) data ({ 7 }) 
+# Sentence pair (376) source length 2 target length 1 alignment score : 0.131199
+jsonp 
+NULL ({ }) json-p ({ 1 }) pronounce ({ }) 
+# Sentence pair (377) source length 4 target length 7 alignment score : 9.26586e-13
+jquery get index element child relative parent 
+NULL ({ }) get ({ 2 }) parent ({ 5 6 7 }) index ({ 3 4 }) jquery ({ 1 }) 
+# Sentence pair (379) source length 2 target length 4 alignment score : 2.01205e-06
+efficiently iterate entry map 
+NULL ({ }) iterate ({ 1 2 3 4 }) treemap ({ }) 
+# Sentence pair (383) source length 6 target length 8 alignment score : 5.52797e-12
+javascript closure inside loops – simple practical example 
+NULL ({ }) access ({ }) outside ({ }) variable ({ 1 }) loop ({ 2 3 4 5 6 7 8 }) javascript ({ }) closure ({ }) 
+# Sentence pair (389) source length 3 target length 3 alignment score : 0.00109045
+use getters setters 
+NULL ({ }) uses ({ }) getter/setters ({ 1 2 3 }) java ({ }) 
+# Sentence pair (391) source length 7 target length 6 alignment score : 3.96659e-09
+java inner class static nested class 
+NULL ({ }) java ({ 1 }) static ({ 4 }) vs ({ }) non ({ 5 }) static ({ 6 }) inner ({ 2 }) class ({ 3 }) 
+# Sentence pair (399) source length 5 target length 5 alignment score : 8.09015e-07
+write basic swap function java 
+NULL ({ }) possible ({ }) write ({ }) swap ({ 1 2 3 4 }) method ({ }) java ({ 5 }) 
+# Sentence pair (403) source length 5 target length 3 alignment score : 0.00116835
+jquery load issue 
+NULL ({ }) syntaxhighlighter.all ({ 1 2 3 }) n't ({ }) work ({ }) dom ({ }) level ({ }) 
+# Sentence pair (407) source length 9 target length 3 alignment score : 1.48254e-05
+javascript operator use 
+NULL ({ }) use ({ }) /* ({ 1 2 }) */ ({ }) around ({ }) arguments ({ }) use ({ }) extracting ({ 3 }) length ({ }) array ({ }) 
+# Sentence pair (414) source length 6 target length 3 alignment score : 0.000184883
+system.currenttimemillis vs system.nanotime 
+NULL ({ }) java ({ }) 1.4 ({ 1 2 3 }) library ({ }) returns ({ }) time ({ }) microseconds ({ }) 
+# Sentence pair (416) source length 3 target length 7 alignment score : 2.20865e-08
+javascript custom right-click menu still want spellcheck 
+NULL ({ }) firefox ({ }) needs ({ 1 2 3 }) spellcheck ({ 4 5 6 7 }) 
+# Sentence pair (420) source length 3 target length 5 alignment score : 1.15228e-06
+key differences javascript actionscript 3 
+NULL ({ }) actionscript ({ 1 2 4 5 }) like ({ }) javascript ({ 3 }) 
+# Sentence pair (424) source length 2 target length 3 alignment score : 0.0023295
+javascript bitwise operators 
+NULL ({ }) javascript ({ 1 }) stand ({ 2 3 }) 
+# Sentence pair (426) source length 6 target length 5 alignment score : 5.39929e-08
+use 'prototype vs. 'this javascript 
+NULL ({ }) javascript ({ 5 }) instance ({ }) functions ({ }) versus ({ 1 2 3 4 }) prototype ({ }) functions ({ }) 
+# Sentence pair (430) source length 5 target length 7 alignment score : 1.30698e-10
+jquery selecting manipulating html elements outside dom 
+NULL ({ }) manipulate ({ 1 2 3 4 5 6 }) dom ({ 7 }) elements ({ }) adding ({ }) document ({ }) 
+# Sentence pair (433) source length 4 target length 8 alignment score : 1.11356e-09
+javascript closure inside loops – simple practical example 
+NULL ({ }) javascript ({ 1 }) infamous ({ 2 3 4 5 6 7 8 }) loop ({ }) issue ({ }) 
+# Sentence pair (438) source length 3 target length 4 alignment score : 2.38858e-05
+execute jsp directly java 
+NULL ({ }) rendering ({ 1 2 3 4 }) jsp ({ }) string ({ }) 
+# Sentence pair (441) source length 3 target length 3 alignment score : 0.00329646
+sign java midlet 
+NULL ({ }) sign ({ 1 }) java ({ 2 }) midlet ({ 3 }) 
+# Sentence pair (446) source length 4 target length 3 alignment score : 0.000122036
+uses getter/setters java 
+NULL ({ }) java ({ }) getter ({ }) setter ({ 1 2 }) method ({ 3 }) 
+# Sentence pair (450) source length 6 target length 6 alignment score : 4.02497e-08
+running .sql script using mysql jdbc 
+NULL ({ }) execute ({ }) .sql ({ 1 2 3 }) script ({ }) file ({ }) using ({ 4 }) jdbc ({ 5 6 }) 
+# Sentence pair (456) source length 4 target length 5 alignment score : 2.49633e-07
+parse command line arguments java 
+NULL ({ }) best ({ }) cli ({ 1 2 3 4 }) parser ({ }) java ({ 5 }) 
+# Sentence pair (460) source length 5 target length 4 alignment score : 2.1266e-05
+see jit-compiled code jvm 
+NULL ({ }) see ({ }) code ({ }) hotspot ({ }) generates ({ }) optimizing ({ 1 2 3 4 }) 
+# Sentence pair (464) source length 4 target length 5 alignment score : 1.32727e-07
+cols colgroups css hover psuedoclass 
+NULL ({ }) html ({ }) hover ({ }) table ({ }) column ({ 1 2 3 4 5 }) 
+# Sentence pair (468) source length 5 target length 6 alignment score : 2.12416e-15
+dynamically access object property using variable 
+NULL ({ }) use ({ }) javascript ({ }) variable ({ 5 6 }) object ({ 3 4 }) name ({ 1 2 }) 
+# Sentence pair (474) source length 5 target length 5 alignment score : 1.57814e-06
+using get parameter url javascript 
+NULL ({ }) extract ({ 1 }) get ({ 2 }) parameter ({ 3 }) url ({ 4 }) javascript ({ 5 }) 
+# Sentence pair (479) source length 9 target length 4 alignment score : 7.16927e-06
+way make div unselectable 
+NULL ({ }) imitate ({ }) `` ({ }) onselectstart=return ({ }) false ({ }) '' ({ }) using ({ }) css ({ }) non-js ({ 1 2 3 4 }) approach ({ }) 
+# Sentence pair (489) source length 6 target length 4 alignment score : 1.11577e-05
+detect mouse leaves window 
+NULL ({ }) javascript ({ }) event ({ }) mouse ({ }) leaves ({ 1 2 3 4 }) browser ({ }) window ({ }) 
+# Sentence pair (493) source length 5 target length 5 alignment score : 8.23304e-09
+strange problem comparing floats objective-c 
+NULL ({ }) work ({ }) around ({ 1 2 3 4 5 }) decimal ({ }) problem ({ }) javascript ({ }) 
+# Sentence pair (496) source length 4 target length 3 alignment score : 1.01434e-05
+java clear console 
+NULL ({ }) clear ({ 2 3 }) screen ({ }) option ({ }) java ({ 1 }) 
+# Sentence pair (499) source length 3 target length 3 alignment score : 0.000257805
+obfuscate protect javascript 
+NULL ({ }) obfuscating ({ 1 2 3 }) jquery ({ }) code ({ }) 
+# Sentence pair (502) source length 8 target length 4 alignment score : 1.82415e-05
+get insert id jdbc 
+NULL ({ }) getting ({ }) last ({ 1 2 }) inserted ({ 3 4 }) record ({ }) id ({ }) database ({ }) table ({ }) java ({ }) 
+# Sentence pair (506) source length 5 target length 5 alignment score : 2.54833e-09
+execute javascript function name string 
+NULL ({ }) calling ({ }) javascript ({ 2 }) function ({ }) named ({ 1 3 4 5 }) variable ({ }) 
+# Sentence pair (511) source length 4 target length 9 alignment score : 8.56951e-13
+jquery autocomplete tagging plug-in like stackoverflow 's input tags 
+NULL ({ }) search ({ }) tags ({ }) like ({ }) stackoverflow ({ 1 2 3 4 5 6 7 8 9 }) 
+# Sentence pair (515) source length 9 target length 13 alignment score : 2.63214e-23
+getting browser cursor `` wait '' `` auto '' without user moving mouse 
+NULL ({ }) get ({ }) cursor ({ 3 }) change ({ }) mouse ({ 13 }) moves ({ 1 2 8 9 10 11 12 }) changing ({ 4 5 6 7 }) cursor ({ }) style ({ }) dynamically ({ }) 
+# Sentence pair (532) source length 5 target length 4 alignment score : 8.6997e-05
+priorityqueue.tostring wrong element order 
+NULL ({ }) java ({ }) priority ({ 1 2 }) queue ({ 3 4 }) suppose ({ }) work ({ }) 
+# Sentence pair (534) source length 6 target length 6 alignment score : 5.61637e-08
+reasons map.get object key fully generic 
+NULL ({ }) several ({ }) java.util.list ({ 1 2 3 4 5 6 }) methods ({ }) use ({ }) type ({ }) parameter ({ }) 
+# Sentence pair (541) source length 9 target length 5 alignment score : 8.17697e-08
+pass variables data php javascript 
+NULL ({ }) access ({ }) php ({ 1 2 3 4 }) variables ({ }) javascript ({ 5 }) jquery ({ }) rather ({ }) php ({ }) echo ({ }) variable ({ }) 
+# Sentence pair (550) source length 4 target length 4 alignment score : 2.81283e-07
+stop setinterval call javascript 
+NULL ({ }) stop ({ 1 }) `` ({ }) setinterval ({ 2 3 }) '' ({ 4 }) 
+# Sentence pair (554) source length 7 target length 6 alignment score : 2.31746e-08
+function call scheduled settimeout executed immediately 
+NULL ({ }) issue ({ }) settimeout ({ }) ajax ({ }) based ({ }) polling ({ 1 2 3 4 5 6 }) using ({ }) jquery ({ }) 
+# Sentence pair (558) source length 3 target length 4 alignment score : 2.86995e-07
+extending enum via inheritance 
+NULL ({ }) java ({ }) enum ({ 1 2 3 }) inheritance ({ 4 }) 
+# Sentence pair (561) source length 3 target length 7 alignment score : 2.13439e-13
+easiest way find duplicate values javascript array 
+NULL ({ }) unique ({ 1 2 3 4 5 }) arrays ({ 7 }) javascript ({ 6 }) 
+# Sentence pair (566) source length 4 target length 5 alignment score : 1.62269e-08
+tool convert java c code 
+NULL ({ }) convert ({ 2 }) java ({ 3 }) c ({ 4 }) .net ({ 1 5 }) 
+# Sentence pair (569) source length 5 target length 4 alignment score : 0.000147396
+difference super extends java 
+NULL ({ }) difference ({ 1 }) 'super ({ 2 }) 'extends ({ 3 }) java ({ 4 }) generics ({ }) 
+# Sentence pair (572) source length 4 target length 6 alignment score : 1.79106e-07
+getting file 's mime type java 
+NULL ({ }) howto ({ 1 2 3 }) extract ({ }) mimetype ({ 4 5 6 }) byte ({ }) 
+# Sentence pair (577) source length 4 target length 7 alignment score : 1.69129e-11
+legitimate uses javascript 's `` '' statement 
+NULL ({ }) `` ({ }) '' ({ }) keyword ({ 1 2 4 5 6 7 }) javascript ({ 3 }) 
+# Sentence pair (583) source length 5 target length 4 alignment score : 0.000118114
+return response asynchronous call 
+NULL ({ }) return ({ 1 }) variable ({ }) function ({ }) called ({ }) onreadystatechange=function ({ 2 3 4 }) 
+# Sentence pair (590) source length 5 target length 5 alignment score : 2.45748e-07
+get value last inserted row 
+NULL ({ }) value ({ }) last ({ 1 }) inserted ({ }) row ({ }) db ({ 2 3 4 5 }) 
+# Sentence pair (595) source length 5 target length 5 alignment score : 2.29161e-06
+global variable usage page reload 
+NULL ({ }) persist ({ 1 2 3 4 5 }) javascript ({ }) variables ({ }) across ({ }) pages ({ }) 
+# Sentence pair (599) source length 5 target length 5 alignment score : 1.14513e-08
+mean `` program interface '' 
+NULL ({ }) `` ({ 1 2 }) program ({ 3 }) interface ({ 4 }) '' ({ 5 }) mean ({ }) 
+# Sentence pair (604) source length 4 target length 4 alignment score : 8.74586e-05
+capturing image webcam java 
+NULL ({ }) capture ({ }) video ({ }) webcam ({ 1 2 3 }) java ({ 4 }) 
+# Sentence pair (609) source length 6 target length 2 alignment score : 0.00320794
+comet jquery 
+NULL ({ }) jquery ({ }) comet ({ }) long ({ }) polling ({ }) streaming ({ }) tutorials ({ 1 2 }) 
+# Sentence pair (614) source length 9 target length 2 alignment score : 0.00161607
+compiling java 
+NULL ({ }) ca ({ }) n't ({ }) assign ({ }) int ({ }) integer ({ }) loop ({ }) without ({ }) curly ({ 1 2 }) braces ({ }) 
+# Sentence pair (617) source length 5 target length 4 alignment score : 9.27866e-06
+cheat single inheritance java 
+NULL ({ }) inherit ({ }) multiple ({ }) base ({ 1 2 3 }) classes ({ }) java ({ 4 }) 
+# Sentence pair (621) source length 2 target length 6 alignment score : 2.50152e-07
+list valid suppresswarnings warning names java 
+NULL ({ }) suppresswarnings ({ 1 2 3 4 5 6 }) values ({ }) 
+# Sentence pair (624) source length 4 target length 4 alignment score : 2.24344e-05
+built support sets php 
+NULL ({ }) equivent ({ 1 2 3 }) java ({ }) set ({ }) php ({ 4 }) 
+# Sentence pair (629) source length 2 target length 5 alignment score : 2.14848e-10
+makes following code print false 
+NULL ({ }) var ({ }) var ({ 1 2 3 4 5 }) 
+# Sentence pair (632) source length 10 target length 11 alignment score : 1.76185e-22
+anti-pattern always use get set methods access class 's member fields 
+NULL ({ }) better ({ }) use ({ 3 }) getter ({ 1 2 4 5 8 9 10 }) methods ({ }) access ({ 7 }) private ({ 6 11 }) fields ({ }) directly ({ }) overriding ({ }) tostring ({ }) 
+# Sentence pair (651) source length 2 target length 6 alignment score : 9.57803e-08
+java rationale object class declared abstract 
+NULL ({ }) java.lang.object ({ 1 2 3 4 5 }) abstract ({ 6 }) 
+# Sentence pair (655) source length 4 target length 2 alignment score : 0.0135623
+'synchronized mean 
+NULL ({ }) would ({ }) use ({ }) java ({ }) synchronization ({ 1 2 }) 
+# Sentence pair (658) source length 6 target length 5 alignment score : 1.4186e-08
+eclipse complain override interface methods 
+NULL ({ }) get ({ }) java ({ }) 5 ({ 1 2 3 }) ignore ({ 4 5 }) override ({ }) errors ({ }) 
+# Sentence pair (663) source length 11 target length 6 alignment score : 1.99141e-07
+var functionname function vs function functionname 
+NULL ({ }) `` ({ }) function ({ }) foo ({ }) bar ({ }) '' ({ }) versus ({ }) `` ({ }) foo ({ 1 2 3 4 5 6 }) function ({ }) bar ({ }) '' ({ }) 
+# Sentence pair (669) source length 10 target length 8 alignment score : 7.96552e-11
+java program retreive page source google search automatically 
+NULL ({ }) possble ({ 1 2 }) retreive ({ 3 4 }) page ({ }) source ({ 5 }) google ({ 6 }) search ({ 7 }) automatically ({ 8 }) using ({ }) java ({ }) program ({ }) 
+# Sentence pair (677) source length 4 target length 3 alignment score : 0.000642995
+abstract class constructor 
+NULL ({ }) abstract ({ 1 }) classes ({ 2 }) java ({ }) constructors ({ 3 }) 
+# Sentence pair (682) source length 6 target length 6 alignment score : 1.6688e-10
+servlets work instantiation shared variables multithreading 
+NULL ({ }) difference ({ }) instance ({ }) servlet ({ }) thread ({ }) servlet ({ }) servlets ({ 1 2 3 4 5 6 }) 
+# Sentence pair (691) source length 11 target length 6 alignment score : 4.44949e-08
+count vs length vs size collection 
+NULL ({ }) technical ({ }) difference ({ }) terms ({ }) `` ({ }) length ({ }) '' ({ }) `` ({ }) size ({ }) '' ({ }) programming ({ }) course ({ 1 2 3 4 5 6 }) 
+# Sentence pair (703) source length 4 target length 8 alignment score : 9.9701e-15
+use keyword `` final '' method parameter java 
+NULL ({ }) final ({ 1 }) keyword ({ 2 3 4 5 }) method ({ 6 7 8 }) parameters ({ }) 
+# Sentence pair (708) source length 6 target length 3 alignment score : 1.35021e-05
+make sleep javascript 
+NULL ({ }) javascript ({ }) support ({ }) multiple ({ }) threads ({ 1 2 3 }) implement ({ }) sleep ({ }) 
+# Sentence pair (712) source length 6 target length 6 alignment score : 7.38392e-09
+check one string contains another substring 
+NULL ({ }) check ({ 1 }) `` ({ }) contains ({ 2 3 4 5 6 }) '' ({ }) using ({ }) jquery ({ }) 
+# Sentence pair (718) source length 6 target length 4 alignment score : 3.23892e-05
+floating point math broken 
+NULL ({ }) javasript ({ 1 2 3 4 }) 's ({ }) strict ({ }) comparison ({ }) act ({ }) way ({ }) 
+# Sentence pair (722) source length 7 target length 4 alignment score : 5.3266e-06
+'contains method java.lang.string case-sensitive 
+NULL ({ }) java ({ }) check ({ }) string ({ }) contains ({ }) substring ({ 1 2 3 4 }) ignoring ({ }) case ({ }) 
+# Sentence pair (727) source length 7 target length 10 alignment score : 3.8834e-15
+many collection classes java extend abstract class implement interface well 
+NULL ({ 4 }) java.util.hashmap ({ 1 2 3 5 6 }) -- ({ }) hashmap ({ }) extends ({ }) abstractmap ({ 7 8 9 10 }) implement ({ }) map ({ }) 
+# Sentence pair (738) source length 7 target length 7 alignment score : 1.41177e-09
+worth code different functionality users javascript disabled 
+NULL ({ }) worth ({ }) time ({ }) care ({ 1 2 3 4 }) users ({ 5 }) javascript ({ 6 }) disabled ({ 7 }) browsers ({ }) 
+# Sentence pair (744) source length 8 target length 5 alignment score : 5.28403e-08
+access local scope dynamically javascript 
+NULL ({ }) javascript ({ }) get ({ }) access ({ }) local ({ 1 2 3 4 5 }) variable ({ }) variable ({ }) closure ({ }) name ({ }) 
+# Sentence pair (751) source length 4 target length 5 alignment score : 2.21581e-07
+uses java void reference type 
+NULL ({ }) need ({ }) void ({ 1 3 4 5 }) class ({ }) java ({ 2 }) 
+# Sentence pair (756) source length 6 target length 4 alignment score : 6.67459e-06
+people minify assets html 
+NULL ({ }) many ({ }) sites ({ 1 2 3 }) minify ({ }) css ({ }) javascript ({ }) html ({ 4 }) 
+# Sentence pair (760) source length 4 target length 3 alignment score : 0.00011438
+trigger soft keyboard 
+NULL ({ }) display ({ }) keyboard ({ 1 2 3 }) android ({ }) application ({ }) 
+# Sentence pair (762) source length 4 target length 3 alignment score : 0.00073157
+override alert function 
+NULL ({ }) remove ({ }) alert ({ }) box ({ }) pops ({ 1 2 3 }) 
+# Sentence pair (764) source length 5 target length 5 alignment score : 6.63456e-08
+pass variables data php javascript 
+NULL ({ }) use ({ }) javascript ({ 5 }) variable ({ }) php ({ 1 2 3 4 }) variable ({ }) 
+# Sentence pair (769) source length 2 target length 6 alignment score : 2.00263e-07
+recommend using semicolons every statement javascript 
+NULL ({ }) use ({ }) semicolon ({ 1 2 3 4 5 6 }) 
+# Sentence pair (773) source length 4 target length 6 alignment score : 7.68561e-09
+test two jquery wrapped dom elements 
+NULL ({ }) compare ({ 1 2 }) two ({ }) elements ({ 3 4 5 6 }) jquery ({ }) 
+# Sentence pair (777) source length 4 target length 6 alignment score : 4.53354e-10
+concrete risks using custom html attributes 
+NULL ({ }) custom ({ 1 2 3 4 6 }) attribute ({ }) html ({ 5 }) element ({ }) 
+# Sentence pair (782) source length 4 target length 5 alignment score : 7.26628e-06
+read-only properties implemented pure javascript 
+NULL ({ }) make ({ }) variable/object ({ 1 2 3 4 }) read ({ }) javascript ({ 5 }) 
+# Sentence pair (785) source length 5 target length 8 alignment score : 7.8731e-14
+detect certain software installed user 's machine java 
+NULL ({ }) check ({ }) program ({ }) installed ({ 1 2 3 4 }) windows ({ }) system ({ 5 6 7 8 }) 
+# Sentence pair (789) source length 3 target length 6 alignment score : 1.48433e-07
+possible get excanvas work ie 8 
+NULL ({ }) excanvas ({ 1 2 3 4 }) work ({ }) ie8 ({ 5 6 }) 
+# Sentence pair (794) source length 7 target length 7 alignment score : 4.6956e-12
+add property javascript object using variable name 
+NULL ({ }) create ({ 1 }) dynamic ({ 2 }) key ({ 4 5 6 7 }) added ({ }) javascript ({ 3 }) object ({ }) variable ({ }) 
+# Sentence pair (801) source length 2 target length 4 alignment score : 7.93144e-05
+r resolved android error 
+NULL ({ }) r.id ({ 1 2 3 4 }) resolved ({ }) 
+# Sentence pair (805) source length 7 target length 8 alignment score : 5.21791e-10
+causes 'java.lang.nosuchmethoderror main exception thread `` main '' 
+NULL ({ }) exception ({ 1 2 3 4 }) thread ({ 5 }) `` ({ }) main ({ 6 7 8 }) '' ({ }) java.lang.nosuchmethoderror ({ }) main ({ }) 
+# Sentence pair (812) source length 3 target length 5 alignment score : 9.0675e-08
+what’s current state closures java 
+NULL ({ }) closures ({ }) java ({ }) 7 ({ 1 2 3 4 5 }) 
+# Sentence pair (814) source length 4 target length 6 alignment score : 3.21376e-08
+print query string hibernate parameter values 
+NULL ({ }) hibernate ({ }) show ({ }) real ({ 1 2 3 4 5 6 }) sql ({ }) 
+# Sentence pair (819) source length 4 target length 5 alignment score : 4.11303e-07
+raw strings java regex particular 
+NULL ({ }) equivalent ({ }) verbatim ({ 1 2 4 5 }) operator ({ }) java ({ 3 }) 
+# Sentence pair (824) source length 11 target length 4 alignment score : 3.88271e-06
+content allowed prolog saxparserexception 
+NULL ({ }) java ({ }) parsing ({ }) xml ({ }) document ({ }) gives ({ }) `` ({ }) content ({ }) allowed ({ }) prolog ({ 1 2 3 4 }) '' ({ }) error ({ }) 
+# Sentence pair (833) source length 3 target length 3 alignment score : 0.000906816
+javascript pause settimeout 
+NULL ({ }) pause ({ 1 2 3 }) settimeout ({ }) call ({ }) 
+# Sentence pair (836) source length 7 target length 6 alignment score : 2.29643e-10
+get number days two dates javascript 
+NULL ({ }) calculate ({ 1 }) number ({ }) days ({ 2 3 4 5 }) two ({ }) dates ({ }) using ({ }) javascript ({ 6 }) 
+# Sentence pair (843) source length 5 target length 4 alignment score : 2.3944e-05
+'innertext works ie firefox 
+NULL ({ }) innertext/textcontent ({ 1 2 3 }) vs. ({ }) retrieving ({ 4 }) text ({ }) node ({ }) 
+# Sentence pair (846) source length 3 target length 3 alignment score : 2.90168e-06
+java regex problem 
+NULL ({ }) java ({ 1 }) regex ({ 2 3 }) problem ({ }) 
+# Sentence pair (849) source length 8 target length 4 alignment score : 5.71814e-06
+remember last state jquery 
+NULL ({ }) jquery ({ }) nested ({ }) ul/li ({ }) list ({ }) keep ({ }) expanded ({ 1 2 3 4 }) reload ({ }) page ({ }) 
+# Sentence pair (855) source length 5 target length 5 alignment score : 2.1301e-06
+jsf convertdatetime renders previous day 
+NULL ({ }) f ({ 1 }) convertdatetime ({ 2 3 }) displays ({ 4 5 }) wrong ({ }) date ({ }) 
+# Sentence pair (860) source length 7 target length 8 alignment score : 4.10731e-11
+javascript jquery performance measurement best practices load time 
+NULL ({ }) common ({ 1 2 }) causes ({ }) slow ({ }) performing ({ 3 4 5 6 7 8 }) jquery ({ }) optimize ({ }) code ({ }) 
+# Sentence pair (865) source length 4 target length 5 alignment score : 1.56173e-08
+switch statement fallthrough ... allowed 
+NULL ({ }) switch ({ }) statements ({ }) continue ({ 3 4 5 }) case ({ 1 2 }) 
+# Sentence pair (870) source length 4 target length 5 alignment score : 1.07233e-06
+learning algorithms data structures fundamentals 
+NULL ({ }) implementations ({ }) various ({ 1 2 3 4 5 }) data ({ }) structures ({ }) 
+# Sentence pair (874) source length 6 target length 3 alignment score : 0.00165627
+java rss library 
+NULL ({ }) java ({ 1 }) library ({ }) reading ({ }) rss ({ }) atom ({ }) feeds ({ 2 3 }) 
+# Sentence pair (880) source length 5 target length 7 alignment score : 9.91214e-11
+equivalent __nosuchmethod__ feature properties way implement js 
+NULL ({ }) catch ({ 1 2 3 4 5 6 7 }) access ({ }) undefined ({ }) property ({ }) javascript ({ }) 
+# Sentence pair (886) source length 3 target length 5 alignment score : 1.58979e-09
+check `` undefined '' javascript 
+NULL ({ }) javascript ({ 5 }) undefined ({ 1 2 3 4 }) compare ({ }) 
+# Sentence pair (890) source length 4 target length 7 alignment score : 4.58194e-12
+choosing java vs python google app engine 
+NULL ({ }) google ({ 5 }) appengine ({ 6 7 }) java ({ 2 }) python ({ 1 3 4 }) 
+# Sentence pair (897) source length 3 target length 6 alignment score : 2.63146e-09
+possible create empty multidimensional array javascript/jquery 
+NULL ({ }) javascript ({ }) multidimensional ({ 1 2 3 4 5 6 }) arrays ({ }) 
+# Sentence pair (899) source length 7 target length 6 alignment score : 1.71531e-08
+detect page zoom level modern browsers 
+NULL ({ }) programmatically ({ }) determine ({ }) current ({ }) zoom ({ 1 2 3 4 5 6 }) level ({ }) browser ({ }) window ({ }) 
+# Sentence pair (907) source length 5 target length 4 alignment score : 5.12416e-08
+check whether object date 
+NULL ({ }) way ({ }) check ({ 1 2 3 }) variable ({ }) date ({ 4 }) javascript ({ }) 
+# Sentence pair (912) source length 9 target length 4 alignment score : 1.86566e-05
+get insert id jdbc 
+NULL ({ }) sql ({ }) java ({ }) get ({ 1 }) value ({ }) assigned ({ 2 3 4 }) auto ({ }) increment ({ }) primary ({ }) key ({ }) 
+# Sentence pair (917) source length 4 target length 3 alignment score : 8.16972e-06
+trigger event javascript 
+NULL ({ }) trigger ({ 1 }) onchange ({ }) event ({ 2 3 }) manually ({ }) 
+# Sentence pair (921) source length 8 target length 11 alignment score : 1.33599e-13
+official reasons `` software caused connection abort socket write error '' 
+NULL ({ }) java.net.socketexception ({ 1 2 3 }) software ({ 4 }) caused ({ 5 }) connection ({ 6 }) abort ({ 7 }) socket ({ 8 }) write ({ 9 }) error ({ 10 11 }) 
+# Sentence pair (929) source length 3 target length 4 alignment score : 5.41552e-06
+read javascript native code 
+NULL ({ }) inspect ({ 1 2 }) native ({ 3 4 }) code ({ }) 
+# Sentence pair (934) source length 5 target length 9 alignment score : 8.10476e-15
+matter equals operator == vs === use javascript comparisons 
+NULL ({ }) use ({ }) === ({ 1 2 3 4 5 6 7 9 }) operator ({ }) check ({ }) javascript ({ 8 }) 
+# Sentence pair (944) source length 3 target length 3 alignment score : 0.00104362
+native keyword java 
+NULL ({ }) usage ({ }) native ({ 1 2 }) java ({ 3 }) 
+# Sentence pair (947) source length 4 target length 5 alignment score : 8.28932e-07
+varying behavior possible loss precision 
+NULL ({ }) += ({ 1 2 3 4 5 }) int ({ }) double ({ }) conversion ({ }) 
+# Sentence pair (953) source length 5 target length 7 alignment score : 1.4483e-07
+java `` pass-by-reference '' `` pass-by-value '' 
+NULL ({ }) java ({ 1 }) parameters ({ }) passed ({ 2 3 4 5 6 7 }) reference ({ }) value ({ }) 
+# Sentence pair (958) source length 3 target length 5 alignment score : 8.26118e-12
+use double single quotes javascript 
+NULL ({ }) javascript ({ 5 }) string ({ }) difference ({ 1 2 3 4 }) 
+# Sentence pair (962) source length 4 target length 8 alignment score : 2.99461e-11
+programmatically tell html select drop example due mouseover 
+NULL ({ }) display ({ }) dropdown ({ 1 2 3 4 5 6 7 8 }) options ({ }) focus ({ }) 
+# Sentence pair (967) source length 5 target length 6 alignment score : 1.41084e-09
+... null 'null ... best performance 
+NULL ({ }) difference ({ }) null ({ }) object ({ }) object ({ }) =null ({ 1 2 3 4 5 6 }) 
+# Sentence pair (970) source length 2 target length 4 alignment score : 1.6851e-05
+use marker interfaces java 
+NULL ({ }) marker ({ 1 2 3 4 }) interfaces ({ }) 
+# Sentence pair (973) source length 5 target length 5 alignment score : 3.79017e-09
+close/kill session browser tab closed 
+NULL ({ }) cross ({ 1 2 4 5 }) browser ({ 3 }) window ({ }) close ({ }) event ({ }) 
+# Sentence pair (978) source length 6 target length 4 alignment score : 6.21624e-05
+permission denied ie iframe 
+NULL ({ }) `` ({ }) access ({ }) denied ({ 1 2 3 }) '' ({ }) iframe ({ 4 }) ie ({ }) 
+# Sentence pair (983) source length 5 target length 6 alignment score : 2.30759e-09
+regex replace string literals java file 
+NULL ({ }) properly ({ }) match ({ 1 2 3 4 6 }) java ({ 5 }) string ({ }) literal ({ }) 
+# Sentence pair (987) source length 6 target length 6 alignment score : 1.07973e-08
+stop parsing xml document sax time 
+NULL ({ }) java ({ }) sax ({ 1 2 3 4 5 6 }) parser ({ }) manually ({ }) break ({ }) parsing ({ }) 
+# Sentence pair (992) source length 9 target length 8 alignment score : 3.44263e-12
+java.sql.sqlexception parameter index range 1 number parameters 0 
+NULL ({ }) exception ({ }) java.sql.sqlexception ({ 1 2 }) parameter ({ }) index ({ 3 }) range ({ 4 }) 1 ({ 5 }) number ({ 6 }) parameters ({ 7 }) 0 ({ 8 }) 
+# Sentence pair (999) source length 3 target length 9 alignment score : 3.826e-18
+'s reason ca n't create generic array types java 
+NULL ({ }) create ({ 5 6 }) array ({ 7 }) collection ({ 1 2 3 4 8 9 }) 
+# Sentence pair (1005) source length 4 target length 7 alignment score : 8.1203e-09
+get current date time utc gmt java 
+NULL ({ }) get ({ 1 }) current ({ 2 3 }) time ({ 4 }) gmt ({ 5 6 7 }) 
+# Sentence pair (1012) source length 5 target length 2 alignment score : 0.00274487
+java generics 
+NULL ({ }) role ({ 1 2 }) data ({ }) types ({ }) inside ({ }) java ({ }) 
+# Sentence pair (1014) source length 4 target length 4 alignment score : 1.03594e-06
+disabling back button browser 
+NULL ({ }) disable ({ }) back ({ 1 2 }) button ({ 3 }) browser ({ 4 }) 
+# Sentence pair (1017) source length 6 target length 2 alignment score : 0.00414723
+lsuielement working 
+NULL ({ }) java ({ }) os ({ }) x ({ }) app ({ }) icon ({ }) dock ({ 1 2 }) 
+# Sentence pair (1021) source length 4 target length 3 alignment score : 0.00165125
+java rss library 
+NULL ({ }) question ({ }) rss ({ }) feed ({ 1 2 3 }) application ({ }) 
+# Sentence pair (1024) source length 6 target length 5 alignment score : 4.62395e-06
+appending files zip file java 
+NULL ({ }) add ({ }) entries ({ }) existing ({ 1 }) zip ({ 2 3 }) file ({ 4 }) java ({ 5 }) 
+# Sentence pair (1029) source length 4 target length 3 alignment score : 0.000129991
+places javabeans used 
+NULL ({ }) `` ({ }) java ({ }) beans ({ 1 2 3 }) '' ({ }) 
+# Sentence pair (1032) source length 3 target length 7 alignment score : 2.87343e-10
+implementing mozilla 's tosource method internet explorer 
+NULL ({ }) tosource ({ 1 2 3 4 5 }) internet ({ 6 7 }) explorer ({ }) 
+# Sentence pair (1037) source length 3 target length 3 alignment score : 0.000175293
+debug javascript code 
+NULL ({ }) debug ({ 1 3 }) javascript ({ 2 }) program ({ }) 
+# Sentence pair (1043) source length 5 target length 4 alignment score : 7.98659e-08
+javascript anonymous function wrapper 
+NULL ({ }) 's ({ }) purpose ({ 1 2 3 4 }) following ({ }) js ({ }) structure ({ }) 
+# Sentence pair (1049) source length 5 target length 8 alignment score : 6.79233e-12
+good way map string get put ignoring case 
+NULL ({ }) check ({ }) key ({ }) map ({ }) irrespective ({ 1 2 3 4 5 6 7 }) case ({ 8 }) 
+# Sentence pair (1051) source length 6 target length 6 alignment score : 5.57094e-11
+java insert multiple rows mysql preparedstatement 
+NULL ({ }) multiple ({ 3 }) row ({ 4 5 6 }) insert ({ 2 }) sql ({ }) server ({ }) java ({ 1 }) 
+# Sentence pair (1055) source length 5 target length 6 alignment score : 1.52653e-08
+`` var _gaq _gaq || `` 
+NULL ({ }) mean ({ }) var ({ }) _gaq ({ }) _gaq ({ 1 2 3 4 5 6 }) || ({ }) 
+# Sentence pair (1058) source length 4 target length 4 alignment score : 3.8041e-05
+execute jsp directly java 
+NULL ({ }) jsp ({ }) outside ({ }) web ({ }) container ({ 1 2 3 4 }) 
+# Sentence pair (1061) source length 10 target length 6 alignment score : 5.69551e-10
+setting methods prototype object constructor difference 
+NULL ({ }) creating ({ }) function ({ }) within ({ }) constructor ({ }) function ({ }) use ({ }) memory ({ }) referencing ({ 1 2 3 4 5 6 }) prototype ({ }) function ({ }) 
+# Sentence pair (1067) source length 7 target length 6 alignment score : 1.17339e-10
+pass vars javascript via src attribute 
+NULL ({ }) pass ({ 1 }) parameter ({ 2 3 4 5 6 }) directly ({ }) .js ({ }) file ({ }) get ({ }) value ({ }) 
+# Sentence pair (1072) source length 5 target length 3 alignment score : 0.000163847
+difference javabean pojo 
+NULL ({ }) difference ({ 1 }) javabean ({ }) pojo ({ 2 3 }) normal ({ }) class ({ }) 
+# Sentence pair (1075) source length 5 target length 3 alignment score : 4.51334e-05
+closures java 7 
+NULL ({ }) closures ({ }) supported ({ }) final ({ }) jdk ({ }) 7 ({ 1 2 3 }) 
+# Sentence pair (1079) source length 5 target length 8 alignment score : 6.36887e-12
+place read configuration resource files servlet based application 
+NULL ({ }) read ({ 1 2 3 4 5 6 7 8 }) properties ({ }) file ({ }) web ({ }) application ({ }) 
+# Sentence pair (1086) source length 7 target length 4 alignment score : 8.79237e-06
+self-references object literal declarations 
+NULL ({ }) javascript ({ }) object ({ }) property ({ }) refer ({ 1 2 3 4 }) another ({ }) property ({ }) object ({ }) 
+# Sentence pair (1091) source length 8 target length 5 alignment score : 6.33234e-07
+working java mail server testing 
+NULL ({ }) easiest ({ }) way ({ }) mock ({ }) imap ({ 1 }) pop ({ }) server ({ }) unit ({ }) tests ({ 2 3 4 5 }) 
+# Sentence pair (1098) source length 12 target length 9 alignment score : 3.61986e-14
+known problems/bugs objectcontribution popup cvs history view 's working 
+NULL ({ }) eclipse ({ }) plugin ({ }) popup ({ }) menu ({ }) extension ({ }) ilogentry ({ }) cvs ({ 5 }) revisions ({ }) history ({ }) showing ({ }) objectcontribution ({ 6 7 8 9 }) plugin.xml ({ 1 2 3 4 }) 
+# Sentence pair (1111) source length 5 target length 4 alignment score : 2.3586e-06
+return response asynchronous call 
+NULL ({ }) javascript ({ }) global ({ }) variables ({ }) ajax ({ 1 2 3 4 }) requests ({ }) 
+# Sentence pair (1114) source length 7 target length 20 alignment score : 2.56208e-27
+remove diacritical marks ń ǹ ň ñ ṅ ņ ṇ ṋ ṉ ̈ ɲ ƞ ᶇ ɳ ȵ unicode chars 
+NULL ({ }) removing ({ 1 }) accent ({ 2 3 4 5 6 7 }) marks ({ }) diacritics ({ 8 9 10 11 12 13 }) latin ({ 14 15 16 17 18 19 20 }) characters ({ }) comparison ({ }) 
+# Sentence pair (1128) source length 7 target length 5 alignment score : 3.19986e-06
+java 's equivalents func action 
+NULL ({ }) java ({ 1 }) equivalent ({ }) .net ({ }) action ({ }) func ({ }) u ({ }) etc ({ 2 3 4 5 }) 
+# Sentence pair (1133) source length 5 target length 5 alignment score : 5.44668e-09
+replace line breaks string c 
+NULL ({ }) remove ({ }) line ({ 1 2 3 4 }) breaks ({ 5 }) white ({ }) spaces ({ }) 
+# Sentence pair (1138) source length 6 target length 6 alignment score : 2.25281e-07
+make os x recognize drive letters 
+NULL ({ }) make ({ 1 }) os ({ 2 3 }) x ({ }) recognize ({ }) drive ({ 4 5 6 }) letters ({ }) 
+# Sentence pair (1142) source length 3 target length 4 alignment score : 0.000164754
+anyone explain servlet mapping 
+NULL ({ }) role ({ }) servlet-mapping ({ 1 2 }) web.xml ({ 3 4 }) 
+# Sentence pair (1147) source length 3 target length 7 alignment score : 4.19413e-12
+one use final method parameters local variables 
+NULL ({ }) final ({ 1 2 3 4 5 6 7 }) object ({ }) java ({ }) 
+# Sentence pair (1151) source length 7 target length 4 alignment score : 3.13035e-06
+reading cookie expiration date 
+NULL ({ }) get ({ }) cookie ({ }) expiration ({ 1 2 3 }) date ({ 4 }) creation ({ }) date ({ }) javascript ({ }) 
+# Sentence pair (1155) source length 4 target length 3 alignment score : 0.000245213
+format numbers javascript 
+NULL ({ }) javascript ({ }) split ({ }) string ({ }) parts ({ 1 2 3 }) 
+# Sentence pair (1159) source length 5 target length 3 alignment score : 0.000172868
+compare strings java 
+NULL ({ }) strings ({ 1 2 }) java ({ 3 }) equals ({ }) vs ({ }) == ({ }) 
+# Sentence pair (1163) source length 6 target length 5 alignment score : 5.3676e-07
+import contact gmail using java 
+NULL ({ }) import ({ 1 }) contact ({ 2 3 4 }) list ({ }) gmail ({ }) java ({ 5 }) program ({ }) 
+# Sentence pair (1166) source length 5 target length 3 alignment score : 0.000780724
+video conversion java 
+NULL ({ }) video ({ 1 2 }) format ({ }) converter ({ }) using ({ }) java ({ 3 }) 
+# Sentence pair (1170) source length 4 target length 6 alignment score : 3.62468e-07
+object oriented design sic assembler java 
+NULL ({ }) code ({ }) sic ({ 1 2 }) assembler ({ 3 4 5 }) java ({ 6 }) 
+# Sentence pair (1174) source length 6 target length 6 alignment score : 6.6983e-08
+leading wildcard character throws error lucene.net 
+NULL ({ }) query ({ }) lucene ({ 1 2 3 4 5 6 }) `` ({ }) like ({ }) '' ({ }) operator ({ }) 
+# Sentence pair (1180) source length 1 target length 2 alignment score : 1.04184e-05
+jquery vs 
+NULL ({ }) use ({ 1 2 }) 
+# Sentence pair (1182) source length 7 target length 6 alignment score : 3.00765e-12
+scala subclass java class multiple constructors 
+NULL ({ }) multiple ({ 5 }) constructors ({ 6 }) scala ({ 1 2 4 }) call ({ }) different ({ }) super ({ 3 }) methods ({ }) 
+# Sentence pair (1190) source length 3 target length 11 alignment score : 5.70738e-19
+jsf returns blank/unparsed page plain/raw xhtml/xml/el source instead rendered html output 
+NULL ({ }) jsf ({ 1 }) tags ({ 10 }) rendered ({ 2 3 4 5 6 7 8 9 11 }) 
+# Sentence pair (1195) source length 3 target length 4 alignment score : 2.49362e-05
+force thread dump eclipse 
+NULL ({ }) find ({ }) eclipse ({ }) freezing ({ 1 2 3 4 }) 
+# Sentence pair (1198) source length 7 target length 5 alignment score : 6.9432e-07
+upload files server using jsp/servlet 
+NULL ({ }) convenient ({ 1 2 3 }) way ({ }) parse ({ }) incoming ({ 4 5 }) multipart/form-data ({ }) parameters ({ }) servlet ({ }) 
+# Sentence pair (1205) source length 2 target length 2 alignment score : 0.0491692
+getelementsbyclassname return 
+NULL ({ }) getelementsbyclassname ({ 1 2 }) working ({ }) 
+# Sentence pair (1208) source length 4 target length 6 alignment score : 6.43402e-13
+would javascript variable start dollar sign 
+NULL ({ }) use ({ }) name ({ }) javascript ({ }) variables ({ 1 2 3 4 5 6 }) 
+# Sentence pair (1210) source length 3 target length 3 alignment score : 0.00320207
+string memory allocation 
+NULL ({ }) string ({ 1 }) memory ({ 2 }) allocation ({ 3 }) 
+# Sentence pair (1214) source length 6 target length 6 alignment score : 2.63955e-08
+find last modified file directory java 
+NULL ({ }) get ({ }) file ({ }) latest ({ }) lastmodified ({ 1 2 3 4 5 }) date ({ }) java ({ 6 }) 
+# Sentence pair (1223) source length 4 target length 6 alignment score : 7.2925e-13
+encrypt html css javascript prevent theft 
+NULL ({ 4 }) compile ({ }) html ({ 2 }) code ({ }) heavily ({ 1 3 5 6 }) 
+# Sentence pair (1228) source length 3 target length 5 alignment score : 2.45068e-07
+string class declared final java 
+NULL ({ }) string ({ 1 }) class ({ 2 }) final ({ 3 4 5 }) 
+# Sentence pair (1232) source length 3 target length 6 alignment score : 1.6402e-10
+pros cons leading java html parsers 
+NULL ({ }) html ({ 5 }) parser ({ 1 2 3 6 }) java ({ 4 }) 
+# Sentence pair (1237) source length 4 target length 2 alignment score : 0.0165889
+getelementsbyclassname return 
+NULL ({ }) wrong ({ }) getelementsbyclassname ({ 1 2 }) call ({ }) javascript ({ }) 
+# Sentence pair (1241) source length 6 target length 5 alignment score : 2.37719e-07
+deep copy vs shallow copy 
+NULL ({ }) java ({ }) cloning ({ }) deep ({ }) copy ({ }) shallow ({ 1 2 3 4 5 }) copy ({ }) 
+# Sentence pair (1247) source length 5 target length 5 alignment score : 4.13844e-07
+jquery tabs load contents clicked 
+NULL ({ }) want ({ }) tabs ({ 1 2 3 4 5 }) loaded ({ }) dynamically ({ }) clicked ({ }) 
+# Sentence pair (1253) source length 2 target length 4 alignment score : 0.000437033
+javascript class.method vs. class.prototype.method 
+NULL ({ }) javascript ({ 1 }) prototypes ({ 2 3 4 }) 
+# Sentence pair (1254) source length 3 target length 4 alignment score : 8.06433e-08
+converting xml java objects 
+NULL ({ }) xml ({ 1 2 4 }) java ({ 3 }) object ({ }) 
+# Sentence pair (1259) source length 6 target length 3 alignment score : 7.06626e-06
+load website div 
+NULL ({ }) jquery ({ }) ajax ({ }) load ({ 1 2 3 }) html ({ }) another ({ }) server ({ }) 
+# Sentence pair (1264) source length 3 target length 5 alignment score : 7.6232e-07
+use minimize compress javascript libraries 
+NULL ({ }) javascript/jquery ({ }) code ({ }) packer/obfuscator ({ 1 2 3 4 5 }) 
+# Sentence pair (1270) source length 5 target length 5 alignment score : 6.3273e-07
+degrees symbol degrees celsius/fahrenheit textview 
+NULL ({ }) android ({ }) set ({ }) degree ({ 1 2 3 4 5 }) symbol ({ }) textview ({ }) 
+# Sentence pair (1273) source length 4 target length 8 alignment score : 3.88474e-12
+java extends b b extends object multiple inheritance 
+NULL ({ }) multiple ({ 7 }) inheritance ({ 8 }) java ({ 1 }) work ({ 2 3 4 5 6 }) 
+# Sentence pair (1278) source length 4 target length 4 alignment score : 2.08575e-05
+remove property javascript object 
+NULL ({ }) remove ({ 1 2 }) key ({ }) javascript ({ 3 }) object ({ 4 }) 
+# Sentence pair (1281) source length 2 target length 4 alignment score : 0.000151153
+getting started unit testing 
+NULL ({ }) unit-testing ({ 1 2 3 4 }) start ({ }) 
+# Sentence pair (1285) source length 3 target length 3 alignment score : 0.000424517
+read/convert inputstream string 
+NULL ({ }) java ({ }) string ({ }) inputstream ({ 1 2 3 }) 
+# Sentence pair (1287) source length 3 target length 3 alignment score : 2.19799e-06
+type java mean 
+NULL ({ }) java ({ 2 }) syntax ({ 1 3 }) mean ({ }) 
+# Sentence pair (1291) source length 7 target length 3 alignment score : 2.78597e-05
+javascript closures work 
+NULL ({ }) javascript ({ 1 }) array ({ }) named ({ }) status ({ 2 3 }) working ({ }) google ({ }) chrome ({ }) 
+# Sentence pair (1294) source length 5 target length 4 alignment score : 1.2225e-05
+android redirect outgoing calls 
+NULL ({ }) android ({ 1 }) capture ({ }) new ({ }) outgoing ({ 2 3 4 }) call ({ }) 
+# Sentence pair (1298) source length 3 target length 2 alignment score : 0.0143675
+feelings javafx 
+NULL ({ }) javafx ({ 1 2 }) people ({ }) think ({ }) 
+# Sentence pair (1301) source length 3 target length 4 alignment score : 8.99466e-10
+weird integer boxing java 
+NULL ({ }) java ({ 4 }) == ({ }) operator ({ 1 2 3 }) 
+# Sentence pair (1306) source length 7 target length 5 alignment score : 1.98368e-07
+inserting text cursor using javascript/jquery 
+NULL ({ }) add ({ }) text ({ }) textarea ({ }) cursor ({ 1 2 3 4 5 }) location ({ }) using ({ }) javascript ({ }) 
+# Sentence pair (1312) source length 4 target length 5 alignment score : 3.29772e-07
+removing items collection java iterating 
+NULL ({ }) iterate ({ }) object ({ }) modifying ({ 1 2 3 5 }) java ({ 4 }) 
+# Sentence pair (1317) source length 5 target length 4 alignment score : 3.19662e-06
+difference jquery ready functions 
+NULL ({ }) document ({ }) .ready ({ 1 2 3 4 }) function ({ }) vs ({ }) function ({ }) 
+# Sentence pair (1322) source length 6 target length 7 alignment score : 4.2398e-09
+store data object array collected data base 
+NULL ({ }) store ({ 1 }) data ({ 2 }) object ({ 3 }) array ({ 4 }) collected ({ 5 6 7 }) database ({ }) 
+# Sentence pair (1327) source length 6 target length 4 alignment score : 5.04623e-06
+detecting undefined object property 
+NULL ({ }) create ({ }) statement ({ }) javascript ({ }) run ({ }) variable ({ }) undefined ({ 1 2 3 4 }) 
+# Sentence pair (1332) source length 5 target length 4 alignment score : 2.55919e-05
+floating point math broken 
+NULL ({ }) javascript ({ }) math ({ }) error ({ }) inexact ({ }) floats ({ 1 2 3 4 }) 
+# Sentence pair (1337) source length 4 target length 4 alignment score : 2.43729e-05
+figure highest z-index document 
+NULL ({ }) finding ({ }) highest ({ 1 2 }) z-index ({ 3 4 }) elements ({ }) 
+# Sentence pair (1339) source length 2 target length 4 alignment score : 9.14976e-05
+get capacity arraylist java 
+NULL ({ }) capacity ({ 1 2 3 4 }) arraylist ({ }) 
+# Sentence pair (1341) source length 3 target length 7 alignment score : 3.65841e-08
+disable particular checkstyle rule particular line code 
+NULL ({ }) suppress ({ 1 }) warnings ({ }) checkstyle ({ 2 3 4 5 6 7 }) 
+# Sentence pair (1344) source length 9 target length 8 alignment score : 3.85571e-17
+send form javascript input name `` submit '' 
+NULL ({ 3 }) form ({ }) submit ({ }) button ({ }) submit ({ 1 2 4 8 }) name ({ 5 }) button ({ }) `` ({ 6 }) submit ({ 7 }) '' ({ }) 
+# Sentence pair (1354) source length 6 target length 5 alignment score : 7.62272e-07
+safe assume users js enabled 
+NULL ({ }) worth ({ 1 2 }) coding ({ }) users ({ 3 }) may ({ 4 5 }) javascript ({ }) enabled ({ }) 
+# Sentence pair (1358) source length 5 target length 6 alignment score : 7.30779e-08
+preferred way write boolean expressions java 
+NULL ({ }) best ({ }) practice ({ }) foo== ({ 1 2 3 4 5 6 }) false ({ }) foo ({ }) 
+# Sentence pair (1361) source length 7 target length 9 alignment score : 8.77089e-12
+simple command line download remote maven2 artifact local repository 
+NULL ({ }) download ({ }) jars ({ }) maven ({ }) central ({ 1 2 3 }) without ({ }) writing ({ }) pom.xml ({ 4 5 6 7 8 9 }) 
+# Sentence pair (1369) source length 6 target length 5 alignment score : 8.53e-07
+disable browser 's back button 
+NULL ({ }) disable ({ 1 }) browser ({ 2 }) `` ({ }) back ({ }) '' ({ }) button ({ 3 4 5 }) 
+# Sentence pair (1374) source length 8 target length 5 alignment score : 4.18181e-07
+pass variables data php javascript 
+NULL ({ }) safest ({ }) way ({ }) passing ({ }) arguments ({ }) server-side ({ 1 2 3 }) php ({ 4 }) client-side ({ }) javascript ({ 5 }) 
+# Sentence pair (1379) source length 6 target length 6 alignment score : 4.67899e-10
+pulling values java properties file order 
+NULL ({ }) read ({ }) properties ({ }) file ({ }) java ({ 3 }) original ({ 1 2 4 5 }) order ({ 6 }) 
+# Sentence pair (1383) source length 3 target length 3 alignment score : 0.000501825
+generate md5 hash 
+NULL ({ }) md5 ({ 1 2 3 }) format ({ }) java ({ }) 
+# Sentence pair (1387) source length 5 target length 3 alignment score : 0.000445294
+drawing graphs java 
+NULL ({ }) displaying ({ }) graphs ({ 1 2 }) free ({ }) java ({ 3 }) library ({ }) 
+# Sentence pair (1391) source length 3 target length 3 alignment score : 7.86025e-05
+jquery sleep delay 
+NULL ({ }) jquery ({ 1 }) sleep ({ 2 3 }) function ({ }) 
+# Sentence pair (1393) source length 2 target length 5 alignment score : 4.26855e-08
+copy text clipboard firefox 3.5 
+NULL ({ }) copy ({ 1 }) clipboard ({ 2 3 4 5 }) 
+# Sentence pair (1397) source length 8 target length 4 alignment score : 1.80813e-05
+floating point math broken 
+NULL ({ }) sum ({ }) 2 ({ }) parsefloat ({ 1 2 3 4 }) variables ({ }) give ({ }) incorrect ({ }) decimal ({ }) number ({ }) 
+# Sentence pair (1403) source length 5 target length 10 alignment score : 6.17485e-13
+using special auto start servlet initialize startup share application data 
+NULL ({ }) load/initialize ({ 1 2 3 4 5 }) class ({ }) soon ({ 6 7 8 9 10 }) app ({ }) started ({ }) 
+# Sentence pair (1410) source length 5 target length 6 alignment score : 3.42583e-08
+convention word separator java package names 
+NULL ({ }) hyphenated ({ 1 2 3 }) company ({ 5 6 }) name ({ }) java ({ 4 }) packages ({ }) 
+# Sentence pair (1414) source length 5 target length 7 alignment score : 1.51327e-09
+keep mind order refactor huge code base 
+NULL ({ }) refactor ({ 1 2 }) legacy ({ }) code ({ }) effectively ({ 3 }) efficiently ({ 4 5 6 7 }) 
+# Sentence pair (1419) source length 4 target length 4 alignment score : 3.67216e-05
+find time left settimeout 
+NULL ({ }) find ({ }) remaining ({ 1 2 3 4 }) time ({ }) settimeout ({ }) 
+# Sentence pair (1421) source length 5 target length 4 alignment score : 5.00859e-05
+change priorityqueue max priorityqueue 
+NULL ({ }) changing ({ }) java ({ }) priorityqueue ({ }) max ({ }) pq ({ 1 2 3 4 }) 
+# Sentence pair (1423) source length 3 target length 3 alignment score : 0.000535437
+jquery exception handling 
+NULL ({ }) javascript ({ }) global ({ }) logging ({ 1 2 3 }) 
+# Sentence pair (1425) source length 7 target length 7 alignment score : 3.89022e-12
+calling asp.net server side method via jquery 
+NULL ({ }) call ({ 1 2 }) server ({ 3 }) side ({ 4 5 6 7 }) function ({ }) client ({ }) side ({ }) javascript ({ }) 
+# Sentence pair (1432) source length 5 target length 5 alignment score : 4.71573e-10
+comparing text files w/ junit 
+NULL ({ }) compare ({ }) files ({ 3 }) junit ({ 1 2 4 5 }) test ({ }) case ({ }) 
+# Sentence pair (1435) source length 6 target length 8 alignment score : 8.63063e-13
+get value bean property property name dynamic variable 
+NULL ({ }) jsp ({ }) el ({ 1 2 3 }) dynamic ({ 4 5 6 7 8 }) creation ({ }) property ({ }) name ({ }) 
+# Sentence pair (1441) source length 6 target length 6 alignment score : 2.78078e-07
+easiest way parse ini file java 
+NULL ({ }) read ({ }) config ({ 1 2 3 4 }) file ({ 5 }) sections ({ }) using ({ }) java ({ 6 }) 
+# Sentence pair (1448) source length 4 target length 2 alignment score : 0.00356317
+alternatives javascript 
+NULL ({ }) javascript ({ }) replaced ({ 1 2 }) another ({ }) language ({ }) 
+# Sentence pair (1453) source length 4 target length 4 alignment score : 7.2352e-06
+concatenate two arrays java 
+NULL ({ }) concatenate ({ 1 2 3 4 }) static ({ }) string ({ }) arrays ({ }) 
+# Sentence pair (1456) source length 7 target length 5 alignment score : 1.77122e-07
+multiple submit buttons html form 
+NULL ({ }) one ({ }) form ({ }) multiple ({ 1 }) submit ({ 2 }) buttons ({ 3 4 }) submit ({ 5 }) links ({ }) 
+# Sentence pair (1462) source length 5 target length 3 alignment score : 0.00021954
+sending mail java 
+NULL ({ }) java ({ }) ee ({ }) sending ({ }) emails ({ 1 2 3 }) library ({ }) 
+# Sentence pair (1467) source length 5 target length 8 alignment score : 1.60546e-14
+javascript closure inside loops – simple practical example 
+NULL ({ }) javascript ({ 1 }) `` ({ }) '' ({ }) keyword ({ 2 3 }) problem ({ 4 5 6 7 8 }) 
+# Sentence pair (1472) source length 6 target length 5 alignment score : 9.83131e-08
+decode html entities using jquery 
+NULL ({ }) force ({ 1 2 3 4 5 }) display ({ }) text ({ }) unicode ({ }) input ({ }) field ({ }) 
+# Sentence pair (1477) source length 3 target length 4 alignment score : 1.13041e-05
+delete directories recursively java 
+NULL ({ }) deleting ({ 1 2 3 }) folder ({ }) java ({ 4 }) 
+# Sentence pair (1481) source length 2 target length 6 alignment score : 7.86609e-12
+operator double exclamation point mean javascript 
+NULL ({ }) javascript ({ }) mean ({ 1 2 3 4 5 6 }) 
+# Sentence pair (1485) source length 3 target length 4 alignment score : 0.000405031
+frame redirecting page stop 
+NULL ({ }) anti-frame ({ 1 }) busting ({ 2 3 4 }) code ({ }) 
+# Sentence pair (1490) source length 4 target length 4 alignment score : 2.08912e-05
+replacing occurrences string javascript 
+NULL ({ }) replace ({ }) spaces ({ }) string ({ }) '+' ({ 1 2 3 4 }) 
+# Sentence pair (1493) source length 6 target length 3 alignment score : 0.00109776
+make jar decompiled 
+NULL ({ }) `` ({ }) undecompilable ({ 1 2 3 }) '' ({ }) source ({ }) code ({ }) java ({ }) 
+# Sentence pair (1500) source length 5 target length 6 alignment score : 2.1735e-08
+programatically select text contenteditable html element 
+NULL ({ }) select ({ }) text ({ }) contenteditable ({ }) div ({ }) focus/click ({ 1 2 3 4 5 6 }) 
+# Sentence pair (1504) source length 3 target length 5 alignment score : 2.07176e-06
+document .ready equivalent without jquery 
+NULL ({ }) detect ({ }) document.ready ({ 1 2 3 4 5 }) javascript ({ }) 
+# Sentence pair (1507) source length 4 target length 4 alignment score : 1.51969e-05
+graph visualization library javascript 
+NULL ({ }) javascript ({ }) framework ({ }) relationship ({ }) visualization ({ 1 2 3 4 }) 
+# Sentence pair (1511) source length 4 target length 6 alignment score : 5.74024e-08
+setting log level message runtime slf4j 
+NULL ({ }) slf4j ({ 1 2 3 4 5 6 }) log ({ }) level ({ }) argument ({ }) 
+# Sentence pair (1516) source length 6 target length 6 alignment score : 2.61764e-06
+retrieve display images database jsp page 
+NULL ({ }) retrieval ({ 1 2 }) multiple ({ }) images ({ 3 }) database ({ }) using ({ }) jsp-servlet ({ 4 5 6 }) 
+# Sentence pair (1521) source length 4 target length 11 alignment score : 9.41218e-18
+would one mark local variables method parameters `` final '' java 
+NULL ({ }) mark ({ 1 2 3 4 5 6 }) parameters ({ 7 }) final ({ 8 9 10 }) java ({ 11 }) 
+# Sentence pair (1527) source length 4 target length 4 alignment score : 3.38046e-07
+create generic array java 
+NULL ({ }) error ({ }) generic ({ 1 2 4 }) array ({ 3 }) creation ({ }) 
+# Sentence pair (1531) source length 5 target length 6 alignment score : 2.47212e-09
+get urls web site using javascript 
+NULL ({ }) get ({ 1 }) href ({ 2 }) attributes ({ }) web ({ 3 }) site ({ 4 5 6 }) 
+# Sentence pair (1535) source length 5 target length 3 alignment score : 0.0006506
+regex help required 
+NULL ({ }) regex ({ }) help ({ }) required ({ }) v2 ({ }) formatted ({ 1 2 3 }) 
+# Sentence pair (1538) source length 5 target length 4 alignment score : 3.83472e-06
+return response asynchronous call 
+NULL ({ }) returning ({ }) response ({ }) jquery ({ }) ajax ({ 1 2 3 4 }) call ({ }) 
+# Sentence pair (1542) source length 9 target length 9 alignment score : 3.34377e-14
+matter equals operator == vs === use javascript comparisons 
+NULL ({ 8 }) difference ({ }) `` ({ }) == ({ 1 2 3 4 }) '' ({ }) `` ({ }) === ({ 5 6 7 9 }) '' ({ }) java ({ }) script ({ }) 
+# Sentence pair (1551) source length 3 target length 3 alignment score : 4.36244e-05
+input change event 
+NULL ({ }) text ({ }) changed ({ 1 2 3 }) javascript ({ }) 
+# Sentence pair (1554) source length 4 target length 3 alignment score : 1.98857e-05
+javascript cookie delete 
+NULL ({ }) delete ({ 2 3 }) cookies ({ }) via ({ }) javascript ({ 1 }) 
+# Sentence pair (1555) source length 3 target length 2 alignment score : 0.000365695
+'context android 
+NULL ({ }) exactly ({ 1 2 }) context ({ }) java ({ }) 
+# Sentence pair (1556) source length 6 target length 5 alignment score : 1.20506e-09
+instantiate instance variables declaration constructor 
+NULL ({ }) initialize ({ 1 2 }) variable ({ 3 }) within ({ }) constructor ({ }) outside ({ }) constructor ({ 4 5 }) 
+# Sentence pair (1564) source length 6 target length 5 alignment score : 1.56209e-07
+check page exists using javascript 
+NULL ({ }) checking ({ 1 }) page ({ 2 }) exist ({ 3 }) using ({ 4 }) javascript ({ 5 }) ajax ({ }) 
+# Sentence pair (1570) source length 6 target length 3 alignment score : 0.000212529
+function construct javascript 
+NULL ({ }) js ({ }) function ({ }) work ({ }) title ({ }) small ({ 1 2 3 }) explain ({ }) 
+# Sentence pair (1574) source length 6 target length 5 alignment score : 7.55576e-09
+passing int value another class 
+NULL ({ }) passing ({ }) int ({ 1 2 }) value ({ 3 }) one ({ }) class ({ 5 }) another ({ 4 }) 
+# Sentence pair (1578) source length 2 target length 10 alignment score : 1.91034e-17
+way creating object without using `` new '' keyword java 
+NULL ({ }) creation ({ 1 2 4 5 6 7 8 9 10 }) object ({ 3 }) 
+# Sentence pair (1583) source length 4 target length 3 alignment score : 0.000982139
+code memory leakage 
+NULL ({ }) solution ({ }) memory ({ }) leakage ({ 1 2 3 }) code ({ }) 
+# Sentence pair (1586) source length 7 target length 5 alignment score : 8.00865e-07
+round double 2 decimal places 
+NULL ({ }) format ({ }) double ({ }) 2 ({ }) decimal ({ }) places ({ }) leading ({ }) 0s ({ 1 2 3 4 5 }) 
+# Sentence pair (1591) source length 7 target length 4 alignment score : 3.46518e-05
+deal python static typing 
+NULL ({ }) ca ({ }) n't ({ }) python ({ }) infer ({ 1 2 3 4 }) types ({ }) like ({ }) scala ({ }) 
+# Sentence pair (1594) source length 4 target length 6 alignment score : 9.51326e-09
+java best way determine size object 
+NULL ({ }) calculating ({ 1 }) byte-size ({ 2 3 4 5 }) java ({ }) object ({ 6 }) 
+# Sentence pair (1598) source length 6 target length 4 alignment score : 2.46206e-05
+accessing height div javascript 
+NULL ({ }) getting ({ }) offset ({ 1 }) height ({ 2 }) div ({ 3 }) using ({ }) javascript ({ 4 }) 
+# Sentence pair (1602) source length 4 target length 4 alignment score : 3.28086e-06
+call asp.net function javascript 
+NULL ({ }) call ({ 1 2 }) c ({ }) function ({ 3 }) javascript ({ 4 }) 
+# Sentence pair (1606) source length 9 target length 5 alignment score : 3.93324e-07
+netbeans shortcut key collapsing/expanding method 
+NULL ({ }) netbeans ({ }) `` ({ }) collapse ({ 1 2 3 4 5 }) '' ({ }) shortcut ({ }) open ({ }) directories ({ }) navigator ({ }) view ({ }) 
+# Sentence pair (1616) source length 5 target length 5 alignment score : 2.03761e-07
+xml validation using java code 
+NULL ({ }) xml ({ 1 }) validation ({ 2 3 }) using ({ }) java ({ 4 }) code ({ 5 }) 
+# Sentence pair (1621) source length 6 target length 7 alignment score : 2.54828e-08
+need guidance alternative jvms apple os x 
+NULL ({ }) apple ({ 1 2 3 }) deprecates ({ 4 }) java ({ }) technical ({ }) options ({ }) programmers ({ 5 6 7 }) 
+# Sentence pair (1625) source length 6 target length 6 alignment score : 3.58567e-08
+javascript test existence nested object key 
+NULL ({ }) determine ({ }) undefined ({ }) object ({ }) property ({ }) unknown ({ 1 2 3 4 5 6 }) level ({ }) 
+# Sentence pair (1631) source length 3 target length 5 alignment score : 5.27849e-06
+find roman numeral equivalent integer 
+NULL ({ }) roman ({ 1 2 3 }) representation ({ 4 5 }) integers ({ }) 
+# Sentence pair (1634) source length 3 target length 4 alignment score : 8.03868e-05
+iframes considered 'bad practice 
+NULL ({ }) iframes ({ 1 2 3 4 }) bad ({ }) good ({ }) 
+# Sentence pair (1639) source length 3 target length 7 alignment score : 2.01538e-09
+assert certain exception thrown junit 4 tests 
+NULL ({ }) asserting ({ 1 2 3 4 5 6 7 }) exceptions ({ }) java ({ }) 
+# Sentence pair (1642) source length 4 target length 3 alignment score : 7.13321e-05
+'s comparison difference 
+NULL ({ }) coding ({ }) standard ({ 1 2 3 }) null ({ }) checking ({ }) 
+# Sentence pair (1645) source length 6 target length 6 alignment score : 8.71759e-08
+code list entries jndi remote machine 
+NULL ({ }) possible ({ }) get ({ }) `` ({ }) everything ({ }) '' ({ }) javax.naming.initialcontext ({ 1 2 3 4 5 6 }) 
+# Sentence pair (1649) source length 5 target length 5 alignment score : 5.52239e-09
+sorting arraylist contacts based name 
+NULL ({ }) sort ({ 1 }) arraylist ({ 2 }) based ({ 3 4 5 }) object ({ }) field ({ }) 
+# Sentence pair (1655) source length 4 target length 4 alignment score : 1.41228e-06
+quick java optimization question 
+NULL ({ }) bit-shift ({ }) divide ({ 1 3 4 }) 2 ({ }) java ({ 2 }) 
+# Sentence pair (1658) source length 2 target length 4 alignment score : 1.70956e-07
+best use interface java 
+NULL ({ }) use ({ 1 2 }) interface ({ 3 4 }) 
+# Sentence pair (1660) source length 4 target length 5 alignment score : 1.27418e-06
+developing android eclipse r.java regenerating 
+NULL ({ }) generated ({ }) r.java ({ 1 2 3 4 5 }) file ({ }) project ({ }) 
+# Sentence pair (1665) source length 3 target length 3 alignment score : 0.000647199
+pie chart jquery 
+NULL ({ }) pie ({ 1 2 3 }) chart ({ }) javascript ({ }) 
+# Sentence pair (1668) source length 6 target length 8 alignment score : 7.75639e-10
+jquery use attr `` class '' value selector 
+NULL ({ }) jquery ({ 1 }) use ({ 2 }) attr ({ 3 4 }) “class” ({ 5 6 7 8 }) value ({ }) selector ({ }) 
+# Sentence pair (1676) source length 3 target length 3 alignment score : 0.000725812
+create arraylist array 
+NULL ({ }) cast ({ 1 2 }) string ({ }) array ({ 3 }) 
+# Sentence pair (1682) source length 12 target length 5 alignment score : 5.7928e-09
+seedable javascript random number generator 
+NULL ({ }) generating ({ }) `` ({ }) random ({ }) '' ({ }) numbers ({ }) every ({ }) time ({ }) javascript ({ 2 }) i.e ({ }) seeded ({ 1 3 4 5 }) random ({ }) numbers ({ }) 
+# Sentence pair (1690) source length 4 target length 9 alignment score : 2.21525e-17
+way get rid accents convert whole string regular letters 
+NULL ({ }) java ({ }) change ({ }) áéőűú ({ 1 2 3 4 5 6 7 }) aeouu ({ 8 9 }) 
+# Sentence pair (1695) source length 5 target length 10 alignment score : 2.34654e-18
+convert audio stream wav byte array java without temp file 
+NULL ({ }) converting ({ 1 }) byte ({ 5 }) array ({ 6 }) wav ({ 2 3 4 8 9 }) file ({ 7 10 }) 
+# Sentence pair (1707) source length 4 target length 5 alignment score : 8.17447e-05
+good zero-fill bit-shifting 0 0 
+NULL ({ }) zero-fill ({ 1 2 }) right ({ }) shift ({ }) elaboration ({ 3 4 5 }) 
+# Sentence pair (1710) source length 4 target length 3 alignment score : 0.000479677
+use getters setters 
+NULL ({ }) use ({ }) get/set ({ 1 2 3 }) methods ({ }) java ({ }) 
+# Sentence pair (1712) source length 3 target length 4 alignment score : 4.67254e-09
+point setters getters java 
+NULL ({ }) use ({ }) set ({ 1 2 3 }) method ({ 4 }) 
+# Sentence pair (1717) source length 3 target length 4 alignment score : 5.99928e-06
+floating point math broken 
+NULL ({ }) javascript ({ }) float ({ }) addition ({ 1 2 3 4 }) 
+# Sentence pair (1719) source length 4 target length 5 alignment score : 5.23242e-08
+edit javascript alert box title 
+NULL ({ }) change ({ }) title ({ }) javascript ({ }) alert ({ 1 2 3 4 5 }) 
+# Sentence pair (1725) source length 5 target length 5 alignment score : 9.60692e-12
+'s `` override '' java 
+NULL ({ }) java ({ 5 }) `` ({ 2 }) override ({ 1 3 }) '' ({ 4 }) used ({ }) 
+# Sentence pair (1731) source length 2 target length 4 alignment score : 0.000150699
+would use weakhashmap weakreference 
+NULL ({ }) weakhashmap ({ 1 2 3 4 }) work ({ }) 
+# Sentence pair (1734) source length 6 target length 7 alignment score : 1.1419e-09
+chrome 's javascript console lazy evaluating arrays 
+NULL ({ }) bizarre ({ }) console.log ({ }) behaviour ({ }) chrome ({ 1 }) developer ({ 2 3 4 5 6 7 }) tools ({ }) 
+# Sentence pair (1741) source length 6 target length 5 alignment score : 1.85042e-09
+create java string contents file 
+NULL ({ }) reading ({ }) text ({ 4 }) file ({ 5 }) java ({ }) making ({ 1 2 }) string ({ 3 }) 
+# Sentence pair (1748) source length 4 target length 4 alignment score : 4.51379e-06
+right click javascript event 
+NULL ({ }) capture ({ }) right-click ({ 1 2 }) event ({ 3 4 }) javascript ({ }) 
+# Sentence pair (1754) source length 5 target length 3 alignment score : 8.72242e-05
+javascript hashmap equivalent 
+NULL ({ }) create ({ }) simple ({ }) map ({ }) using ({ }) javascript/jquery ({ 1 2 3 }) 
+# Sentence pair (1758) source length 4 target length 4 alignment score : 3.66449e-06
+calling java method name 
+NULL ({ }) java ({ 2 }) independent ({ 1 3 4 }) block ({ }) code ({ }) 
+# Sentence pair (1762) source length 4 target length 5 alignment score : 3.69238e-11
+equivalent java wildcards c generics 
+NULL ({ }) generic ({ 2 }) c ({ 4 }) see ({ 1 3 5 }) code ({ }) 
+# Sentence pair (1768) source length 4 target length 5 alignment score : 5.11318e-07
+implement converters entities java generics 
+NULL ({ }) generic ({ }) jsf ({ }) entity ({ 1 2 3 4 5 }) converter ({ }) 
+# Sentence pair (1773) source length 9 target length 8 alignment score : 2.2644e-09
+setting property 'source 'org.eclipse.jst.jee.server jsftut find matching property 
+NULL ({ }) warning ({ }) setting ({ }) property ({ }) 'source ({ 1 2 3 }) 'org.eclipse.jst.jee.server ({ 4 5 }) appname ({ 6 7 8 }) find ({ }) matching ({ }) property ({ }) 
+# Sentence pair (1781) source length 3 target length 7 alignment score : 5.33741e-07
+java `` pass-by-reference '' `` pass-by-value '' 
+NULL ({ }) java ({ 1 }) pass-by-value ({ }) pass-by-reference ({ 2 3 4 5 6 7 }) 
+# Sentence pair (1783) source length 4 target length 9 alignment score : 4.00773e-16
+print java object without getting `` sometype 2f92e0f4 '' 
+NULL ({ }) java ({ 2 }) passing ({ }) array ({ }) println ({ 1 3 4 5 6 7 8 9 }) 
+# Sentence pair (1790) source length 6 target length 11 alignment score : 1.96708e-14
+anti-pattern always use get set methods access class 's member fields 
+NULL ({ }) benefit ({ 1 2 3 4 5 }) using ({ }) getters/setters ({ 6 7 8 9 10 11 }) inside ({ }) class ({ }) fields ({ }) 
+# Sentence pair (1797) source length 4 target length 5 alignment score : 3.94641e-08
+get attributes element using jquery 
+NULL ({ }) output ({ 1 }) set ({ }) attributes ({ 2 }) element ({ 3 4 5 }) 
+# Sentence pair (1800) source length 4 target length 3 alignment score : 0.000133578
+swapping rows jquery 
+NULL ({ }) move ({ 1 }) rows ({ 2 3 }) html ({ }) table ({ }) 
+# Sentence pair (1803) source length 3 target length 5 alignment score : 9.32127e-07
+c code association aggregation composition 
+NULL ({ }) aggregation ({ }) association ({ 1 2 3 4 }) composition ({ 5 }) 
+# Sentence pair (1810) source length 3 target length 6 alignment score : 1.81653e-10
+getting file 's md5 checksum java 
+NULL ({ }) java ({ 6 }) md5 ({ 3 4 5 }) hash ({ 1 2 }) 
+# Sentence pair (1817) source length 6 target length 7 alignment score : 2.52721e-09
+javascript need put this.var every variable object 
+NULL ({ }) 'var ({ }) vs ({ }) 'this ({ }) vs ({ }) constructor-parameter ({ 1 2 3 4 5 6 7 }) variables ({ }) 
+# Sentence pair (1824) source length 4 target length 5 alignment score : 1.47906e-07
+java limit class name length 
+NULL ({ }) java ({ 1 }) instance ({ 2 }) variable ({ }) length ({ 3 4 5 }) 
+# Sentence pair (1828) source length 4 target length 5 alignment score : 1.50026e-05
+check image loaded errors javascript 
+NULL ({ }) check ({ 1 }) image ({ 2 }) preloaded ({ 3 4 }) successfully ({ 5 }) 
+# Sentence pair (1832) source length 5 target length 7 alignment score : 9.12034e-10
+auto-size dynamic text fill fixed size container 
+NULL ({ }) dynamically ({ }) resize ({ 1 2 }) text ({ 3 }) fill ({ 4 5 6 7 }) div ({ }) 
+# Sentence pair (1838) source length 2 target length 6 alignment score : 8.97449e-10
+`` decompile '' java class files 
+NULL ({ }) decompile ({ 1 2 3 5 6 }) java ({ 4 }) 
+# Sentence pair (1842) source length 3 target length 4 alignment score : 5.73464e-08
+many characters java string 
+NULL ({ }) 's ({ }) length ({ 1 2 3 }) string ({ 4 }) 
+# Sentence pair (1847) source length 5 target length 10 alignment score : 3.86019e-16
+many collection classes java extend abstract class implement interface well 
+NULL ({ }) arraylist ({ }) `` ({ }) implements ({ 1 2 3 5 6 7 8 9 10 }) list ({ 4 }) '' ({ }) 
+# Sentence pair (1855) source length 2 target length 5 alignment score : 1.01682e-10
+getting n random numbers sum 
+NULL ({ }) random ({ 1 2 3 }) values ({ 4 5 }) 
+# Sentence pair (1858) source length 7 target length 8 alignment score : 1.37424e-12
+place read configuration resource files servlet based application 
+NULL ({ }) place ({ }) .txt ({ }) file ({ }) java ({ }) servlet ({ }) read ({ 1 2 3 4 5 6 7 8 }) runtime ({ }) 
+# Sentence pair (1863) source length 8 target length 5 alignment score : 1.13052e-08
+function construct work people use 
+NULL ({ }) javascript ({ }) purpose ({ }) using ({ }) function ({ }) call ({ }) like ({ }) function ({ 1 }) //code ({ 2 3 4 5 }) 
+# Sentence pair (1873) source length 8 target length 9 alignment score : 3.35835e-11
+regex strip punctuation also incorrectly makes word báenou benou 
+NULL ({ }) regex ({ }) strip ({ }) punctuation ({ 1 2 3 4 }) also ({ 5 6 }) incorrectly ({ }) strips ({ 7 8 9 }) spaces ({ }) help ({ }) 
+# Sentence pair (1885) source length 4 target length 3 alignment score : 4.38358e-06
+difference array object 
+NULL ({ }) use ({ 1 }) object ({ 3 }) array ({ 2 }) javascript ({ }) 
+# Sentence pair (1890) source length 8 target length 4 alignment score : 2.82593e-06
+converting html files pdf 
+NULL ({ }) convert ({ }) html ({ }) file ({ }) pdf ({ }) pictures ({ 1 2 3 4 }) styles ({ }) using ({ }) java ({ }) 
+# Sentence pair (1897) source length 15 target length 7 alignment score : 8.83963e-15
+download textarea contents file using javascript server-side 
+NULL ({ }) display ({ }) `` ({ }) save ({ }) '' ({ }) dialog ({ }) save ({ 1 2 3 5 }) contents ({ }) selected ({ }) text ({ }) inside ({ }) textarea ({ }) file ({ 4 }) client ({ }) 's ({ 6 }) pc ({ 7 }) 
+# Sentence pair (1919) source length 8 target length 8 alignment score : 7.38424e-15
+asp.net mvc pass json object view controller parameter 
+NULL ({ }) pass ({ 3 }) json ({ 4 }) collection ({ }) object ({ 5 }) mvc ({ 1 2 }) controller ({ 6 7 8 }) action ({ }) method ({ }) 
+# Sentence pair (1927) source length 7 target length 5 alignment score : 3.49666e-06
+javascript || variable assignment explanation 
+NULL ({ }) javascript ({ 1 }) shorthand ({ }) '|| ({ 2 3 4 5 }) operator ({ }) mean ({ }) used ({ }) assignment ({ }) 
+# Sentence pair (1934) source length 5 target length 6 alignment score : 2.09332e-07
+add 30 minutes javascript date object 
+NULL ({ }) add ({ 1 }) 20 ({ 2 }) minutes ({ 3 4 5 6 }) current ({ }) date ({ }) 
+# Sentence pair (1939) source length 5 target length 6 alignment score : 3.91634e-07
+javascript call embedded function gm script 
+NULL ({ }) call ({ }) existing ({ }) javascript ({ 1 }) function ({ }) greasemonkey ({ 2 3 4 5 6 }) 
+# Sentence pair (1946) source length 3 target length 7 alignment score : 8.92572e-10
+detect pasted text ctrl+v right click paste 
+NULL ({ }) event ({ }) occurs ({ 1 2 3 4 5 6 7 }) paste ({ }) 
+# Sentence pair (1951) source length 5 target length 3 alignment score : 5.80403e-06
+convert .jar .exe 
+NULL ({ }) could ({ }) convert ({ 1 }) jar ({ 2 }) file ({ }) exe ({ 3 }) 
+# Sentence pair (1956) source length 10 target length 6 alignment score : 1.3769e-07
+spring 3 requestmapping get path value 
+NULL ({ }) match ({ }) `` ({ }) rest ({ }) url ({ }) '' ({ }) using ({ }) spring ({ 1 }) 3 ({ }) requestmapping ({ 2 3 4 5 6 }) annotation ({ }) 
+# Sentence pair (1969) source length 2 target length 2 alignment score : 0.0198559
+changeline label 
+NULL ({ }) changeline ({ 1 2 }) label ({ }) 
+# Sentence pair (1972) source length 3 target length 4 alignment score : 7.94347e-07
+members initialized class constructor 
+NULL ({ }) java ({ }) initialize ({ 1 2 3 4 }) objects ({ }) 
+# Sentence pair (1974) source length 4 target length 3 alignment score : 2.01669e-05
+client-side validation enough 
+NULL ({ }) validation ({ }) web ({ }) application ({ }) development ({ 1 2 3 }) 
+# Sentence pair (1978) source length 4 target length 6 alignment score : 6.31848e-08
+calculating difference two java date instances 
+NULL ({ }) finding ({ }) interval ({ 1 2 3 }) two ({ }) java.util.date ({ 4 5 6 }) 
+# Sentence pair (1983) source length 4 target length 2 alignment score : 0.000952876
+eclipse line-wrap 
+NULL ({ }) word ({ }) wrap ({ 2 }) eclipse ({ 1 }) java ({ }) 
+# Sentence pair (1988) source length 3 target length 8 alignment score : 6.70854e-12
+create html table fixed/frozen left column scrollable body 
+NULL ({ }) scrolling ({ 1 4 5 6 7 8 }) part ({ }) table ({ 2 3 }) 
+# Sentence pair (1992) source length 2 target length 5 alignment score : 1.25375e-08
+string class declared final java 
+NULL ({ }) string ({ 1 }) final ({ 2 3 4 5 }) 
+# Sentence pair (1995) source length 4 target length 5 alignment score : 8.8288e-07
+`` exists '' function jquery 
+NULL ({ }) check ({ }) element ({ }) exists ({ 1 2 3 4 5 }) jquery ({ }) 
+# Sentence pair (2001) source length 5 target length 3 alignment score : 0.000843374
+access gmail java 
+NULL ({ }) monitoring ({ }) email ({ }) inbox ({ 1 2 }) using ({ }) java ({ 3 }) 
+# Sentence pair (2007) source length 5 target length 4 alignment score : 1.06362e-05
+encrypt ids url variables 
+NULL ({ }) encrypt ({ 1 2 }) url ({ 3 }) javascript ({ }) decrypt ({ 4 }) c ({ }) 
+# Sentence pair (2012) source length 5 target length 3 alignment score : 5.55383e-06
+function jquery mean 
+NULL ({ }) block ({ }) code ({ }) parentheses ({ 1 2 }) mean ({ 3 }) javascript/jquery ({ }) 
+# Sentence pair (2019) source length 2 target length 4 alignment score : 0.000114311
+exception loading class 'me.prettyprint.hector.api.serializer' 
+NULL ({ }) classnotfoundexception ({ }) 'me.prettyprint.hector.api.serializer' ({ 1 2 3 4 }) 
+# Sentence pair (2025) source length 3 target length 7 alignment score : 1.64304e-10
+two different concepts called `` heap '' 
+NULL ({ }) heap ({ }) actually ({ 1 2 3 4 }) heap ({ 5 6 7 }) 
+# Sentence pair (2031) source length 3 target length 6 alignment score : 7.47882e-09
+stringbuilder vs string concatenation tostring java 
+NULL ({ }) use ({ }) stringbuilder ({ 1 2 3 4 5 }) java ({ 6 }) 
+# Sentence pair (2036) source length 9 target length 5 alignment score : 2.73381e-07
+equivalent python 's dir javascript 
+NULL ({ }) javascript ({ }) way ({ }) inspect ({ }) objects ({ }) methods ({ }) attributes ({ }) python ({ }) 's ({ }) dir ({ 1 2 3 4 5 }) 
+# Sentence pair (2045) source length 13 target length 6 alignment score : 2.05509e-10
+weird `` 406 acceptable '' error 
+NULL ({ }) rails ({ }) 3 ({ }) 406 ({ 2 3 4 5 6 }) acceptable ({ }) error ({ }) attempting ({ }) use ({ }) format.js ({ }) ca ({ }) n't ({ }) change ({ }) content-type ({ 1 }) either ({ }) 
+# Sentence pair (2059) source length 6 target length 7 alignment score : 1.67038e-11
+regexp global flag javascript give wrong results 
+NULL ({ }) javascript ({ 4 }) 's ({ }) regexp ({ }) maintain ({ }) state ({ }) calls ({ 1 2 3 5 6 7 }) 
+# Sentence pair (2068) source length 7 target length 5 alignment score : 2.00036e-06
+pass arraylist varargs method parameter 
+NULL ({ }) pass ({ 1 }) arraylist ({ }) method ({ }) expecting ({ 2 }) vararg ({ 3 4 5 }) object ({ }) ... ({ }) 
+# Sentence pair (2076) source length 16 target length 13 alignment score : 1.07738e-18
+rss gmail.com amp b=52 want remove amp b=52 mail id string function used 
+NULL ({ }) want ({ }) remove ({ }) amp ({ }) b=52 ({ }) rsc ({ 1 }) gmail.com ({ }) amp ({ }) b=52 ({ }) ab ({ }) gmail.com ({ }) amp ({ 2 3 }) b=52 ({ 4 5 }) aaaa ({ 6 7 8 }) gmail.com ({ 9 10 11 }) amp ({ 12 13 }) b=52 ({ }) 
+# Sentence pair (2108) source length 7 target length 7 alignment score : 9.28875e-13
+get entire url including query string anchor 
+NULL ({ }) get ({ 1 }) full ({ 2 }) url ({ 3 }) address ({ }) bar ({ 4 5 6 7 }) using ({ }) php ({ }) 
+# Sentence pair (2114) source length 8 target length 7 alignment score : 5.52894e-11
+set default homepage ff chrome via javascript 
+NULL ({ }) javascript ({ 7 }) function ({ }) prompt ({ }) user ({ }) set ({ 1 }) current ({ }) page ({ }) homepage ({ 2 3 4 5 6 }) 
+# Sentence pair (2123) source length 9 target length 2 alignment score : 0.000442647
+arrays.aslist working 
+NULL ({ }) convert ({ }) array ({ }) integer ({ }) list ({ }) int ({ }) list ({ }) integer ({ }) arrays.aslist ({ 1 2 }) array ({ }) 
+# Sentence pair (2130) source length 3 target length 5 alignment score : 5.25588e-08
+jquery determining element exists page 
+NULL ({ }) check ({ }) element ({ }) exists ({ 1 2 3 4 5 }) 
+# Sentence pair (2135) source length 4 target length 6 alignment score : 1.12904e-07
+urlconnection httpclient offers better functionality efficiency 
+NULL ({ }) apache ({ }) http ({ }) client ({ }) urlconnection ({ 1 2 3 4 5 6 }) 
+# Sentence pair (2140) source length 6 target length 5 alignment score : 1.56435e-05
+tell caps lock using javascript 
+NULL ({ }) detect ({ }) caps ({ 1 2 }) lock ({ 3 }) state ({ 4 5 }) password ({ }) field ({ }) 
+# Sentence pair (2148) source length 4 target length 3 alignment score : 5.68457e-05
+initialize static map 
+NULL ({ }) fill ({ 1 2 }) hash ({ }) map ({ 3 }) creation ({ }) 
+# Sentence pair (2152) source length 5 target length 5 alignment score : 2.2481e-07
+use java 's override annotation 
+NULL ({ }) really ({ }) need ({ }) override ({ 1 2 3 4 5 }) code ({ }) java ({ }) 
+# Sentence pair (2158) source length 3 target length 4 alignment score : 1.10112e-05
+javascript mvc micro- framework 
+NULL ({ }) ruby ({ }) rails ({ 2 3 4 }) javascript ({ 1 }) 
+# Sentence pair (2161) source length 3 target length 6 alignment score : 1.01624e-06
+check user logged new facebook api 
+NULL ({ }) facebook ({ }) autologin ({ 1 2 }) authentication ({ 3 4 5 6 }) 
+# Sentence pair (2165) source length 7 target length 6 alignment score : 2.03832e-08
+find html label associated given input 
+NULL ({ }) jquery ({ }) select ({ }) associated ({ }) label ({ 1 2 3 4 5 6 }) element ({ }) input ({ }) field ({ }) 
+# Sentence pair (2172) source length 6 target length 6 alignment score : 3.01888e-10
+calling non-static method static method java 
+NULL ({ }) calling ({ 1 2 }) another ({ }) method ({ }) main ({ }) method ({ 3 4 5 }) java ({ 6 }) 
+# Sentence pair (2179) source length 4 target length 6 alignment score : 5.1313e-08
+get user 's screen resolution php 
+NULL ({ }) get ({ 1 }) image ({ }) screen ({ }) resolution ({ 2 3 4 5 6 }) 
+# Sentence pair (2185) source length 4 target length 4 alignment score : 6.17611e-07
+debug levels writing application 
+NULL ({ }) information ({ }) include ({ }) log ({ }) level ({ 1 2 3 4 }) 
+# Sentence pair (2190) source length 4 target length 4 alignment score : 6.7959e-05
+reliable fast fft java 
+NULL ({ }) fast ({ }) fourier ({ }) transformation ({ 1 2 3 }) java ({ 4 }) 
+# Sentence pair (2193) source length 5 target length 5 alignment score : 5.27019e-07
+referenceerror ca n't find variable 
+NULL ({ }) referenceerror ({ 1 }) ca ({ }) n't ({ 2 3 }) find ({ 4 }) variable ({ 5 }) 
+# Sentence pair (2199) source length 4 target length 4 alignment score : 0.00010948
+get current location iframe 
+NULL ({ }) retrieve ({ 1 }) complete ({ 2 3 }) url ({ }) iframe ({ 4 }) 
+# Sentence pair (2203) source length 3 target length 4 alignment score : 6.81473e-06
+marker interface methods work 
+NULL ({ }) java ({ }) marker ({ 1 2 3 4 }) interface ({ }) 
+# Sentence pair (2206) source length 9 target length 7 alignment score : 1.646e-11
+considered bad practice use non-standard html attributes 
+NULL ({ }) bad ({ }) practice ({ }) add ({ }) non ({ }) standard ({ }) attributes ({ }) dom ({ }) elements ({ }) html/javascript ({ 1 2 3 4 5 6 7 }) 
+# Sentence pair (2216) source length 2 target length 5 alignment score : 3.03681e-06
+way check var using setinterval 
+NULL ({ }) setinterval ({ }) cleared ({ 1 2 3 4 5 }) 
+# Sentence pair (2221) source length 3 target length 5 alignment score : 1.33896e-10
+safely turning json string object 
+NULL ({ }) parse ({ 1 2 4 }) json ({ 3 5 }) javascript ({ }) 
+# Sentence pair (2224) source length 7 target length 4 alignment score : 1.34279e-06
+objective-c java cross compiler 
+NULL ({ }) tool ({ }) converts ({ }) objective ({ 1 3 4 }) c ({ }) code ({ }) java ({ 2 }) android ({ }) 
+# Sentence pair (2233) source length 3 target length 7 alignment score : 1.22042e-09
+`` find symbol '' compilation error mean 
+NULL ({ }) find ({ }) symbol ({ 1 2 3 4 5 6 7 }) error ({ }) 
+# Sentence pair (2237) source length 5 target length 5 alignment score : 8.21742e-07
+add another class div javascript 
+NULL ({ }) dynamically ({ }) adding ({ }) css ({ }) class ({ }) div/span ({ 1 2 3 4 5 }) 
+# Sentence pair (2241) source length 5 target length 2 alignment score : 0.00046683
+java.lang.outofmemoryerror java 
+NULL ({ }) java ({ 2 }) root ({ 1 }) cause ({ }) java.lang.outofmemoryerror ({ }) error ({ }) 
+# Sentence pair (2245) source length 11 target length 11 alignment score : 4.88514e-19
+java ca n't find symbol java ca n't find symbol array 
+NULL ({ 6 }) writing ({ }) java ({ 1 }) program ({ }) java ({ }) ca ({ }) n't ({ 2 3 7 8 }) find ({ 4 }) symbol ({ 5 9 10 }) array ({ 11 }) need ({ }) help ({ }) 
+# Sentence pair (2261) source length 5 target length 4 alignment score : 1.71236e-05
+console.log object current state 
+NULL ({ }) javascript ({ }) logging ({ }) object ({ }) mutating ({ 1 2 3 4 }) state ({ }) 
+# Sentence pair (2269) source length 5 target length 4 alignment score : 3.64634e-06
+strip html text javascript 
+NULL ({ }) javascript ({ }) strip ({ }) html ({ }) tags ({ 1 2 3 4 }) string ({ }) 
+# Sentence pair (2275) source length 6 target length 8 alignment score : 8.50348e-12
+force javascript execute till display '' inline '' 
+NULL ({ }) set ({ }) javascript ({ 2 }) display ({ }) `` ({ }) none ({ 1 3 4 5 6 7 8 }) '' ({ }) 
+# Sentence pair (2285) source length 5 target length 2 alignment score : 0.00554446
+|| statements 
+NULL ({ }) quick ({ }) question ({ }) statements ({ }) multiple ({ }) conditions ({ 1 2 }) 
+# Sentence pair (2288) source length 3 target length 4 alignment score : 6.68322e-05
+run python script java 
+NULL ({ }) jython ({ 1 2 }) find ({ }) module ({ 3 4 }) 
+# Sentence pair (2293) source length 2 target length 6 alignment score : 8.96544e-09
+java problem-whats reason behind probable output 
+NULL ({ }) infinite ({ 1 2 3 4 5 6 }) loop ({ }) 
+# Sentence pair (2296) source length 4 target length 7 alignment score : 1.34002e-14
+script tag position html affects performance webpage 
+NULL ({ }) put ({ 4 5 6 7 }) jquery ({ }) script ({ }) tag ({ 1 2 3 }) 
+# Sentence pair (2305) source length 4 target length 5 alignment score : 5.66935e-10
+print background images ff ie 
+NULL ({ }) print ({ 1 }) webpage ({ 4 5 }) background ({ 2 }) image ({ 3 }) 
+# Sentence pair (2311) source length 9 target length 8 alignment score : 6.31081e-13
+implementing result paging hibernate getting total number rows 
+NULL ({ }) get ({ }) rows ({ }) database ({ }) table ({ }) using ({ }) hibernate ({ }) java ({ }) ... ({ }) .. ({ 1 2 3 4 5 6 7 8 }) 
+# Sentence pair (2325) source length 3 target length 4 alignment score : 8.06152e-08
+removing element array java 
+NULL ({ }) delete ({ 1 }) element ({ 2 }) array ({ 3 4 }) 
+# Sentence pair (2328) source length 5 target length 8 alignment score : 3.07316e-11
+jquery validate add validation checks sum multiple fields 
+NULL ({ }) jquery.validate ({ 1 2 3 4 5 6 }) multiple ({ 7 }) fields ({ 8 }) add ({ }) value ({ }) 
+# Sentence pair (2333) source length 7 target length 5 alignment score : 4.38575e-06
+global variable usage page reload 
+NULL ({ }) persisting ({ 1 2 }) javascript ({ }) objects ({ }) across ({ }) browser ({ }) sessions ({ 3 4 5 }) possible ({ }) 
+# Sentence pair (2339) source length 8 target length 9 alignment score : 9.06991e-13
+128==128 return false 127==127 return true converting integer wrappers 
+NULL ({ }) integer ({ }) wrapper ({ }) objects ({ }) share ({ }) instances ({ }) within ({ }) value ({ }) 127 ({ 1 2 3 4 5 6 7 8 9 }) 
+# Sentence pair (2347) source length 5 target length 5 alignment score : 2.13695e-08
+increment date one day java 
+NULL ({ }) increment ({ 1 }) existing ({ }) date ({ 2 }) 1 ({ }) day ({ 3 4 5 }) 
+# Sentence pair (2352) source length 7 target length 4 alignment score : 4.25867e-06
+java native process timeout 
+NULL ({ }) process ({ }) builder ({ }) process ({ }) java ({ 1 }) execute ({ }) process ({ 2 3 }) timeout ({ 4 }) 
+# Sentence pair (2358) source length 4 target length 4 alignment score : 0.000269859
+abstract class anonymous class 
+NULL ({ }) abstract ({ 1 }) class ({ 2 }) anonymous ({ 3 }) class ({ 4 }) 
+# Sentence pair (2365) source length 6 target length 4 alignment score : 7.79101e-07
+hide encrypt javascript code 
+NULL ({ }) hide ({ 1 }) secure ({ 2 }) javascript ({ 3 }) code ({ 4 }) client ({ }) side ({ }) 
+# Sentence pair (2371) source length 6 target length 6 alignment score : 1.86113e-09
+avoid scientific notation large numbers javascript 
+NULL ({ }) javascript ({ 6 }) tostring ({ }) converts ({ }) long ({ }) numbers ({ }) infinity ({ 1 2 3 4 5 }) 
+# Sentence pair (2377) source length 6 target length 6 alignment score : 4.88931e-06
+populate/display punjabi alphabets one one android 
+NULL ({ }) populate/display ({ 1 2 }) alphabets ({ 3 4 5 }) language ({ }) one ({ }) one ({ }) android ({ 6 }) 
+# Sentence pair (2384) source length 3 target length 5 alignment score : 6.13229e-11
+difference int array int array 
+NULL ({ }) array ({ 3 5 }) declaration ({ 1 2 4 }) java ({ }) 
+# Sentence pair (2387) source length 4 target length 4 alignment score : 3.22688e-07
+get option value javascript 
+NULL ({ }) get ({ 1 }) value ({ 3 }) option ({ 2 }) javascript ({ 4 }) 
+# Sentence pair (2395) source length 3 target length 4 alignment score : 1.47035e-05
+calculate difference two dates 
+NULL ({ }) calculate ({ }) age ({ 1 }) death ({ 2 3 4 }) 
+# Sentence pair (2398) source length 4 target length 4 alignment score : 7.44943e-05
+way embed browser java 
+NULL ({ }) web ({ }) browser ({ }) embedded ({ 1 2 3 }) java ({ 4 }) 
+# Sentence pair (2402) source length 5 target length 13 alignment score : 9.54239e-25
+best way use google 's hosted jquery fall back hosted library google fail 
+NULL ({ }) jquery ({ 7 }) ui ({ }) use ({ 3 }) google ({ 4 12 }) cdn ({ 1 2 5 6 8 9 10 11 13 }) 
+# Sentence pair (2417) source length 3 target length 5 alignment score : 3.14601e-08
+synchronized static methods work java 
+NULL ({ }) synchronized ({ 1 3 4 5 }) static ({ 2 }) method ({ }) 
+# Sentence pair (2422) source length 4 target length 3 alignment score : 0.000116373
+jdbc support j2me 
+NULL ({ }) connect ({ }) database ({ 1 }) using ({ }) j2me ({ 2 3 }) 
+# Sentence pair (2425) source length 7 target length 5 alignment score : 1.65053e-06
+infamous java.sql.sqlexception suitable driver found 
+NULL ({ }) yet ({ }) another ({ }) jdbc ({ }) mysql ({ }) suitable ({ 1 2 3 }) driver ({ 4 }) spring+hibernate ({ 5 }) 
+# Sentence pair (2431) source length 9 target length 10 alignment score : 1.24239e-13
+getelementsbyclassname n't work old internet explorers like ie6 ie7 ie8 
+NULL ({ }) javascript ({ }) function ({ }) working ({ }) onsubmit ({ 1 2 }) ie ({ 3 4 5 6 7 8 9 10 }) ... ({ }) getting ({ }) errors ({ }) firefox ({ }) 
+# Sentence pair (2437) source length 7 target length 7 alignment score : 3.39653e-08
+return variable google maps javascript geocoder callback 
+NULL ({ }) return ({ 1 }) longitude ({ }) latitude ({ }) google ({ }) maps ({ 2 3 4 }) javascript ({ 5 }) geocoder ({ 6 7 }) 
+# Sentence pair (2444) source length 4 target length 12 alignment score : 2.02823e-24
+purpose wrapping whole javascript files anonymous functions like “ function … ” 
+NULL ({ 4 }) javascript ({ }) notation ({ 1 2 3 5 6 8 9 11 12 }) function ({ 7 10 }) ... ({ }) 
+# Sentence pair (2452) source length 4 target length 4 alignment score : 3.94408e-05
+spreadsheet-like control web application 
+NULL ({ }) spreadsheet ({ 1 2 3 4 }) sort ({ }) object ({ }) webpage ({ }) 
+# Sentence pair (2456) source length 6 target length 5 alignment score : 1.38737e-08
+split string breaking particular character 
+NULL ({ }) split ({ 1 2 }) comma ({ 3 4 5 }) separated ({ }) string ({ }) using ({ }) javascript ({ }) 
+# Sentence pair (2462) source length 7 target length 5 alignment score : 5.831e-07
+text extraction java html parsers 
+NULL ({ }) extraction ({ 1 2 5 }) text ({ }) html ({ 4 }) web ({ }) pages ({ }) using ({ }) java ({ 3 }) 
+# Sentence pair (2469) source length 8 target length 5 alignment score : 2.64785e-06
+disable minimize maximize button browser 
+NULL ({ }) disable ({ 1 }) browser ({ }) 's ({ }) minimize ({ 2 3 }) button ({ 4 }) launching ({ }) flex ({ 5 }) application ({ }) 
+# Sentence pair (2473) source length 4 target length 5 alignment score : 5.34887e-07
+pass variables data php javascript 
+NULL ({ }) passing ({ 1 2 3 }) javascript ({ 5 }) variables ({ }) php ({ 4 }) 
+# Sentence pair (2481) source length 6 target length 4 alignment score : 3.91019e-05
+return response asynchronous call 
+NULL ({ }) jquery ({ }) return ({ }) data ({ }) ajax ({ }) call ({ }) success ({ 1 2 3 4 }) 
+# Sentence pair (2487) source length 9 target length 4 alignment score : 2.63298e-05
+convert string double java 
+NULL ({ }) best ({ }) way ({ }) get ({ }) double ({ }) string ({ }) `` ({ }) 1,000.0 ({ 1 2 3 }) '' ({ }) java ({ 4 }) 
+# Sentence pair (2496) source length 7 target length 6 alignment score : 8.91644e-09
+react global hotkey java program windows/linux/mac 
+NULL ({ }) java ({ }) accomplish ({ 1 2 }) iskeydown ({ 3 5 6 }) functionality ({ }) independent ({ }) java ({ 4 }) components ({ }) 
+# Sentence pair (2505) source length 5 target length 3 alignment score : 3.10235e-07
+'var mean javascript 
+NULL ({ }) javascript ({ }) use ({ }) `` ({ }) var ({ }) `` ({ 1 2 3 }) 
+# Sentence pair (2512) source length 4 target length 6 alignment score : 9.84854e-09
+create executable file program written java 
+NULL ({ }) create ({ 1 }) executable ({ 2 3 4 5 }) file ({ }) java ({ 6 }) 
+# Sentence pair (2518) source length 4 target length 7 alignment score : 3.59299e-10
+client/js framework `` unsaved data '' protection 
+NULL ({ }) warn ({ 1 2 3 4 5 6 7 }) user ({ }) leave ({ }) page ({ }) 
+# Sentence pair (2524) source length 7 target length 6 alignment score : 3.38328e-09
+jquery dom method getelementbyid find element 
+NULL ({ }) getelementbyid ({ }) returns ({ }) null ({ }) even ({ }) though ({ 1 2 3 4 5 }) element ({ 6 }) exists ({ }) 
+# Sentence pair (2530) source length 4 target length 3 alignment score : 6.78973e-06
+sorting linear time 
+NULL ({ }) sorting ({ 1 }) sequence ({ 2 }) n ({ }) time ({ 3 }) 
+# Sentence pair (2534) source length 3 target length 4 alignment score : 1.09918e-05
+return response asynchronous call 
+NULL ({ }) return ({ 1 }) function ({ }) ajax ({ 2 3 4 }) 
+# Sentence pair (2537) source length 6 target length 4 alignment score : 4.19907e-06
+determine app running android 
+NULL ({ }) apis ({ 1 2 3 }) check ({ }) system ({ }) android ({ 4 }) desktop ({ }) jvm ({ }) 
+# Sentence pair (2541) source length 4 target length 5 alignment score : 3.67377e-08
+close window firefox using javascript 
+NULL ({ }) javascript ({ }) close ({ 1 2 }) firefox ({ 3 4 }) browser ({ 5 }) 
+# Sentence pair (2550) source length 7 target length 7 alignment score : 2.19603e-12
+get eclipse use different compiler version java 
+NULL ({ }) two ({ }) jdk ({ 1 }) installed ({ }) switch ({ }) java ({ 7 }) compiler ({ 3 4 5 6 }) eclipse ({ 2 }) 
+# Sentence pair (2559) source length 5 target length 10 alignment score : 1.03472e-19
+show jdbc resultset html jsp page using mvc dao pattern 
+NULL ({ }) pass ({ }) data ({ 1 2 3 4 8 9 10 }) java ({ }) servlet ({ }) jsp ({ 5 6 7 }) 
+# Sentence pair (2566) source length 5 target length 4 alignment score : 3.32796e-06
+get image data javascript 
+NULL ({ }) convert ({ }) image ({ }) binary ({ 1 2 }) data ({ 3 }) javascript ({ 4 }) 
+# Sentence pair (2573) source length 3 target length 6 alignment score : 5.23282e-07
+viewscoped calls postconstruct every postback request 
+NULL ({ }) problem ({ }) viewscope ({ 1 2 3 }) postconstruct ({ 4 5 6 }) 
+# Sentence pair (2577) source length 3 target length 4 alignment score : 1.15802e-07
+java.lang.outofmemoryerror java heap space 
+NULL ({ }) java ({ 2 }) heap ({ 1 3 4 }) memory ({ }) 
+# Sentence pair (2581) source length 9 target length 4 alignment score : 5.44351e-05
+difference java core java 
+NULL ({ }) difference ({ 1 }) `` ({ }) basic ({ }) java ({ 2 }) '' ({ }) `` ({ }) core ({ 3 }) java ({ 4 }) '' ({ }) 
+# Sentence pair (2593) source length 3 target length 6 alignment score : 3.05783e-08
+appending javascript array values dojo div 
+NULL ({ }) appending ({ }) dojo ({ 1 2 3 4 5 }) div ({ 6 }) 
+# Sentence pair (2596) source length 5 target length 4 alignment score : 8.57578e-06
+javascript conditional switch statement 
+NULL ({ }) javascript ({ 1 }) using ({ }) condition ({ 2 }) switch ({ }) case ({ 3 4 }) 
+# Sentence pair (2602) source length 5 target length 9 alignment score : 4.90186e-14
+matter equals operator == vs === use javascript comparisons 
+NULL ({ 8 }) jslint ({ }) strict ({ }) difference ({ }) == ({ 1 2 3 4 }) === ({ 5 6 7 9 }) 
+# Sentence pair (2609) source length 4 target length 6 alignment score : 2.15351e-09
+use creating constructor abstract class java 
+NULL ({ }) use ({ 1 }) constructor ({ 2 3 }) abstract ({ 4 }) class ({ 5 6 }) 
+# Sentence pair (2615) source length 3 target length 4 alignment score : 2.80489e-05
+third party tool chat 
+NULL ({ }) chat ({ 1 2 3 4 }) application ({ }) java ({ }) 
+# Sentence pair (2619) source length 6 target length 5 alignment score : 1.16641e-06
+advantages enhanced loop iterator java 
+NULL ({ }) iterator ({ }) vs ({ }) loop ({ }) iterator ({ }) introduced ({ 1 2 3 4 5 }) loop ({ }) 
+# Sentence pair (2624) source length 4 target length 6 alignment score : 3.21833e-09
+interface vs abstract class general oo 
+NULL ({ }) use ({ }) abstract ({ 1 2 3 4 5 6 }) class ({ }) interface ({ }) 
+# Sentence pair (2630) source length 5 target length 5 alignment score : 8.70335e-07
+best way convert arraylist string 
+NULL ({ }) getting ({ }) quickly ({ 1 2 3 4 }) string ({ 5 }) array ({ }) string ({ }) 
+# Sentence pair (2635) source length 4 target length 7 alignment score : 5.49859e-11
+example large sites running google app engine 
+NULL ({ }) google ({ 5 }) app ({ }) engine ({ 6 7 }) examples ({ 1 2 3 4 }) 
+# Sentence pair (2642) source length 2 target length 5 alignment score : 7.00652e-10
+using bitwise 0 floor number 
+NULL ({ }) javascript ({ }) operator ({ 1 2 3 4 5 }) 
+# Sentence pair (2645) source length 5 target length 8 alignment score : 1.1338e-11
+prevent user going back previous secured page logout 
+NULL ({ }) disable ({ 1 }) back ({ 2 3 4 }) button ({ }) logout ({ 5 6 7 8 }) jsp ({ }) 
+# Sentence pair (2650) source length 4 target length 7 alignment score : 1.12265e-12
+meaning new class ... ... initialization idiom 
+NULL ({ }) double ({ }) syntax ({ }) question ({ 1 2 3 4 5 6 7 }) java ({ }) 
+# Sentence pair (2651) source length 3 target length 4 alignment score : 5.66735e-05
+integer division produce double 
+NULL ({ }) 's ({ }) wrong ({ }) division ({ 1 2 3 4 }) 
+# Sentence pair (2654) source length 5 target length 7 alignment score : 5.74769e-13
+copy put text clipboard firefox safari chrome 
+NULL ({ }) read ({ }) clipboard ({ 1 3 4 }) data ({ }) cross ({ 2 5 6 7 }) browser ({ }) 
+# Sentence pair (2660) source length 7 target length 4 alignment score : 1.09878e-05
+dynamically adding collapsible elements 
+NULL ({ }) refresh ({ }) section ({ 1 2 3 4 }) adding ({ }) html ({ }) dynamically ({ }) jquery ({ }) mobile ({ }) 
+# Sentence pair (2666) source length 5 target length 6 alignment score : 2.0819e-09
+force generation jvm crash log file 
+NULL ({ }) force ({ 1 2 }) generate ({ }) jvm ({ }) core ({ }) dump ({ 3 4 5 6 }) 
+# Sentence pair (2671) source length 7 target length 8 alignment score : 1.46589e-12
+integer wrapper objects share instances within value 127 
+NULL ({ }) integer ({ 1 }) wrapper ({ 2 3 }) class ({ }) == ({ }) operator ({ }) behavior ({ }) specified ({ 4 5 6 7 8 }) 
+# Sentence pair (2679) source length 3 target length 3 alignment score : 0.00184644
+difference statement preparedstatement 
+NULL ({ }) go ({ }) statemant ({ }) preparedstatement ({ 1 2 3 }) 
+# Sentence pair (2683) source length 4 target length 5 alignment score : 1.73435e-08
+convert hexadecimal string long java 
+NULL ({ }) parsing ({ 1 2 }) integer ({ }) strings ({ 3 4 }) java ({ 5 }) 
+# Sentence pair (2687) source length 4 target length 5 alignment score : 5.39671e-08
+adjust height list dropdown box 
+NULL ({ }) height ({ 1 2 }) dropdown ({ }) box ({ 3 4 5 }) display ({ }) 
+# Sentence pair (2693) source length 6 target length 9 alignment score : 1.174e-13
+linked list implementation binary min heap trouble manipulation ... 
+NULL ({ }) implementing ({ }) binary ({ }) heap ({ }) using ({ }) linked ({ 1 2 3 4 5 6 7 8 9 }) list ({ }) 
+# Sentence pair (2701) source length 7 target length 5 alignment score : 2.15792e-08
+jquery ajax post example php 
+NULL ({ }) ajax ({ }) sending ({ }) data ({ }) php ({ 5 }) file ({ }) seem ({ 1 2 3 4 }) work ({ }) 
+# Sentence pair (2710) source length 9 target length 8 alignment score : 1.25168e-13
+mean serializable class declare static final serialversionuid field 
+NULL ({ }) `` ({ }) declare ({ }) static ({ 5 }) final ({ 6 }) serialversionuid ({ 7 8 }) '' ({ }) warning ({ 1 2 3 4 }) mean ({ }) fix ({ }) 
+# Sentence pair (2721) source length 4 target length 6 alignment score : 3.17873e-11
+javascript function add x months date 
+NULL ({ }) add ({ }) months ({ 2 3 4 5 }) date ({ 6 }) javascript ({ 1 }) 
+# Sentence pair (2725) source length 7 target length 5 alignment score : 7.43223e-07
+pass variables data php javascript 
+NULL ({ }) pass ({ }) variables ({ }) php ({ 1 2 3 4 }) page ({ }) javascript ({ 5 }) display ({ }) data ({ }) 
+# Sentence pair (2735) source length 7 target length 5 alignment score : 2.35753e-06
+tuning tomcat memory cpu consumption 
+NULL ({ }) tomcat ({ }) taking ({ 1 2 }) 100 ({ }) cpu ({ 3 4 5 }) command ({ }) put ({ }) prevent ({ }) 
+# Sentence pair (2741) source length 7 target length 3 alignment score : 0.00171294
+javascript equivalent printf/string.format 
+NULL ({ }) sprintf ({ }) javascript ({ 1 }) behaves ({ 2 3 }) like ({ }) python ({ }) 's ({ }) format ({ }) 
+# Sentence pair (2747) source length 4 target length 4 alignment score : 3.27356e-05
+get monitor size java 
+NULL ({ }) get ({ 1 }) screen ({ }) resolution ({ 2 3 }) java ({ 4 }) 
+# Sentence pair (2753) source length 6 target length 3 alignment score : 3.37189e-05
+compare strings java 
+NULL ({ }) compare ({ 1 2 }) multiple ({ }) words ({ 3 }) separated ({ }) comma ({ }) statement ({ }) 
+# Sentence pair (2758) source length 6 target length 5 alignment score : 1.16375e-08
+displaying currency indian numbering format 
+NULL ({ }) converting ({ }) number ({ }) comma ({ 1 2 3 4 }) separated ({ }) format ({ 5 }) java ({ }) 
+# Sentence pair (2764) source length 3 target length 3 alignment score : 0.00301813
+read/convert inputstream string 
+NULL ({ }) bufferedinputstream ({ 1 2 }) string ({ 3 }) conversion ({ }) 
+# Sentence pair (2770) source length 5 target length 7 alignment score : 8.31036e-16
+best regular expression check string valid url 
+NULL ({ }) determine ({ 1 4 }) string ({ 5 }) url ({ 6 7 }) regex ({ 2 3 }) java ({ }) 
+# Sentence pair (2779) source length 5 target length 7 alignment score : 1.52019e-10
+get button caused submit form submit event 
+NULL ({ }) determining ({ 1 2 3 }) submit ({ 4 5 6 7 }) button ({ }) clicked ({ }) jquery/javascript ({ }) 
+# Sentence pair (2786) source length 5 target length 8 alignment score : 4.60393e-13
+recommend java library reading possibly writing csv files 
+NULL ({ }) splitting ({ }) java ({ 2 }) string ({ }) quotation ({ 1 3 4 5 6 7 8 }) marks ({ }) 
+# Sentence pair (2794) source length 3 target length 6 alignment score : 3.56343e-11
+var functionname function vs function functionname 
+NULL ({ }) creating ({ 1 }) function ({ 2 3 4 5 6 }) js ({ }) 
+# Sentence pair (2798) source length 5 target length 6 alignment score : 2.94936e-06
+improving performance preprocessing large set documents 
+NULL ({ }) using ({ }) parallel ({ 1 2 }) algorithms ({ 3 }) reading ({ }) documents ({ 4 5 6 }) 
+# Sentence pair (2803) source length 3 target length 5 alignment score : 4.20619e-09
+using java create web browser 
+NULL ({ }) web ({ 1 3 4 }) browser ({ 5 }) java ({ 2 }) 
+# Sentence pair (2809) source length 5 target length 3 alignment score : 3.52573e-05
+run jar file 
+NULL ({ }) run ({ 1 }) jar ({ 2 }) file ({ 3 }) command ({ }) prompt ({ }) 
+# Sentence pair (2814) source length 3 target length 3 alignment score : 0.000147746
+thread safety singleton 
+NULL ({ }) thread ({ 1 }) safe ({ 2 3 }) singleton ({ }) 
+# Sentence pair (2818) source length 5 target length 6 alignment score : 3.54661e-07
+object attributes same-length representation faster reading 
+NULL ({ }) convert ({ }) object ({ 1 }) attributes ({ 2 }) always-same-length ({ 3 4 5 6 }) string ({ }) 
+# Sentence pair (2824) source length 3 target length 6 alignment score : 2.87506e-08
+java create function supports number parameters 
+NULL ({ }) use ({ }) var-args ({ 2 3 4 5 6 }) java ({ 1 }) 
+# Sentence pair (2829) source length 4 target length 3 alignment score : 2.4024e-05
+java unmodifiable array 
+NULL ({ }) make ({ 2 }) array ({ 3 }) java ({ 1 }) read ({ }) 
+# Sentence pair (2835) source length 3 target length 3 alignment score : 0.00389447
+request address javascript 
+NULL ({ }) qts ({ 1 2 }) javascript ({ 3 }) jquery ({ }) 
+# Sentence pair (2840) source length 4 target length 3 alignment score : 0.000544908
+send commands putty 
+NULL ({ }) java ({ }) putty ({ 1 2 3 }) send ({ }) commands ({ }) 
+# Sentence pair (2844) source length 6 target length 6 alignment score : 2.85319e-11
+best way remove table row jquery 
+NULL ({ }) use ({ }) jquery ({ 6 }) javascript ({ }) remove ({ }) row ({ 1 2 3 4 5 }) index ({ }) 
+# Sentence pair (2852) source length 6 target length 5 alignment score : 8.04047e-06
+good natural language processing library 
+NULL ({ }) simple ({ }) natural ({ 1 2 }) language ({ }) processing ({ 3 4 5 }) startup ({ }) java ({ }) 
+# Sentence pair (2860) source length 7 target length 4 alignment score : 3.73483e-05
+ie empty document.referrer location.replace 
+NULL ({ }) document.referrer ({ 1 2 3 4 }) issue ({ }) ie ({ }) requests ({ }) n't ({ }) come ({ }) link ({ }) 
+# Sentence pair (2867) source length 5 target length 5 alignment score : 9.89666e-07
+stream mp3 using pure java 
+NULL ({ }) play ({ }) stream ({ }) mp3 ({ 1 2 3 4 }) url ({ }) java ({ 5 }) 
+# Sentence pair (2874) source length 3 target length 6 alignment score : 1.30862e-07
+run jquery method enter key pressed 
+NULL ({ }) write ({ }) keyup ({ 1 2 3 4 5 6 }) function ({ }) 
+# Sentence pair (2880) source length 2 target length 3 alignment score : 0.00161976
+detect variable string 
+NULL ({ }) javascript ({ }) isinstanceof ({ 1 2 3 }) 
+# Sentence pair (2881) source length 8 target length 4 alignment score : 5.10106e-07
+change enter submission tab 
+NULL ({ }) enter ({ 1 2 3 }) key ({ }) tab ({ }) move ({ 4 }) focus ({ }) next ({ }) control ({ }) asp.net ({ }) 
+# Sentence pair (2890) source length 6 target length 7 alignment score : 4.77413e-09
+make div element editable like textarea click 
+NULL ({ }) edit-in-place ({ 1 2 3 }) javascript ({ }) editing ({ 4 5 6 7 }) multiple ({ }) fields ({ }) time ({ }) 
+# Sentence pair (2898) source length 6 target length 5 alignment score : 3.02433e-09
+javascript flash communication n't work 
+NULL ({ }) flash ({ 1 2 3 }) javascript ({ }) n't ({ 4 5 }) work ({ }) second ({ }) try ({ }) 
+# Sentence pair (2905) source length 5 target length 6 alignment score : 1.50433e-10
+include javascript file another javascript file 
+NULL ({ }) import ({ 1 }) javascript ({ 2 }) file ({ 3 4 6 }) javascript ({ 5 }) function ({ }) 
+# Sentence pair (2910) source length 4 target length 5 alignment score : 2.33382e-08
+get ms-windows installed applications java 
+NULL ({ }) get ({ 1 }) installed ({ 2 3 4 }) software ({ }) list ({ 5 }) 
+# Sentence pair (2914) source length 3 target length 4 alignment score : 4.93201e-06
+assert vs. junit assertions 
+NULL ({ }) using ({ }) assert ({ 1 2 3 4 }) java ({ }) 
+# Sentence pair (2918) source length 6 target length 7 alignment score : 1.31709e-14
+transfer data jsp servlet submitting html form 
+NULL ({ }) submit ({ 1 2 3 4 7 }) form ({ 5 }) html ({ 6 }) file ({ }) java ({ }) file ({ }) 
+# Sentence pair (2928) source length 5 target length 5 alignment score : 1.29939e-06
+manipulating comparing floating points java 
+NULL ({ }) comparing ({ }) floating ({ 1 2 3 4 }) point ({ }) numbers ({ }) java ({ 5 }) 
+# Sentence pair (2934) source length 3 target length 4 alignment score : 7.15789e-07
+embedding javascript engine .net 
+NULL ({ }) execute ({ 1 3 4 }) javascript ({ 2 }) c ({ }) 
+# Sentence pair (2938) source length 6 target length 7 alignment score : 1.02217e-08
+.indexof function array working ie7/8 using javascript 
+NULL ({ }) true ({ }) ie7 ({ 1 2 3 }) doesnt ({ }) support ({ }) indexof ({ 4 5 6 }) javascript ({ 7 }) 
+# Sentence pair (2947) source length 6 target length 4 alignment score : 2.04951e-08
+get variable php javascript 
+NULL ({ }) using ({ }) javascript ({ 4 }) variable ({ }) set ({ }) php ({ 3 }) variable ({ 1 2 }) 
+# Sentence pair (2953) source length 6 target length 8 alignment score : 8.75344e-10
+causes 'java.lang.nosuchmethoderror main exception thread `` main '' 
+NULL ({ }) exception ({ 1 2 3 4 }) thread ({ 5 }) `` ({ }) main ({ 6 7 8 }) '' ({ }) java.lang.nosuchmethoderror ({ }) 
+# Sentence pair (2961) source length 5 target length 3 alignment score : 0.000984602
+'var mean javascript 
+NULL ({ }) `` ({ }) var ({ }) b=this ({ 1 2 3 }) '' ({ }) mean ({ }) 
+# Sentence pair (2964) source length 7 target length 6 alignment score : 2.45642e-07
+~~ `` double tilde '' javascript 
+NULL ({ }) `` ({ }) double ({ }) tilde ({ 1 2 3 4 }) '' ({ }) ~~ ({ 5 }) operator ({ }) javascript ({ 6 }) 
+# Sentence pair (2972) source length 5 target length 6 alignment score : 1.35238e-07
+add subject alernative name ssl certs 
+NULL ({ }) adding ({ 1 }) san ({ 2 3 }) ssl ({ }) cert ({ 4 5 6 }) java ({ }) 
+# Sentence pair (2979) source length 6 target length 5 alignment score : 1.32718e-05
+java guarantee object.getclass == object.getclass 
+NULL ({ }) java ({ 1 }) comparing ({ }) classes ({ }) == ({ }) .equals ({ 2 3 4 5 }) difference ({ }) 
+# Sentence pair (2985) source length 6 target length 4 alignment score : 9.99789e-08
+view pdf java app 
+NULL ({ }) possible ({ }) view ({ }) pdf ({ 1 2 4 }) file ({ }) gui ({ }) java ({ 3 }) 
+# Sentence pair (2993) source length 4 target length 10 alignment score : 5.46346e-15
+draw rectangle java applet using mouse drag event make stay 
+NULL ({ }) drawing ({ 7 8 9 10 }) rectangle ({ 1 2 3 4 }) using ({ 5 }) mouse ({ 6 }) 
+# Sentence pair (3005) source length 3 target length 3 alignment score : 0.00103578
+break continue ext.each 
+NULL ({ }) terminate ({ }) function ({ }) `ext.each` ({ 1 2 3 }) 
+# Sentence pair (3011) source length 6 target length 5 alignment score : 5.74028e-07
+`` exists '' function jquery 
+NULL ({ }) check ({ }) object ({ }) id ({ }) already ({ }) exists ({ 1 2 3 4 5 }) page ({ }) 
+# Sentence pair (3016) source length 5 target length 4 alignment score : 9.23839e-05
+set environment variables java 
+NULL ({ }) setting ({ }) ld_library_path ({ 1 2 3 }) within ({ }) java ({ 4 }) application ({ }) 
+# Sentence pair (3023) source length 3 target length 5 alignment score : 5.83328e-07
+write java application update runtime 
+NULL ({ }) updating ({ 1 3 4 5 }) application ({ }) java ({ 2 }) 
+# Sentence pair (3027) source length 5 target length 5 alignment score : 1.74151e-06
+deploy ejb based application tomcat 
+NULL ({ }) use ({ }) ejb ({ }) annotation ({ }) apache ({ 1 2 }) tomcat ({ 3 4 5 }) 
+# Sentence pair (3031) source length 3 target length 8 alignment score : 8.02592e-10
+hibernate different object identifier value already associated session 
+NULL ({ }) hibernate ({ 1 2 }) objects ({ }) differ ({ 3 4 5 6 7 8 }) 
+# Sentence pair (3037) source length 5 target length 3 alignment score : 0.000174607
+email internal storage 
+NULL ({ }) android ({ }) intent ({ }) sending ({ }) email ({ }) attachment ({ 1 2 3 }) 
+# Sentence pair (3041) source length 5 target length 5 alignment score : 1.71774e-10
+design patterns used jquery library 
+NULL ({ }) jquery ({ 4 }) based ({ 5 }) javascript ({ }) design ({ 1 2 3 }) pattern ({ }) 
+# Sentence pair (3045) source length 5 target length 4 alignment score : 0.000126994
+compare raw time java 
+NULL ({ }) java ({ }) date ({ }) know ({ }) hh ({ 1 2 }) mm ({ 3 4 }) 
+# Sentence pair (3051) source length 5 target length 4 alignment score : 0.000172088
+jquery get textarea text 
+NULL ({ }) jquery ({ 1 }) get ({ 2 }) selected ({ }) text ({ }) textarea/input ({ 3 4 }) 
+# Sentence pair (3057) source length 5 target length 9 alignment score : 1.55305e-12
+remove high-ascii characters string like ® © ™ java 
+NULL ({ }) bad ({ }) characters ({ }) removal ({ 1 2 3 4 5 6 7 8 }) using ({ }) java ({ 9 }) 
+# Sentence pair (3065) source length 4 target length 3 alignment score : 0.000170822
+jquery delay animations 
+NULL ({ }) create ({ }) delay ({ 1 2 3 }) running ({ }) functions ({ }) 
+# Sentence pair (3069) source length 4 target length 6 alignment score : 4.94259e-12
+facing weird problem adding removing class 
+NULL ({ }) find ({ }) html ({ }) element ({ }) remove ({ 1 2 3 4 5 6 }) 
+# Sentence pair (3072) source length 4 target length 9 alignment score : 2.67991e-10
+atomically rename file java even dest file already exists 
+NULL ({ }) file.rename ({ 1 2 3 }) java ({ 4 }) atomic ({ 5 6 7 8 9 }) operation ({ }) 
+# Sentence pair (3077) source length 5 target length 5 alignment score : 5.75469e-06
+java compiled interpreted programming language 
+NULL ({ }) java ({ 1 }) interpreted ({ 2 3 4 5 }) language ({ }) compiled ({ }) language ({ }) 
+# Sentence pair (3083) source length 4 target length 3 alignment score : 0.00100611
+count elements jquery 
+NULL ({ }) check ({ }) many ({ }) '.classname ({ 1 2 3 }) items ({ }) 
+# Sentence pair (3088) source length 5 target length 7 alignment score : 1.00692e-12
+create function pass variable length argument list 
+NULL ({ }) invoke ({ 1 2 3 6 7 }) function ({ }) variable ({ 4 }) argument ({ }) length ({ 5 }) 
+# Sentence pair (3097) source length 4 target length 11 alignment score : 3.1035e-20
+list dog subclass list animal n't java 's generics implicitly polymorphic 
+NULL ({ }) java ({ }) type ({ }) casting ({ 1 2 3 4 5 10 11 }) problem ({ 6 7 8 9 }) 
+# Sentence pair (3103) source length 4 target length 4 alignment score : 6.17551e-05
+jdbc realm login page 
+NULL ({ }) jdbc ({ 1 }) realm ({ 2 3 4 }) form ({ }) authentication ({ }) 
+# Sentence pair (3105) source length 5 target length 7 alignment score : 2.49107e-11
+get global variable dynamically name string javascript 
+NULL ({ }) use ({ }) string ({ }) variable ({ }) name ({ 1 2 3 4 5 6 }) javascript ({ 7 }) 
+# Sentence pair (3110) source length 5 target length 6 alignment score : 4.63121e-12
+best way transfer array php javascript 
+NULL ({ }) php ({ 5 }) variable ({ }) inside ({ 1 2 3 4 }) js ({ 6 }) file ({ }) 
+# Sentence pair (3119) source length 8 target length 5 alignment score : 5.76177e-07
+hiding textarea resize handle safari 
+NULL ({ }) make ({ }) user ({ }) ca ({ }) n't ({ }) control ({ }) size ({ }) text ({ }) area ({ 1 2 3 4 5 }) 
+# Sentence pair (3125) source length 10 target length 5 alignment score : 1.14926e-07
+comprehensive regex phone number validation 
+NULL ({ }) forgiving ({ }) javascript ({ }) validation ({ }) us ({ }) phone ({ }) numbers ({ }) allowing ({ 1 2 3 4 }) extensions ({ 5 }) jquery ({ }) allowed ({ }) 
+# Sentence pair (3132) source length 8 target length 5 alignment score : 4.34162e-08
+pass text textbox javascript function 
+NULL ({ }) pass ({ 1 }) textbox ({ 2 3 4 5 }) value ({ }) java ({ }) script ({ }) button ({ }) click ({ }) event ({ }) 
+# Sentence pair (3140) source length 6 target length 5 alignment score : 4.97958e-06
+java look feel l f 
+NULL ({ }) java ({ 1 }) cross ({ }) platform ({ }) swing ({ }) look ({ }) feel ({ 2 3 4 5 }) 
+# Sentence pair (3143) source length 11 target length 5 alignment score : 3.75252e-06
+difference string object string literal 
+NULL ({ }) diff ({ 1 }) bet ({ 2 3 4 5 }) new ({ }) string ({ }) `` ({ }) xyz ({ }) '' ({ }) `` ({ }) xyz ({ }) '' ({ }) java ({ }) 
+# Sentence pair (3151) source length 8 target length 4 alignment score : 1.83852e-06
+set umask within java 
+NULL ({ }) java ({ }) set ({ }) file ({ }) permissions ({ }) 777 ({ 1 2 3 4 }) creating ({ }) file ({ }) object ({ }) 
+# Sentence pair (3159) source length 7 target length 5 alignment score : 1.37019e-06
+proved mouseover workaround firefoxdriver selenium2 
+NULL ({ }) mouse ({ }) hover ({ }) webelement ({ 1 }) using ({ }) selenium ({ 2 3 4 5 }) 2 ({ }) java ({ }) 
+# Sentence pair (3165) source length 3 target length 5 alignment score : 2.46172e-05
+create file write file java 
+NULL ({ }) saving/loading ({ 1 2 3 4 }) files ({ }) java ({ 5 }) 
+# Sentence pair (3171) source length 11 target length 6 alignment score : 1.59223e-10
+xmlhttprequest.responsetext doesnt write value calling url 
+NULL ({ }) call ({ }) url ({ 6 }) get ({ }) return ({ }) value ({ }) jquery ({ }) javascript ({ }) doesnt ({ 1 2 3 4 5 }) display ({ }) return ({ }) value ({ }) 
+# Sentence pair (3184) source length 8 target length 7 alignment score : 4.81604e-11
+using wild card java import statement bad 
+NULL ({ }) better ({ }) import ({ }) specific ({ }) packages ({ }) whole ({ }) tree ({ }) wildcards ({ 1 2 3 5 6 7 }) java ({ 4 }) 
+# Sentence pair (3192) source length 5 target length 3 alignment score : 0.00012172
+logical operators java 
+NULL ({ }) difference ({ }) bitwise ({ }) booolean ({ }) operator ({ }) 'and' ({ 1 2 3 }) 
+# Sentence pair (3195) source length 8 target length 7 alignment score : 1.46653e-09
+java `` pass-by-reference '' `` pass-by-value '' 
+NULL ({ }) n't ({ }) understand ({ }) pass ({ }) value ({ }) pass ({ }) reference ({ }) concept ({ 2 3 4 5 6 7 }) java ({ 1 }) 
+# Sentence pair (3211) source length 3 target length 6 alignment score : 3.58224e-08
+adding directory path environment variable windows 
+NULL ({ }) problems ({ }) setting ({ 1 2 3 4 5 6 }) maven ({ }) 
+# Sentence pair (3215) source length 4 target length 6 alignment score : 1.22299e-07
+changing default printer asp.net javascript possible 
+NULL ({ }) set ({ }) specific ({ }) printer ({ }) javascript.window.print ({ 1 2 3 4 5 6 }) 
+# Sentence pair (3221) source length 4 target length 3 alignment score : 1.10897e-06
+difference .equals == 
+NULL ({ }) simple ({ 1 2 3 }) string ({ }) comparison ({ }) question ({ }) 
+# Sentence pair (3225) source length 8 target length 5 alignment score : 5.30859e-09
+jquery show hide class hover 
+NULL ({ }) displaying ({ }) contents ({ }) details ({ 1 2 3 4 }) via ({ }) hover ({ 5 }) like ({ }) stackoverflow ({ }) javascript ({ }) 
+# Sentence pair (3230) source length 4 target length 6 alignment score : 5.07794e-09
+debug applications java web start jnlp 
+NULL ({ }) debug ({ 1 }) java ({ 3 }) webstart ({ 2 4 5 6 }) application ({ }) 
+# Sentence pair (3235) source length 3 target length 4 alignment score : 5.20985e-05
+best xml parser java 
+NULL ({ }) proccessing ({ 1 2 3 }) xml ({ }) java ({ 4 }) 
+# Sentence pair (3241) source length 5 target length 4 alignment score : 2.47049e-06
+running function typing url 
+NULL ({ }) running ({ 1 2 }) function ({ }) typing ({ 3 }) url ({ 4 }) javascript ({ }) 
+# Sentence pair (3247) source length 2 target length 4 alignment score : 1.45296e-07
+test value javascript array 
+NULL ({ }) javascript ({ }) x ({ 1 2 3 4 }) 
+# Sentence pair (3251) source length 7 target length 3 alignment score : 0.000270017
+learning write compiler 
+NULL ({ }) start ({ }) want ({ }) understand ({ }) compilers ({ 1 2 3 }) programming ({ }) languages ({ }) made ({ }) 
+# Sentence pair (3257) source length 5 target length 2 alignment score : 0.0129171
+cross-browser css 
+NULL ({ }) writing ({ }) css ({ }) rules ({ 1 2 }) different ({ }) browsers ({ }) 
+# Sentence pair (3260) source length 7 target length 5 alignment score : 4.11778e-08
+convert integer byte array java 
+NULL ({ }) java ({ }) convert ({ 1 }) int ({ 2 5 }) byte ({ 3 }) array ({ 4 }) 4 ({ }) bytes ({ }) 
+# Sentence pair (3270) source length 4 target length 6 alignment score : 1.62944e-10
+problem page loading content inside content 
+NULL ({ }) help ({ 1 2 3 4 5 6 }) php ({ }) javascript ({ }) code ({ }) 
+# Sentence pair (3275) source length 6 target length 6 alignment score : 2.59251e-10
+assign variable condition statement good practice 
+NULL ({ }) bad ({ 1 2 3 4 5 6 }) practice ({ }) put ({ }) inside ({ }) javascript ({ }) statement ({ }) 
+# Sentence pair (3280) source length 3 target length 4 alignment score : 4.86243e-07
+javascript anonymous function wrapper 
+NULL ({ }) standalone ({ }) parentheses ({ 1 2 3 4 }) javascript ({ }) 
+# Sentence pair (3285) source length 10 target length 5 alignment score : 1.68179e-07
+`` break exception '' intellij 
+NULL ({ }) intellij ({ }) idea ({ }) create ({ }) exception ({ }) breakpoint ({ 1 }) stops ({ }) exceptions ({ }) *except ({ }) for* ({ 2 3 4 5 }) classnotfoundexception ({ }) 
+# Sentence pair (3296) source length 7 target length 7 alignment score : 1.2182e-09
+make javascript full screen windows stretching screen 
+NULL ({ }) full ({ 1 2 3 }) screen ({ 4 5 6 7 }) page ({ }) pressing ({ }) button ({ }) instead ({ }) f11 ({ }) 
+# Sentence pair (3306) source length 8 target length 3 alignment score : 6.98168e-06
+store images database 
+NULL ({ }) storing ({ }) images ({ }) using ({ }) blob ({ 1 2 3 }) vs ({ }) direct ({ }) web ({ }) server ({ }) 
+# Sentence pair (3312) source length 5 target length 7 alignment score : 1.18003e-11
+possible call ant nsis scripts java code 
+NULL ({ }) calling ({ }) ant ({ 1 2 3 4 5 }) file ({ }) java ({ 6 }) code ({ 7 }) 
+# Sentence pair (3317) source length 4 target length 6 alignment score : 2.45229e-07
+mapping manytomany composite primary key annotation 
+NULL ({ }) jpa ({ }) composite ({ 1 2 3 }) primary ({ 4 5 6 }) key ({ }) 
+# Sentence pair (3321) source length 5 target length 9 alignment score : 3.26714e-11
+performance difference jquery 's .live 'click fn .click fn 
+NULL ({ }) live ({ }) delegate ({ 1 2 3 4 5 }) significantly ({ 6 7 8 9 }) affect ({ }) performance ({ }) 
+# Sentence pair (3328) source length 5 target length 8 alignment score : 3.69797e-09
+grails vs roo springsource pushing two similar technologies 
+NULL ({ }) roo ({ 1 2 3 }) grails ({ 4 5 }) company ({ }) similar ({ }) products ({ 6 7 8 }) 
+# Sentence pair (3333) source length 6 target length 7 alignment score : 5.46326e-13
+built-in way javascript check string valid number 
+NULL ({ 3 }) check ({ }) whether ({ }) textbox ({ }) value ({ }) numeric ({ 1 2 4 6 7 }) string ({ 5 }) 
+# Sentence pair (3344) source length 4 target length 7 alignment score : 6.73272e-11
+android heap size different phones/devices os versions 
+NULL ({ }) heap ({ 2 }) size ({ 3 }) jvm ({ 4 5 6 7 }) android ({ 1 }) 
+# Sentence pair (3351) source length 5 target length 4 alignment score : 9.52308e-06
+copy message clipboard html 
+NULL ({ }) copy ({ 1 }) pop ({ }) message ({ 2 }) clipboard ({ 3 }) html ({ 4 }) 
+# Sentence pair (3359) source length 6 target length 5 alignment score : 2.601e-07
+identify remove type bullet text 
+NULL ({ }) regular ({ }) expression ({ }) remove ({ }) bullets ({ 1 2 3 4 }) text ({ 5 }) working ({ }) 
+# Sentence pair (3368) source length 5 target length 8 alignment score : 1.69819e-10
+java would dynamically add swing component gui click 
+NULL ({ }) java ({ 1 }) swing ({ 2 }) dynamically ({ 3 }) adding ({ 4 }) components ({ 5 6 7 8 }) 
+# Sentence pair (3378) source length 8 target length 8 alignment score : 1.07648e-10
+restrict android device open specific site e.g.youtube facebook 
+NULL ({ }) make ({ }) entries ({ }) android ({ }) /etc/hosts ({ 1 2 3 4 }) file ({ }) restrict ({ 5 6 7 8 }) specific ({ }) websites ({ }) 
+# Sentence pair (3391) source length 3 target length 4 alignment score : 0.000132643
+plain english explanation big 
+NULL ({ }) big ({ }) anew ({ 1 }) beginner ({ 2 3 4 }) 
+# Sentence pair (3399) source length 5 target length 6 alignment score : 2.48834e-09
+evaluating math expression given string form 
+NULL ({ }) converting ({ }) string ({ 5 }) operation ({ 6 }) short ({ 1 2 3 4 }) java ({ }) 
+# Sentence pair (3401) source length 6 target length 11 alignment score : 2.47065e-18
+`` best '' way get set single cookie value using javascript 
+NULL ({ }) set ({ }) cookie ({ 1 2 3 4 5 6 7 8 9 }) expire ({ }) x ({ }) days ({ 10 }) code ({ 11 }) 
+# Sentence pair (3413) source length 4 target length 4 alignment score : 9.92715e-05
+new integer vs valueof 
+NULL ({ }) integer.valueof ({ 1 2 3 4 }) better ({ }) new ({ }) integer ({ }) 
+# Sentence pair (3416) source length 4 target length 4 alignment score : 2.38035e-07
+bind events dom element 
+NULL ({ }) jquery ({ }) bind ({ 1 }) events ({ 2 3 4 }) object ({ }) 
+# Sentence pair (3423) source length 4 target length 3 alignment score : 0.00103904
+android activity dialog 
+NULL ({ }) show ({ }) intent ({ 1 2 }) new ({ }) dialog ({ 3 }) 
+# Sentence pair (3429) source length 4 target length 6 alignment score : 6.95815e-11
+parentheses surrounding javascript object/function/class declaration mean 
+NULL ({ }) happens ({ 1 2 4 5 6 }) put ({ }) function ({ }) parentheses ({ 3 }) 
+# Sentence pair (3438) source length 3 target length 9 alignment score : 2.15597e-11
+make android spinner initial text `` select one '' 
+NULL ({ }) android ({ }) spinner ({ 1 2 3 4 5 }) hint ({ 6 7 8 9 }) 
+# Sentence pair (3444) source length 7 target length 7 alignment score : 7.00031e-12
+javadoc like documentation c 's xml comments 
+NULL ({ }) want ({ }) create ({ }) documentation ({ 4 5 6 7 }) c ({ }) something ({ }) similar ({ }) javadoc ({ 1 2 3 }) 
+# Sentence pair (3454) source length 5 target length 2 alignment score : 1.22524e-05
+operator javascript 
+NULL ({ }) `` ({ 1 2 }) '' ({ }) pointer ({ }) global ({ }) functions ({ }) 
+# Sentence pair (3460) source length 11 target length 8 alignment score : 3.88414e-10
+causes 'java.lang.nosuchmethoderror main exception thread `` main '' 
+NULL ({ }) error ({ }) writing ({ }) text ({ }) file ({ }) `` ({ }) exception ({ 1 2 3 4 }) thread ({ 5 }) `` ({ }) main ({ 6 7 8 }) '' ({ }) `` ({ }) 
+# Sentence pair (3483) source length 5 target length 5 alignment score : 1.09951e-08
+creating html page xml file 
+NULL ({ }) generating ({ 1 3 }) html ({ 2 }) files ({ }) xml ({ 4 }) file ({ 5 }) 
+# Sentence pair (3493) source length 4 target length 7 alignment score : 2.40766e-10
+subtract x days date using java calendar 
+NULL ({ }) java ({ 6 }) getdate ({ 1 2 }) date-x ({ 3 4 5 7 }) days ({ }) 
+# Sentence pair (3503) source length 5 target length 8 alignment score : 6.21879e-12
+loop n't see changed value without print statement 
+NULL ({ }) infinite ({ }) loop ({ }) problem ({ 1 }) loop ({ }) threading ({ 2 3 4 5 6 7 8 }) 
+# Sentence pair (3514) source length 8 target length 4 alignment score : 1.60923e-06
+removing element array java 
+NULL ({ }) remove ({ }) elements ({ }) array ({ 3 }) java ({ 4 }) even ({ 1 2 }) iterate ({ }) array ({ }) directly ({ }) 
+# Sentence pair (3521) source length 2 target length 5 alignment score : 1.33976e-08
+convert java string date object 
+NULL ({ }) date/time ({ 1 3 4 5 }) java ({ 2 }) 
+# Sentence pair (3528) source length 3 target length 3 alignment score : 0.00543122
+obfuscate protect javascript 
+NULL ({ }) hardest-to-reverse ({ 1 2 }) javascript ({ 3 }) obfuscator ({ }) 
+# Sentence pair (3530) source length 6 target length 6 alignment score : 6.10915e-08
+using memcached database buffer chat messages 
+NULL ({ }) using ({ }) memcache ({ 1 2 3 }) build ({ }) php/javascript ({ }) chat ({ }) room ({ 4 5 6 }) 
+# Sentence pair (3541) source length 8 target length 6 alignment score : 2.91762e-10
+difference function expression vs declaration javascript 
+NULL ({ }) javascript ({ }) anonymous ({ }) function ({ }) immediate ({ }) invocation/execution ({ 1 2 3 }) expression ({ }) vs. ({ 4 5 6 }) declaration ({ }) 
+# Sentence pair (3550) source length 4 target length 4 alignment score : 4.77696e-07
+find dead javascript code 
+NULL ({ }) remove ({ }) dead ({ 1 2 }) code ({ 4 }) javascript ({ 3 }) 
+# Sentence pair (3556) source length 4 target length 4 alignment score : 0.000105599
+making dom ie friendly 
+NULL ({ }) ie ({ }) compliant ({ 1 2 3 4 }) code ({ }) working ({ }) 
+# Sentence pair (3561) source length 4 target length 5 alignment score : 1.33615e-06
+eager load property using hql 
+NULL ({ }) hibernate ({ }) data ({ }) retrieve ({ }) improvement ({ 1 2 3 4 5 }) 
+# Sentence pair (3565) source length 7 target length 5 alignment score : 2.81207e-07
+get location src javascript file 
+NULL ({ }) get ({ 1 }) domain ({ }) name ({ }) server ({ }) hosts ({ 2 3 5 }) included ({ }) javascript ({ 4 }) 
+# Sentence pair (3575) source length 3 target length 3 alignment score : 1.62747e-05
+function construct javascript 
+NULL ({ }) javascript ({ 3 }) snippet ({ 1 2 }) mean ({ }) 
+# Sentence pair (3579) source length 4 target length 6 alignment score : 3.29047e-10
+would convert string java string literal 
+NULL ({ }) converting ({ 1 2 }) string ({ 3 4 }) string ({ 5 }) literal ({ 6 }) 
+# Sentence pair (3584) source length 6 target length 5 alignment score : 7.4434e-07
+switch window normal full-screen mode 
+NULL ({ }) switching ({ 1 2 3 4 5 }) browser ({ }) full ({ }) screen ({ }) javascript ({ }) possible ({ }) 
+# Sentence pair (3595) source length 4 target length 6 alignment score : 5.7806e-08
+javascript compare strings without case sensitive 
+NULL ({ }) check ({ }) case ({ }) insensitivity ({ 1 2 3 4 5 6 }) jquery ({ }) 
+# Sentence pair (3602) source length 5 target length 5 alignment score : 1.1638e-06
+pass variables data php javascript 
+NULL ({ }) pass ({ }) php ({ 1 2 3 4 }) variable ({ }) javascript ({ 5 }) code ({ }) 
+# Sentence pair (3609) source length 3 target length 8 alignment score : 1.57134e-12
+'s best way validate xml file xsd file 
+NULL ({ }) validating ({ }) xml ({ 5 }) xsd ({ 1 2 3 4 6 7 8 }) 
+# Sentence pair (3617) source length 6 target length 7 alignment score : 1.07827e-09
+put google analytics js head end body 
+NULL ({ }) best ({ }) place ({ }) insert ({ }) google ({ }) analytics ({ 1 2 3 4 5 6 7 }) code ({ }) 
+# Sentence pair (3627) source length 4 target length 4 alignment score : 4.49633e-06
+use javascript framework library 
+NULL ({ }) advantages ({ 1 3 4 }) jquery ({ }) writing ({ }) javascript ({ 2 }) 
+# Sentence pair (3634) source length 5 target length 7 alignment score : 2.48976e-13
+using comparable multiple dynamic fields vo java 
+NULL ({ }) sort ({ }) list ({ }) objects ({ }) multiple ({ 3 }) fields ({ 1 2 4 5 6 7 }) 
+# Sentence pair (3642) source length 6 target length 5 alignment score : 8.30946e-08
+check program installed windows system 
+NULL ({ }) check ({ 1 }) installed ({ 2 3 4 5 }) program ({ }) windows ({ }) using ({ }) java ({ }) 
+# Sentence pair (3650) source length 7 target length 4 alignment score : 4.52807e-06
+open excel document java 
+NULL ({ }) using ({ }) java ({ }) cause ({ 1 2 3 4 }) word ({ }) open ({ }) edit ({ }) file ({ }) 
+# Sentence pair (3661) source length 4 target length 3 alignment score : 0.000147244
+window.onbeforeunload working ipad 
+NULL ({ }) onbeforeunload ({ 1 2 3 }) event ({ }) support ({ }) ipad ({ }) 
+# Sentence pair (3665) source length 4 target length 6 alignment score : 5.54272e-07
+get dates sundays particular year java 
+NULL ({ }) get ({ 1 }) date ({ }) every ({ }) sunday ({ 2 3 4 5 6 }) 
+# Sentence pair (3670) source length 6 target length 8 alignment score : 1.62167e-12
+remove non breaking space nbsp elements using jquery 
+NULL ({ }) jquery/javascript ({ }) trim ({ }) white ({ }) space/tab ({ 1 2 3 4 5 6 7 }) two ({ }) element ({ 8 }) 
+# Sentence pair (3677) source length 6 target length 4 alignment score : 1.36171e-08
+retain precision double java 
+NULL ({ }) adding ({ }) two ({ }) double ({ 3 4 }) give ({ 1 2 }) correct ({ }) answer ({ }) 
+# Sentence pair (3683) source length 4 target length 6 alignment score : 8.86732e-08
+able add 3 jpanels main panel 
+NULL ({ }) jpanel ({ }) 's ({ }) aligning ({ 1 2 3 4 5 6 }) properly ({ }) 
+# Sentence pair (3691) source length 2 target length 3 alignment score : 2.48762e-05
+url-encode string jstl 
+NULL ({ }) urlencode ({ 1 3 }) string ({ 2 }) 
+# Sentence pair (3694) source length 6 target length 7 alignment score : 6.2862e-11
+merge keys array values array object javascript 
+NULL ({ }) merge ({ 1 2 3 4 5 }) two ({ }) arrays ({ }) keys ({ }) values ({ }) object ({ 6 7 }) 
+# Sentence pair (3705) source length 11 target length 9 alignment score : 6.27882e-13
+sum columns html table generated database jsp using javascript 
+NULL ({ }) sum ({ }) values ({ }) row ({ }) column ({ 1 2 }) html ({ 3 }) table ({ 4 }) generated ({ 5 }) database ({ 6 }) jsp ({ 7 }) using ({ 8 }) javascript ({ 9 }) 
+# Sentence pair (3717) source length 6 target length 5 alignment score : 4.34207e-08
+find subclasses given class java 
+NULL ({ }) determining ({ }) class ({ 4 }) subclasses ({ 1 2 3 }) reflection ({ }) api ({ }) java ({ 5 }) 
+# Sentence pair (3727) source length 4 target length 6 alignment score : 6.38883e-08
+call javascript function specific time day 
+NULL ({ }) create ({ }) custom ({ }) video ({ }) player ({ 1 2 3 4 5 6 }) 
+# Sentence pair (3735) source length 2 target length 2 alignment score : 0.104947
+java.lang.noclassdeffounderror javax/servlet/http/httpservletrequest 
+NULL ({ }) java.lang.noclassdeffounderror ({ 1 2 }) javax/servlet/http/httpservletrequest ({ }) 
+# Sentence pair (3739) source length 8 target length 4 alignment score : 1.0877e-05
+remove wrapper json object 
+NULL ({ }) reformatting ({ 1 2 }) json ({ 3 4 }) string ({ }) facebook ({ }) 's ({ }) graph ({ }) api ({ }) js ({ }) 
+# Sentence pair (3748) source length 4 target length 2 alignment score : 0.0030381
+parse date 
+NULL ({ }) convert ({ }) java.lang.string ({ 1 2 }) java.util.date ({ }) java ({ }) 
+# Sentence pair (3755) source length 4 target length 5 alignment score : 3.38821e-06
+replacement .all function browsers ie 
+NULL ({ }) convert ({ }) function ({ }) work ({ }) crossbrowser ({ 1 2 3 4 5 }) 
+# Sentence pair (3759) source length 7 target length 4 alignment score : 2.83693e-05
+codestyle put javadoc annotation 
+NULL ({ }) 's ({ }) best ({ }) way ({ }) handle/format ({ 1 2 3 4 }) javadoc ({ }) annotations ({ }) code ({ }) 
+# Sentence pair (3765) source length 3 target length 5 alignment score : 1.87373e-05
+pass variable regular expression javascript 
+NULL ({ }) reg ({ 1 2 }) exp ({ 3 4 5 }) search ({ }) 
+# Sentence pair (3769) source length 5 target length 6 alignment score : 5.34924e-08
+java sax parser split calls characters 
+NULL ({ }) sax ({ }) characters ({ }) breaking ({ }) element ({ }) apart ({ 1 2 3 4 5 6 }) 
+# Sentence pair (3779) source length 5 target length 4 alignment score : 1.92461e-06
+jdbc batch insert performance 
+NULL ({ }) java ({ }) batch ({ 1 2 }) insert ({ 3 }) mysql ({ }) slow ({ 4 }) 
+# Sentence pair (3785) source length 3 target length 4 alignment score : 2.82715e-06
+get formatted html ckeditor 
+NULL ({ }) get ({ 1 }) html ({ 3 }) ckeditor ({ 2 4 }) 
+# Sentence pair (3790) source length 10 target length 7 alignment score : 6.40631e-13
+retrieving file names multi-file upload control javascript 
+NULL ({ }) get ({ }) input ({ }) type= ({ 1 2 3 4 5 6 }) '' ({ }) file ({ }) '' ({ }) value ({ }) multiple ({ }) files ({ }) selected ({ 7 }) 
+# Sentence pair (3802) source length 4 target length 5 alignment score : 3.34935e-07
+convert java program .exe file 
+NULL ({ }) create ({ }) executable ({ 1 3 4 5 }) file ({ }) java ({ 2 }) 
+# Sentence pair (3807) source length 5 target length 6 alignment score : 2.35312e-08
+preserve existing query string mod_rewrite rule 
+NULL ({ }) rewrite ({ }) uri ({ }) destination ({ 1 2 3 4 5 6 }) query ({ }) string ({ }) 
+# Sentence pair (3815) source length 13 target length 8 alignment score : 2.39502e-12
+javascript closure inside loops – simple practical example 
+NULL ({ }) using ({ }) callbacks ({ 2 3 4 5 6 7 8 }) inside ({ }) loop ({ }) javascript ({ 1 }) way ({ }) save ({ }) variable ({ }) 's ({ }) updated ({ }) loop ({ }) use ({ }) callback ({ }) 
+# Sentence pair (3835) source length 5 target length 7 alignment score : 1.70473e-09
+eclipse java jre jdk ... virtual machine 
+NULL ({ }) java ({ 2 }) virtual ({ }) machine ({ 3 4 5 6 7 }) found ({ }) eclipse ({ 1 }) 
+# Sentence pair (3848) source length 5 target length 13 alignment score : 1.72215e-26
+android 1.6 `` android.view.windowmanager badtokenexception unable add window -- token null application '' 
+NULL ({ }) unable ({ 2 4 5 6 9 10 11 12 }) add ({ 7 }) window ({ 8 }) error ({ 3 13 }) android ({ 1 }) 
+# Sentence pair (3863) source length 3 target length 3 alignment score : 2.38584e-05
+play sound java 
+NULL ({ }) java ({ 3 }) play ({ }) sound ({ 1 2 }) 
+# Sentence pair (3865) source length 4 target length 4 alignment score : 1.41358e-05
+strip html text javascript 
+NULL ({ }) want ({ }) remove ({ }) html ({ }) tags ({ 1 2 3 4 }) 
+# Sentence pair (3870) source length 5 target length 7 alignment score : 1.60466e-11
+need cancel click/mouseup events double-click event detected 
+NULL ({ }) single ({ }) click ({ }) triggered ({ 1 2 3 4 5 6 7 }) double ({ }) click ({ }) 
+# Sentence pair (3877) source length 3 target length 3 alignment score : 1.68261e-05
+alternatives eval javascript 
+NULL ({ }) alternatives ({ 1 }) javascript ({ 3 }) eval ({ 2 }) 
+# Sentence pair (3880) source length 4 target length 4 alignment score : 3.38046e-07
+create generic array java 
+NULL ({ }) generic ({ 1 2 4 }) array ({ 3 }) creation ({ }) error ({ }) 
+# Sentence pair (3886) source length 7 target length 5 alignment score : 1.36325e-09
+jquery add li existing ul 
+NULL ({ }) adding ({ 2 3 4 5 }) new ({ }) element ({ }) top ({ }) element ({ }) using ({ }) jquery ({ 1 }) 
+# Sentence pair (3892) source length 3 target length 5 alignment score : 8.37848e-07
+key differences javascript actionscript 3 
+NULL ({ }) difference ({ }) actionscript ({ 1 2 4 5 }) javascript ({ 3 }) 
+# Sentence pair (3899) source length 5 target length 5 alignment score : 2.49996e-06
+getting 'external ip address java 
+NULL ({ }) obtain ({ }) ip ({ }) direction ({ 1 2 3 4 }) using ({ }) java ({ 5 }) 
+# Sentence pair (3905) source length 3 target length 2 alignment score : 0.00806668
+jquery-min version 
+NULL ({ }) difference ({ }) jquery-1.4.1.min.js ({ }) jquery-1.4.1.js ({ 1 2 }) 
+# Sentence pair (3909) source length 4 target length 4 alignment score : 5.9144e-06
+getting random value array 
+NULL ({ }) get ({ }) random ({ 1 2 3 }) elements ({ }) array ({ 4 }) 
+# Sentence pair (3914) source length 7 target length 6 alignment score : 9.19944e-08
+cross-platform cross-browser way play sound javascript 
+NULL ({ }) lightweight ({ 1 2 3 }) cross ({ }) browser ({ }) solution ({ }) playing ({ 4 5 6 }) sound ({ }) click ({ }) 
+# Sentence pair (3924) source length 3 target length 5 alignment score : 4.42098e-10
+obtain values key-value pair hashmap 
+NULL ({ }) create ({ }) query ({ 1 2 3 4 }) hashmap ({ 5 }) 
+# Sentence pair (3927) source length 4 target length 4 alignment score : 7.47188e-05
+n't work 'fadeout 'replacewith 
+NULL ({ }) problem ({ }) use ({ }) effect ({ }) fadeout ({ 1 2 3 4 }) 
+# Sentence pair (3934) source length 5 target length 2 alignment score : 0.00209806
+serialversionuid use 
+NULL ({ }) serialversionuid ({ }) java ({ }) normally ({ 1 2 }) exception ({ }) class ({ }) 
+# Sentence pair (3941) source length 2 target length 1 alignment score : 0.0674238
+difference 
+NULL ({ }) difference ({ 1 }) java ({ }) 
+# Sentence pair (3945) source length 5 target length 5 alignment score : 2.47652e-09
+use setattribute vs .attribute= javascript 
+NULL ({ }) javascript ({ }) add ({ }) attribute ({ 1 2 3 4 5 }) method ({ }) question ({ }) 
+# Sentence pair (3953) source length 3 target length 4 alignment score : 7.5478e-05
+determine screensaver running java 
+NULL ({ }) check ({ }) screensaver ({ 1 2 3 4 }) active ({ }) 
+# Sentence pair (3958) source length 4 target length 9 alignment score : 2.32566e-16
+copy selected text clipboard without using flash must cross-browser 
+NULL ({ }) javascript ({ }) copy ({ 1 2 }) text ({ 3 }) clipboard ({ 4 5 6 7 8 9 }) 
+# Sentence pair (3966) source length 7 target length 6 alignment score : 5.92252e-10
+facebook `` like '' button callback 
+NULL ({ }) get ({ }) facebook ({ 1 }) user ({ }) information ({ }) onclick ({ }) like ({ 2 3 4 }) button ({ 5 6 }) 
+# Sentence pair (3974) source length 5 target length 4 alignment score : 3.2296e-05
+script-tag src content mean 
+NULL ({ }) completely ({ 1 2 3 4 }) anonymous ({ }) object ({ }) ... ({ }) access ({ }) 
+# Sentence pair (3978) source length 6 target length 6 alignment score : 7.29212e-11
+properly parse csv file 2d array 
+NULL ({ }) csv ({ 1 2 3 5 6 }) file ({ 4 }) parse ({ }) using ({ }) java ({ }) code ({ }) 
+# Sentence pair (3982) source length 3 target length 6 alignment score : 2.89506e-07
+iterating collection avoiding concurrentmodificationexception removing loop 
+NULL ({ }) concurrentmodificationexception ({ 1 2 3 4 5 6 }) clarification ({ }) needed ({ }) 
+# Sentence pair (3985) source length 5 target length 5 alignment score : 1.18578e-07
+log facebook programmatically using java 
+NULL ({ }) login ({ 1 }) facebook ({ 2 3 }) using ({ 4 }) java ({ 5 }) code ({ }) 
+# Sentence pair (3990) source length 5 target length 5 alignment score : 2.60018e-06
+string comparison string interning java 
+NULL ({ }) == ({ }) operator ({ }) compare ({ }) references ({ 1 2 3 4 5 }) string ({ }) 
+# Sentence pair (3998) source length 5 target length 6 alignment score : 5.7976e-12
+access matched groups javascript regular expression 
+NULL ({ }) javascript ({ 4 }) regex ({ }) access ({ 1 }) multiple ({ }) occurrences ({ 2 3 5 6 }) 
+# Sentence pair (4006) source length 9 target length 5 alignment score : 1.22287e-10
+sync javascript countdown server time 
+NULL ({ }) get ({ }) difference ({ }) server ({ }) side ({ 1 2 3 4 }) time ({ 5 }) client ({ }) side ({ }) time ({ }) display ({ }) 
+# Sentence pair (4020) source length 4 target length 3 alignment score : 0.000530676
+use linkedlist arraylist 
+NULL ({ }) difference ({ }) linkedlist ({ 1 2 3 }) arraylist ({ }) implementation ({ }) 
+# Sentence pair (4026) source length 5 target length 7 alignment score : 2.62934e-12
+integer wrapper class == operator behavior specified 
+NULL ({ }) compare ({ }) two ({ }) integer ({ 1 }) == ({ }) true ({ 2 3 4 5 6 7 }) 
+# Sentence pair (4031) source length 6 target length 5 alignment score : 8.05427e-07
+infamous java.sql.sqlexception suitable driver found 
+NULL ({ }) connecting ({ 1 2 3 4 5 }) ms ({ }) sql ({ }) database ({ }) java ({ }) program ({ }) 
+# Sentence pair (4038) source length 3 target length 3 alignment score : 0.000793148
+coding standards javascript 
+NULL ({ }) javascript ({ }) coding ({ }) standards ({ 1 2 3 }) 
+# Sentence pair (4042) source length 8 target length 6 alignment score : 3.0573e-10
+get name currently running function javascript 
+NULL ({ }) way ({ }) javascript ({ }) obtain ({ 1 2 3 4 }) name ({ }) function ({ 5 6 }) inside ({ }) function ({ }) called ({ }) 
+# Sentence pair (4055) source length 5 target length 4 alignment score : 5.93302e-07
+jquery/javascript replace broken images 
+NULL ({ }) replace ({ }) dead ({ 1 2 3 }) images ({ 4 }) another ({ }) jquery ({ }) 
+# Sentence pair (4062) source length 4 target length 4 alignment score : 4.47054e-05
+actionlistener jlabel jtable cell 
+NULL ({ }) click ({ }) event ({ }) jtable ({ }) -java ({ 1 2 3 4 }) 
+# Sentence pair (4067) source length 3 target length 4 alignment score : 0.000244413
+restrictions unsigned java applet 
+NULL ({ }) restrictions ({ 1 2 }) java ({ 3 }) applet ({ 4 }) 
+# Sentence pair (4072) source length 3 target length 4 alignment score : 6.66869e-05
+leading semicolon javascript libraries 
+NULL ({ }) semicolon ({ }) self-invoking ({ 1 2 3 4 }) function ({ }) 
+# Sentence pair (4080) source length 2 target length 5 alignment score : 8.41945e-10
+`` somevar 0 '' mean 
+NULL ({ }) operator ({ 1 2 3 4 5 }) javascript ({ }) 
+# Sentence pair (4082) source length 7 target length 8 alignment score : 4.3124e-10
+java reduce size third-party jars reduce size application 
+NULL ({ }) removing ({ }) unnessary ({ 1 }) classes ({ }) third ({ 2 3 4 5 6 7 8 }) party ({ }) libraries ({ }) jars ({ }) 
+# Sentence pair (4092) source length 6 target length 4 alignment score : 9.90824e-06
+java modifiers syntax format 
+NULL ({ }) would ({ }) right ({ }) way ({ }) declare ({ }) qualifiers ({ 2 3 4 }) java ({ 1 }) 
+# Sentence pair (4100) source length 5 target length 4 alignment score : 3.87244e-05
+jar file naming conventions 
+NULL ({ }) version ({ }) appeared ({ 1 2 3 4 }) name ({ }) .jar ({ }) files ({ }) 
+# Sentence pair (4106) source length 5 target length 3 alignment score : 0.000114921
+string comparison java 
+NULL ({ }) java ({ }) saying ({ 1 2 }) two ({ }) strings ({ 3 }) equal ({ }) 
+# Sentence pair (4112) source length 3 target length 4 alignment score : 0.000403822
+script convert log4j.properties log4j.xml 
+NULL ({ }) converting ({ }) log4j.properties ({ 1 2 }) log4j.xml ({ 3 4 }) 
+# Sentence pair (4119) source length 4 target length 7 alignment score : 3.72484e-10
+execute setinterval function without delay first time 
+NULL ({ }) javascript ({ }) get ({ }) setinterval ({ 1 2 3 4 5 6 7 }) start ({ }) 
+# Sentence pair (4127) source length 14 target length 6 alignment score : 2.02897e-09
+java comparison == two strings false 
+NULL ({ }) `` ({ }) kg ({ 1 2 3 4 5 6 }) '' ({ }) == ({ }) '' ({ }) kg ({ }) '' ({ }) returns ({ }) false ({ }) tell ({ }) java ({ }) comparison ({ }) returns ({ }) true ({ }) 
+# Sentence pair (4147) source length 4 target length 7 alignment score : 2.69494e-12
+javascript object access variable property name string 
+NULL ({ }) accessing ({ }) property ({ 1 2 3 4 5 }) name ({ 6 7 }) variable ({ }) 
+# Sentence pair (4153) source length 5 target length 5 alignment score : 7.13386e-07
+pass variables data php javascript 
+NULL ({ }) php ({ 1 2 3 4 }) variable ({ }) passing ({ }) correctly ({ }) javascript ({ 5 }) 
+# Sentence pair (4163) source length 3 target length 5 alignment score : 9.56179e-08
+get number checkboxes checked javascript 
+NULL ({ }) checked ({ }) inputs ({ 1 2 3 4 5 }) length ({ }) 
+# Sentence pair (4168) source length 5 target length 6 alignment score : 1.01144e-10
+hibernate annotations better field property access 
+NULL ({ }) apply ({ }) jpa ({ 3 4 5 6 }) annotations ({ 1 2 }) getters ({ }) fields ({ }) 
+# Sentence pair (4177) source length 1 target length 2 alignment score : 0.000561117
+jquery vs 
+NULL ({ }) vs ({ 1 2 }) 
+# Sentence pair (4179) source length 4 target length 8 alignment score : 2.67664e-09
+json crossdomain communication php file local javascript file 
+NULL ({ }) origin ({ 1 2 }) null ({ }) allowed ({ }) access-control-allow-origin ({ 3 4 5 6 7 8 }) 
+# Sentence pair (4186) source length 4 target length 6 alignment score : 3.05919e-06
+document.getelementbyid `` someid '' vs. someid 
+NULL ({ }) difference ({ }) document.getelementbyid ({ }) 'mybox ({ 1 2 }) mybox ({ 3 4 5 6 }) 
+# Sentence pair (4194) source length 10 target length 9 alignment score : 5.64754e-11
+javascript `` 0 '' equal false tested 'if false 
+NULL ({ }) '0 ({ }) 'a ({ }) 'b ({ }) behave ({ }) different ({ }) '0 ({ 1 2 3 }) == ({ }) true ({ }) 'a ({ 4 5 }) 'b ({ 6 7 8 9 }) 
+# Sentence pair (4213) source length 6 target length 6 alignment score : 2.45992e-08
+want write plugin excel 2007 java 
+NULL ({ }) excel ({ }) 2007 ({ 1 }) supports ({ }) plugins ({ }) written ({ 2 3 4 5 }) java ({ 6 }) 
+# Sentence pair (4222) source length 2 target length 7 alignment score : 3.60821e-09
+finding whether element exists whole html page 
+NULL ({ }) isset ({ 1 2 3 4 5 6 7 }) jquery ({ }) 
+# Sentence pair (4227) source length 4 target length 5 alignment score : 5.25516e-06
+difference managed bean backing bean 
+NULL ({ }) understanding ({ }) managed ({ }) beans/backing ({ 1 2 3 4 5 }) beans ({ }) 
+# Sentence pair (4232) source length 5 target length 4 alignment score : 8.74399e-06
+detecting programming language snippet 
+NULL ({ }) detect ({ }) programming ({ }) language ({ }) code ({ }) snippet ({ 1 2 3 4 }) 
+# Sentence pair (4236) source length 5 target length 4 alignment score : 1.93108e-05
+implicit vs explicit conversion 
+NULL ({ }) difference ({ }) implicit ({ }) conversion ({ }) explicit ({ 1 2 3 4 }) conversion ({ }) 
+# Sentence pair (4241) source length 3 target length 5 alignment score : 1.35259e-05
+httpclient 4 error 302. redirect 
+NULL ({ }) httpclient ({ 1 2 }) redirect ({ }) newbies ({ 3 4 5 }) 
+# Sentence pair (4247) source length 9 target length 6 alignment score : 2.1139e-08
+would static inner interface used java 
+NULL ({ }) would ({ }) viable ({ 1 }) design ({ }) alternative ({ }) nesting ({ }) interface ({ }) inside ({ }) concrete ({ 2 3 4 5 6 }) class ({ }) 
+# Sentence pair (4258) source length 3 target length 4 alignment score : 0.000600204
+get emulator-5554 disconnected message 
+NULL ({ }) error ({ }) emulator-5554 ({ 1 2 }) disconnected ({ 3 4 }) 
+# Sentence pair (4266) source length 4 target length 4 alignment score : 3.41062e-07
+ajax check string json 
+NULL ({ }) validate ({ 1 2 3 }) json ({ 4 }) string ({ }) jquery ({ }) 
+# Sentence pair (4270) source length 4 target length 5 alignment score : 1.49779e-06
+check whether variable defined javascript 
+NULL ({ }) test ({ }) variable ({ }) defined ({ 1 2 3 4 }) javascript ({ 5 }) 
+# Sentence pair (4276) source length 3 target length 5 alignment score : 2.50659e-06
+java sockets support full duplex 
+NULL ({ }) send ({ }) socket ({ }) listening ({ 1 2 3 4 5 }) 
+# Sentence pair (4279) source length 4 target length 3 alignment score : 1.98549e-05
+exclamation mark function 
+NULL ({ }) javascript ({ }) advantage ({ 1 2 }) function ({ 3 }) function ({ }) 
+# Sentence pair (4284) source length 6 target length 4 alignment score : 3.06996e-07
+generically parsing string date 
+NULL ({ }) way ({ }) detect ({ }) string ({ 3 }) content ({ }) datetime ({ 1 2 4 }) regexp ({ }) 
+# Sentence pair (4290) source length 4 target length 6 alignment score : 1.19785e-07
+get jquery select elements period id 
+NULL ({ }) shield ({ 1 2 3 4 5 6 }) `` ({ }) '' ({ }) char ({ }) 
+# Sentence pair (4294) source length 5 target length 4 alignment score : 2.72719e-05
+create pdf files android 
+NULL ({ }) export ({ 1 }) text ({ }) pdf ({ 2 3 }) java ({ }) android ({ 4 }) 
+# Sentence pair (4299) source length 6 target length 7 alignment score : 3.44487e-09
+elements order `` … … '' loop 
+NULL ({ }) 's ({ }) key ({ }) sequence ({ }) enumerating ({ 1 2 3 4 5 6 7 }) object ({ }) javascript ({ }) 
+# Sentence pair (4309) source length 6 target length 4 alignment score : 3.15281e-05
+select href ends string 
+NULL ({ }) add ({ }) class ({ }) href ({ }) starts ({ }) http ({ }) //www.twitter.com/ ({ 1 2 3 4 }) 
+# Sentence pair (4314) source length 6 target length 5 alignment score : 3.00524e-10
+jquery tell programmatic user click 
+NULL ({ }) detect ({ }) click ({ }) mouse ({ }) click ({ 5 }) triggered ({ 1 2 3 4 }) code ({ }) 
+# Sentence pair (4320) source length 4 target length 3 alignment score : 0.000385192
+repeat string javascript 
+NULL ({ }) jquery ({ }) multiplying ({ 1 2 3 }) alphanumeric ({ }) string ({ }) 
+# Sentence pair (4330) source length 5 target length 6 alignment score : 1.77754e-10
+set cursor position end text ckeditor 
+NULL ({ }) set ({ 1 }) caret ({ 2 3 5 }) end ({ 4 }) focus ({ }) ckeditor ({ 6 }) 
+# Sentence pair (4336) source length 3 target length 5 alignment score : 1.48471e-06
+convert map url query string 
+NULL ({ }) convert ({ 1 }) map ({ 2 }) querystring ({ 3 4 5 }) 
+# Sentence pair (4339) source length 7 target length 6 alignment score : 1.40488e-10
+convert one date format another php 
+NULL ({ }) convert ({ 1 }) mysql ({ 2 5 }) date ({ 3 }) field ({ }) following ({ }) format ({ 4 }) php ({ 6 }) 
+# Sentence pair (4349) source length 5 target length 5 alignment score : 2.08753e-06
+upload files server using jsp/servlet 
+NULL ({ }) org.apache.jasper.jasperexception ({ 1 2 3 4 5 }) unable ({ }) compile ({ }) class ({ }) jsp ({ }) 
+# Sentence pair (4359) source length 9 target length 10 alignment score : 1.57962e-15
+java inner classes require `` final '' outer instance variables 
+NULL ({ }) method ({ 1 }) local ({ }) inner ({ 2 }) class ({ }) access ({ }) final ({ }) local ({ }) variable ({ }) only.why ({ 3 4 5 6 7 8 9 10 }) 
+# Sentence pair (4381) source length 4 target length 4 alignment score : 0.000805205
+read xlsx file java 
+NULL ({ }) reading ({ }) xlsx ({ 1 2 }) file ({ 3 }) java ({ 4 }) 
+# Sentence pair (4393) source length 5 target length 6 alignment score : 1.07239e-07
+press enter get isnan value number 
+NULL ({ }) change ({ }) content ({ }) variable ({ }) zero ({ }) isnan ({ 1 2 3 4 5 6 }) 
+# Sentence pair (4399) source length 1 target length 6 alignment score : 1.69837e-13
+differences boolean operators vs vs || 
+NULL ({ }) difference ({ 1 2 3 4 5 6 }) 
+# Sentence pair (4403) source length 5 target length 5 alignment score : 2.25571e-08
+convert java program .exe file 
+NULL ({ }) convert ({ 1 }) exe ({ 3 4 }) file ({ 5 }) .jar ({ }) file ({ 2 }) 
+# Sentence pair (4409) source length 7 target length 3 alignment score : 0.000106115
+difference list collection 
+NULL ({ }) 's ({ }) main ({ }) difference ({ 1 }) list ({ 2 }) interface ({ }) collection ({ 3 }) interface ({ }) 
+# Sentence pair (4416) source length 5 target length 6 alignment score : 4.54547e-08
+set focus last character text box 
+NULL ({ }) put ({ }) focus ({ }) field ({ }) entered ({ 1 2 3 4 5 6 }) text ({ }) 
+# Sentence pair (4421) source length 7 target length 6 alignment score : 6.64287e-10
+executing another java program java program 
+NULL ({ }) executing ({ }) another ({ }) java ({ 3 }) program ({ 4 }) java ({ 5 }) program ({ }) repeated ({ 1 2 6 }) 
+# Sentence pair (4435) source length 4 target length 6 alignment score : 6.52873e-08
+make sure jvm compiler optimization occurs 
+NULL ({ }) making ({ }) sure ({ }) jvm ({ }) optimize ({ 1 2 3 4 5 6 }) 
+# Sentence pair (4441) source length 8 target length 6 alignment score : 1.08633e-12
+find object id array javascript objects 
+NULL ({ }) javascript ({ }) best ({ }) way ({ }) find ({ 1 2 3 }) value ({ }) inside ({ }) object ({ }) array ({ 4 5 6 }) 
+# Sentence pair (4456) source length 5 target length 7 alignment score : 6.20058e-13
+static main class java non static constructor 
+NULL ({ }) static ({ 1 2 5 6 7 }) method ({ }) static ({ 3 }) variable ({ }) java ({ 4 }) 
+# Sentence pair (4459) source length 3 target length 4 alignment score : 8.43704e-05
+vertically center div browsers 
+NULL ({ }) center ({ }) div ({ }) vertically ({ 1 2 3 4 }) 
+# Sentence pair (4464) source length 6 target length 3 alignment score : 0.000142294
+getfirst iterable method 
+NULL ({ }) google ({ }) guava ({ }) java ({ }) iterables.getfirst ({ 1 }) getlast ({ 2 3 }) inconsistent ({ }) 
+# Sentence pair (4469) source length 7 target length 3 alignment score : 1.38823e-05
+zero-based month numbering 
+NULL ({ }) subtract ({ }) 1 ({ }) months ({ 1 2 3 }) javascript ({ }) converting ({ }) date ({ }) object ({ }) 
+# Sentence pair (4478) source length 5 target length 13 alignment score : 2.10395e-19
+pattern consisting numbers moving clockwise direction around rectangular shape length breadth decreasing time 
+NULL ({ }) print ({ }) 2-d ({ 1 2 3 4 5 6 7 8 9 }) array ({ }) spiral ({ 10 11 12 13 }) order ({ }) 
+# Sentence pair (4488) source length 5 target length 5 alignment score : 5.61893e-07
+varying behavior possible loss precision 
+NULL ({ }) java ({ }) breaks ({ }) strong ({ 1 2 3 4 5 }) typing ({ }) explain ({ }) 
+# Sentence pair (4495) source length 6 target length 2 alignment score : 0.000207681
+facebook ajax 
+NULL ({ }) want ({ 1 2 }) understand ({ }) url ({ }) back ({ }) button ({ }) working ({ }) 
+# Sentence pair (4503) source length 6 target length 7 alignment score : 2.24637e-13
+way pass ant variables java code android 
+NULL ({ }) use ({ }) information ({ 4 5 6 }) ant ({ 1 2 3 }) script ({ }) java ({ }) android ({ 7 }) 
+# Sentence pair (4511) source length 4 target length 4 alignment score : 7.9857e-07
+loop associative array reverse 
+NULL ({ }) reverse ({ 1 2 4 }) associative ({ }) array ({ 3 }) object ({ }) 
+# Sentence pair (4516) source length 3 target length 3 alignment score : 0.000201116
+create file android 
+NULL ({ }) write ({ 1 }) file ({ 2 }) android ({ 3 }) 
+# Sentence pair (4520) source length 4 target length 4 alignment score : 2.38348e-06
+warning massive error json_encode 
+NULL ({ }) large ({ }) int ({ }) changed ({ 1 2 3 4 }) ajax ({ }) 
+# Sentence pair (4521) source length 3 target length 4 alignment score : 1.76718e-06
+make canvas text selectable 
+NULL ({ }) selecting ({ }) canvas ({ 1 2 4 }) text ({ 3 }) 
+# Sentence pair (4524) source length 8 target length 14 alignment score : 4.25423e-29
+'s difference including files jsp include directive jsp include action using jsp tag files 
+NULL ({ }) difference ({ 1 2 }) jsp ({ 5 8 12 }) include ({ 3 4 6 7 9 10 13 14 }) page ({ 11 }) ... ({ }) include ({ }) file ({ }) ... ({ }) 
+# Sentence pair (4546) source length 4 target length 9 alignment score : 3.97371e-17
+access c++ shared library java jni jna cni swig 
+NULL ({ 5 }) java ({ }) calling ({ }) c++ ({ 1 2 3 4 6 7 8 9 }) method ({ }) 
+# Sentence pair (4551) source length 6 target length 5 alignment score : 3.29073e-10
+pass value javascript php file 
+NULL ({ }) make ({ }) php ({ 1 }) variable ({ }) equal ({ 2 }) javascript ({ 3 }) output ({ 4 5 }) 
+# Sentence pair (4561) source length 7 target length 6 alignment score : 8.61203e-09
+javascript asynchronous return value assignment jquery 
+NULL ({ }) trying ({ }) use ({ }) json ({ 1 }) value ({ }) outside ({ }) .getjson ({ 2 3 4 5 6 }) function ({ }) 
+# Sentence pair (4572) source length 3 target length 3 alignment score : 2.43097e-05
+javascript equivalent printf/string.format 
+NULL ({ }) string ({ }) formatting ({ 2 3 }) javascript ({ 1 }) 
+# Sentence pair (4576) source length 8 target length 3 alignment score : 0.000265542
+library bayesian networks 
+NULL ({ }) open ({ }) source ({ }) java ({ }) library ({ }) use ({ }) build ({ }) bayesian ({ 1 2 3 }) network ({ }) 
+# Sentence pair (4581) source length 4 target length 6 alignment score : 6.41301e-10
+sort map key value values java 
+NULL ({ }) java ({ }) sort ({ 1 }) hashmap ({ 2 3 }) value ({ 4 5 6 }) 
+# Sentence pair (4586) source length 5 target length 5 alignment score : 4.51607e-09
+disable browser 's back button 
+NULL ({ }) back ({ }) button ({ 2 3 4 5 }) disable ({ 1 }) issues ({ }) javascript ({ }) 
+# Sentence pair (4591) source length 4 target length 4 alignment score : 6.13105e-06
+check custom protocol supported 
+NULL ({ }) check ({ 1 }) link ({ }) works ({ 2 3 4 }) javascript ({ }) 
+# Sentence pair (4598) source length 9 target length 3 alignment score : 0.000107279
+make arraylist read 
+NULL ({ }) avoid ({ }) arraylist ({ }) object ({ }) modified ({ 1 2 3 }) i.e ({ }) avoid ({ }) adding ({ }) deleting ({ }) content ({ }) 
+# Sentence pair (4606) source length 4 target length 6 alignment score : 1.28146e-06
+recommended live chat software add website 
+NULL ({ }) live ({ 1 2 }) chat ({ 3 }) software ({ 4 }) websites ({ 5 6 }) 
+# Sentence pair (4612) source length 6 target length 6 alignment score : 1.6098e-06
+configure jcombobox select first element created 
+NULL ({ }) jcombobox ({ 1 2 }) automaticaly ({ 3 4 }) selects ({ 5 6 }) first ({ }) item ({ }) list ({ }) 
+# Sentence pair (4620) source length 6 target length 6 alignment score : 5.12646e-11
+discover file 's creation time java 
+NULL ({ }) get ({ }) created ({ }) date ({ }) time ({ 1 3 4 5 }) file ({ 2 }) java ({ 6 }) 
+# Sentence pair (4627) source length 6 target length 3 alignment score : 1.42342e-05
+detect javascript disabled 
+NULL ({ }) detecting ({ }) javascript ({ 2 }) disabled ({ }) browsers ({ }) separating ({ 1 3 }) sites ({ }) 
+# Sentence pair (4635) source length 6 target length 6 alignment score : 1.0777e-09
+include .class files project eclipse java 
+NULL ({ }) add ({ }) .class ({ 1 2 }) files ({ 3 }) java ({ 6 }) project ({ 4 }) eclipse ({ 5 }) 
+# Sentence pair (4644) source length 4 target length 4 alignment score : 1.26238e-05
+enumerate properties javascript object 
+NULL ({ }) traverse ({ 1 2 }) object ({ 4 }) structure ({ }) javascript ({ 3 }) 
+# Sentence pair (4651) source length 14 target length 6 alignment score : 1.27551e-08
+convert date string date calendar object 
+NULL ({ }) `` ({ }) unparseable ({ 1 }) date ({ 2 3 }) '' ({ }) trying ({ }) convert ({ }) `` ({ }) 16 ({ }) nov ({ }) 2011 ({ 4 }) 08:00 ({ 5 6 }) '' ({ }) string ({ }) date ({ }) 
+# Sentence pair (4665) source length 7 target length 8 alignment score : 7.72116e-10
+c++ promotes separation class definitions class implementations java 
+NULL ({ }) java ({ }) promote ({ 1 2 }) separation ({ 3 }) class ({ 4 }) definitions ({ 5 6 7 }) class ({ 8 }) implementations ({ }) 
+# Sentence pair (4676) source length 3 target length 5 alignment score : 3.98356e-07
+use java 's override annotation 
+NULL ({ }) purpose ({ }) override ({ 1 2 3 4 5 }) annotation ({ }) 
+# Sentence pair (4677) source length 6 target length 7 alignment score : 5.62661e-08
+java enums two enum types containing references 
+NULL ({ }) java ({ 1 }) cyclomatic ({ 2 3 }) enum ({ 4 }) initialization ({ }) happens ({ }) happen ({ 5 6 7 }) 
+# Sentence pair (4687) source length 4 target length 7 alignment score : 1.77398e-12
+java static block equivalent c static constructor 
+NULL ({ }) java ({ 1 }) static ({ 2 6 7 }) statements ({ 3 4 }) c ({ 5 }) 
+# Sentence pair (4697) source length 5 target length 10 alignment score : 6.32807e-14
+java floats doubles avoid 0.0 0.1 ... 0.1 == 0.9000001 
+NULL ({ }) fix ({ }) double ({ 1 }) precision ({ 2 3 4 5 6 7 8 9 10 }) issue ({ }) java ({ }) 
+# Sentence pair (4704) source length 7 target length 7 alignment score : 8.46662e-10
+`` use strict '' javascript reasoning behind 
+NULL ({ }) jshint.com ({ 4 }) requires ({ 5 6 7 }) `` ({ }) use ({ }) strict ({ 1 2 3 }) '' ({ }) mean ({ }) 
+# Sentence pair (4722) source length 4 target length 6 alignment score : 1.62863e-12
+would javascript == make sense === 
+NULL ({ }) difference ({ }) == ({ }) === ({ 1 3 4 5 6 }) javascript ({ 2 }) 
+# Sentence pair (4730) source length 3 target length 4 alignment score : 2.85639e-05
+parse query string javascript 
+NULL ({ }) mimic ({ 1 2 3 }) _get ({ }) javascript ({ 4 }) 
+# Sentence pair (4736) source length 6 target length 7 alignment score : 5.21839e-13
+asp.net authentication login logout browser back button 
+NULL ({ }) remove ({ }) history ({ }) disable ({ }) back ({ }) button ({ 5 6 7 }) logout ({ 1 2 3 4 }) 
+# Sentence pair (4748) source length 4 target length 6 alignment score : 5.67798e-12
+get list dates two dates java 
+NULL ({ }) java ({ 6 }) generate ({ }) dates ({ 3 4 5 }) x ({ 1 2 }) 
+# Sentence pair (4755) source length 5 target length 7 alignment score : 5.82939e-12
+deleting array elements javascript delete vs splice 
+NULL ({ }) deleting ({ 1 }) element ({ 3 }) js ({ 4 }) associative ({ 5 6 7 }) array ({ 2 }) 
+# Sentence pair (4766) source length 5 target length 6 alignment score : 1.97032e-10
+handling passwords used auth source code 
+NULL ({ }) java ({ }) store ({ }) password ({ 1 2 3 }) used ({ 4 5 6 }) application ({ }) 
+# Sentence pair (4775) source length 7 target length 5 alignment score : 2.47284e-09
+convert html css pdf php 
+NULL ({ }) take ({ 1 2 3 }) print ({ }) page ({ }) pdf ({ 4 }) format ({ }) using ({ }) php ({ 5 }) 
+# Sentence pair (4781) source length 5 target length 4 alignment score : 0.000131611
+var x x || 
+NULL ({ }) js ({ }) `` ({ }) xin ({ 1 2 3 4 }) || ({ }) '' ({ }) 
+# Sentence pair (4787) source length 3 target length 4 alignment score : 1.50635e-07
+weird integer boxing java 
+NULL ({ }) integer ({ 1 2 3 4 }) class ({ }) object ({ }) 
+# Sentence pair (4792) source length 4 target length 7 alignment score : 8.78985e-12
+format number always show 2 decimal places 
+NULL ({ }) need ({ }) 2 ({ 5 6 7 }) symbols ({ 1 2 3 4 }) dot ({ }) 
+# Sentence pair (4800) source length 7 target length 6 alignment score : 1.57556e-07
+jquery variable claiming 's undefined defined 
+NULL ({ }) autocomplete ({ }) jquery ({ 1 }) plugin ({ }) working ({ }) claiming ({ 2 3 4 5 6 }) variable ({ }) undefined ({ }) 
+# Sentence pair (4802) source length 5 target length 5 alignment score : 1.86696e-07
+generating random integers specific range 
+NULL ({ }) get ({ }) random ({ 1 2 }) integer ({ }) range ({ 3 4 5 }) x ({ }) 
+# Sentence pair (4803) source length 3 target length 6 alignment score : 3.95534e-11
+'s role parentheses following piece code 
+NULL ({ }) end ({ 1 2 3 4 5 }) following ({ }) code ({ 6 }) 
+# Sentence pair (4805) source length 3 target length 6 alignment score : 2.62545e-11
+best java email address validation method 
+NULL ({ }) email ({ 3 4 }) validation ({ 1 5 6 }) java ({ 2 }) 
+# Sentence pair (4809) source length 4 target length 5 alignment score : 4.60495e-10
+sorting javascript object property value 
+NULL ({ }) sorting ({ 1 }) simple ({ }) json ({ }) object ({ 2 3 4 5 }) 
+# Sentence pair (4813) source length 9 target length 7 alignment score : 3.78013e-13
+chrome 's javascript console lazy evaluating arrays 
+NULL ({ }) javascript ({ 3 }) object ({ }) show ({ }) different ({ }) values ({ }) console ({ }) chrome ({ 1 2 4 }) firefox ({ }) safari ({ 5 6 7 }) 
+# Sentence pair (4826) source length 3 target length 3 alignment score : 3.41429e-05
+add hyperlink jlabel 
+NULL ({ }) link ({ }) java ({ }) swing ({ 1 2 3 }) 
+# Sentence pair (4829) source length 6 target length 8 alignment score : 1.89864e-15
+upload file using java httpclient library working php 
+NULL ({ }) submit ({ 5 6 7 8 }) form ({ }) image ({ 1 }) file ({ 2 }) using ({ 3 }) java ({ 4 }) 
+# Sentence pair (4835) source length 5 target length 5 alignment score : 2.06244e-06
+possible view bytecode class file 
+NULL ({ }) checking ({ }) java ({ }) `` ({ }) assembly ({ 1 2 3 4 5 }) '' ({ }) 
+# Sentence pair (4840) source length 3 target length 6 alignment score : 3.20522e-09
+strange javascript syntax like function //code 
+NULL ({ }) javascript ({ 2 }) syntax ({ }) means ({ 1 3 4 5 6 }) 
+# Sentence pair (4842) source length 4 target length 5 alignment score : 1.14791e-06
+timer wo n't fire correctly 
+NULL ({ }) task ({ }) repeatedly ({ 1 2 3 4 5 }) java ({ }) 1.6 ({ }) 
+# Sentence pair (4843) source length 4 target length 5 alignment score : 1.03684e-05
+mock amazon s3 integration test 
+NULL ({ }) fake ({ 1 2 }) s3 ({ 3 4 5 }) service ({ }) testing ({ }) 
+# Sentence pair (4848) source length 4 target length 7 alignment score : 4.75691e-11
+rules javascript 's automatic semicolon insertion asi 
+NULL ({ }) js ({ 2 }) engine ({ }) insert ({ }) semicolons ({ 1 3 4 5 6 7 }) 
+# Sentence pair (4858) source length 4 target length 5 alignment score : 1.68601e-09
+display eclipse tabs several lines 
+NULL ({ }) eclipse ({ 2 }) multiple ({ }) tab ({ 1 3 }) rows ({ 4 5 }) 
+# Sentence pair (4864) source length 4 target length 11 alignment score : 1.0763e-20
+would one mark local variables method parameters `` final '' java 
+NULL ({ 10 }) final ({ 1 2 3 4 5 6 7 8 9 }) variable ({ }) methods ({ }) java ({ 11 }) 
+# Sentence pair (4869) source length 4 target length 2 alignment score : 0.00387283
+null java 
+NULL ({ }) exactly ({ }) null ({ 1 }) java ({ 2 }) memory ({ }) 
+# Sentence pair (4874) source length 6 target length 7 alignment score : 8.29587e-12
+compare two strings java possible null values 
+NULL ({ }) better ({ }) way ({ }) compare ({ 1 2 }) strings ({ 3 4 }) could ({ 5 7 }) null ({ 6 }) 
+# Sentence pair (4883) source length 3 target length 3 alignment score : 0.000708958
+difference onbeforeunload onunload 
+NULL ({ }) difference ({ 1 }) body.onunload ({ }) body.onbeforeunload ({ 2 3 }) 
+# Sentence pair (4888) source length 4 target length 4 alignment score : 1.24161e-05
+making jpanel manually resizable 
+NULL ({ }) resize ({ }) jpanel ({ }) line ({ }) separator ({ 1 2 3 4 }) 
+# Sentence pair (4889) source length 4 target length 4 alignment score : 2.74998e-05
+enter quotes java string 
+NULL ({ }) quotation ({ }) marks ({ 1 2 3 }) inside ({ }) string ({ 4 }) 
+# Sentence pair (4894) source length 3 target length 4 alignment score : 3.52401e-06
+get desktop path java 
+NULL ({ }) write ({ }) file ({ }) desktop ({ 1 2 3 4 }) 
+# Sentence pair (4900) source length 5 target length 7 alignment score : 1.05384e-09
+document .ready function vs script bottom page 
+NULL ({ }) placing ({ }) scripts ({ }) bottom ({ }) body ({ }) ondomready ({ 1 2 3 4 5 6 7 }) 
+# Sentence pair (4907) source length 3 target length 7 alignment score : 2.30952e-09
+literal syntax byte arrays using hex notation.. 
+NULL ({ }) 'byte ({ 1 2 3 4 5 6 7 }) type ({ }) java ({ }) 
+# Sentence pair (4912) source length 5 target length 4 alignment score : 0.000237301
+access php variable javascript 
+NULL ({ }) echo ({ 1 }) php ({ 2 }) variable ({ 3 }) using ({ }) javascript ({ 4 }) 
+# Sentence pair (4919) source length 3 target length 4 alignment score : 1.54e-06
+'s method representation memory 
+NULL ({ }) instance ({ }) methods ({ }) stored ({ 1 2 3 4 }) 
+# Sentence pair (4923) source length 4 target length 5 alignment score : 3.71447e-08
+javascript find images turned browser 
+NULL ({ }) detect ({ 1 2 }) images ({ 3 }) disabled ({ 4 }) browser ({ 5 }) 
+# Sentence pair (4931) source length 3 target length 7 alignment score : 4.92027e-09
+creating `` logical exclusive '' operator java 
+NULL ({ }) exclusive ({ 1 2 3 4 5 6 }) java ({ 7 }) code ({ }) 
+# Sentence pair (4938) source length 6 target length 5 alignment score : 3.45281e-09
+new myobject vs new myobject 
+NULL ({ }) js ({ }) new ({ }) object ({ }) vs ({ }) new ({ 1 2 3 4 5 }) object ({ }) 
+# Sentence pair (4945) source length 7 target length 5 alignment score : 1.26863e-07
+get filename without extension java 
+NULL ({ }) get ({ 1 }) name ({ }) file ({ }) object ({ }) without ({ 2 3 }) extension ({ 4 }) java ({ 5 }) 
+# Sentence pair (4952) source length 6 target length 5 alignment score : 3.00494e-08
+resolve java rounding double issue 
+NULL ({ }) java ({ 2 }) precision ({ }) division ({ }) multiplication ({ 1 }) alterneting ({ 3 4 5 }) process ({ }) 
+# Sentence pair (4965) source length 5 target length 3 alignment score : 0.000258254
+disable div content 
+NULL ({ }) enable ({ }) disable ({ 1 }) div ({ 2 3 }) elements ({ }) javascript ({ }) 
+# Sentence pair (4969) source length 5 target length 4 alignment score : 4.27381e-05
+calculate date/time difference java 
+NULL ({ }) converting ({ }) date ({ }) string ({ }) milliseconds ({ 1 2 3 }) java ({ 4 }) 
+# Sentence pair (4977) source length 5 target length 4 alignment score : 1.38028e-05
+getting random value array 
+NULL ({ }) picking ({ 1 2 3 }) random ({ }) array ({ }) element ({ }) array ({ 4 }) 
+# Sentence pair (4984) source length 7 target length 4 alignment score : 8.51364e-06
+jax-ws map exceptions faults 
+NULL ({ }) throwing ({ }) exceptions- ({ }) faults ({ }) soap ({ 1 }) service ({ }) java ({ }) glassfish ({ 2 3 4 }) 
+# Sentence pair (4996) source length 6 target length 11 alignment score : 1.26169e-13
+facebook like button updates value every 1,000 'likes update every 'like 
+NULL ({ }) facebook ({ 1 }) plugin ({ }) stopping ({ }) counting ({ 2 3 4 5 }) 'likes ({ 6 7 8 9 10 11 }) 1000 ({ }) 
