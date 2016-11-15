@@ -1,6 +1,6 @@
 ## Introduction
 
-Association Miner is to mine frequently occur association pairs from Stack Overflow posts. (The codes is a bit messy. I am working on it.)
+Association Miner is to mine frequently occur association pairs from Stack Overflow posts. (The codes is a bit messy. I am working on it:D)
 
 ## Related codes
 
